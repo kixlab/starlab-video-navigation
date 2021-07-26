@@ -1,0 +1,105 @@
+[
+    {
+        "class": "introducing recipe",
+        "frame_start": 226,
+        "frame_end": 1251,
+        "action_length": ""
+    },
+    {
+        "class": "introducing ingredients",
+        "frame_start": 1276,
+        "frame_end": 2001,
+        "action_length": ""
+    },
+    {
+        "class": "heat up pan",
+        "frame_start": 2026,
+        "frame_end": 2201,
+        "action_length": ""
+    },
+    {
+        "class": "seasoning steak",
+        "frame_start": 2226,
+        "frame_end": 2526,
+        "action_length": ""
+    },
+    {
+        "class": "roast steak",
+        "frame_start": 2551,
+        "frame_end": 6251,
+        "action_length": ""
+    },
+    {
+        "class": "fry onions",
+        "frame_start": 2951,
+        "frame_end": 6001,
+        "action_length": ""
+    },
+    {
+        "class": "move onions to tinfoil",
+        "frame_start": 6001,
+        "frame_end": 6226,
+        "action_length": ""
+    },
+    {
+        "class": "move steak to tinfoil",
+        "frame_start": 6276,
+        "frame_end": 6426,
+        "action_length": ""
+    },
+    {
+        "class": "put cheese on the steak",
+        "frame_start": 6651,
+        "frame_end": 6826,
+        "action_length": ""
+    },
+    {
+        "class": "slice steak with cheese",
+        "frame_start": 7176,
+        "frame_end": 7801,
+        "action_length": ""
+    },
+    {
+        "class": "put steaks on wrap",
+        "frame_start": 8001,
+        "frame_end": 8551,
+        "action_length": ""
+    },
+    {
+        "class": "add yogurt",
+        "frame_start": 8576,
+        "frame_end": 8801,
+        "action_length": ""
+    },
+    {
+        "class": "brush on horseradish sauce",
+        "frame_start": 8826,
+        "frame_end": 8951,
+        "action_length": ""
+    },
+    {
+        "class": "add onions",
+        "frame_start": 8976,
+        "frame_end": 9151,
+        "action_length": ""
+    },
+    {
+        "class": "add salad",
+        "frame_start": 9176,
+        "frame_end": 9501,
+        "action_length": ""
+    },
+    {
+        "class": "wrap everything in and seal with tin foil",
+        "frame_start": 9526,
+        "frame_end": 10301,
+        "action_length": ""
+    },
+    {
+        "class": "eating wrap",
+        "frame_start": 11201,
+        "frame_end": 11551,
+        "action_length": ""
+    }
+
+]
