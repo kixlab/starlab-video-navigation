@@ -19,21 +19,30 @@ function NavigationPage() {
     parse_agg_graph();
   }, []);
 
+
   const parse_agg_graph = () => {
-    const total_objs = new Set();
+    const total_objs = new Array();
     sceneGraphs.map((sg) => {
       sg.objects.map((obj) => {
-        total_objs.add(obj.name)
+        var ind = 0;
+        for (var i = 0; i < total_objs.length; i++) {
+          if (total_objs[i].name == obj.name) {
+            total_objs[i].value += 1;
+            ind = 1;
+          }
+        }
+        if (ind == 0) {
+          total_objs.push({name: obj.name, value: 1});
+        }
       })
     })
-    var objs = Array.from(total_objs);
     var dataset = {
       nodes: [],
       edges: []
     };
-    dataset.nodes.push({id: 1, label: "person"});
-    for (var i = 0; i < objs.length; i++) {
-      var node_obj = {id: i + 2, label: objs[i]};
+    dataset.nodes.push({id: 1, label: "person", value: 20});
+    for (var i = 0; i < total_objs.length; i++) {
+      var node_obj = {id: i + 2, label: total_objs[i].name, value: total_objs[i].value};
       var edge_obj = { from : 1, to: i + 2}
       dataset.nodes.push(node_obj);
       dataset.edges.push(edge_obj);
@@ -42,14 +51,23 @@ function NavigationPage() {
   }
 
   const parse_action_graph = () => {
-    var action_graphs = []
+    var action_graphs = new Array();
     atomicActions.map((action) => {
-      const objs = new Set();
+      const objs = new Array();
       sceneGraphs.map((sg) => {
         if (sg.frame >= action.frame_start && sg.frame <= action.frame_end) {
 
           sg.objects.map((obj) => {
-            objs.add(obj.name);
+            var ind = 0;
+            for (var i = 0; i < objs.length; i++) {
+              if (objs[i].name == obj.name) {
+                objs[i].value += 1;
+                ind = 1;
+              }
+            }
+            if (ind == 0) {
+              objs.push({name: obj.name, value: 1});
+            }
           })
         }
       })
@@ -57,10 +75,9 @@ function NavigationPage() {
         nodes: [],
         edges: []
       };
-      var obj_list = Array.from(objs);
-      dataset.nodes.push({id: 1, label: "person"});
-      for (var i = 0; i < obj_list.length; i++) {
-        var node_obj = {id: i + 2, label: obj_list[i]};
+      dataset.nodes.push({id: 1, label: "person", value: 10});
+      for (var i = 0; i < objs.length; i++) {
+        var node_obj = {id: i + 2, label: objs[i].name, value: objs[i].value};
         var edge_obj = { from : 1, to: i + 2}
         dataset.nodes.push(node_obj);
         dataset.edges.push(edge_obj);
@@ -81,17 +98,22 @@ function NavigationPage() {
   };
 
   const agg_options = {
-    height: "300px"
-  };
-
-  const options = {
-    layout: {
-      hierarchical: true
+    nodes: {
+      shape: "dot",
+      scaling: {
+        label: {
+          min: 4,
+          max: 15,
+        },
+      },
     },
     edges: {
-      color: "#000000"
+
     },
-    height: "300px"
+    interaction: {
+      zoomView: false,
+    },
+    height: "300px",
   };
 
   const events = {

@@ -1,0 +1,49 @@
+.App {
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .videoSource {
+    height: 400px;
+  }
+  
+  
+  
+  .inputView {
+    display: inline-block;
+    width: 400px;
+  }
+  
+  .playbar {
+    width: 400px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 5px;
+  }
+  
+  .atomicActionBar {
+    height: 20px;
+    /* width: 400px; */
+    background-color: orange;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-top: 4px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .cutView {
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    margin: 0 20px;
+  }
+  
+  .outputView {
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;;
+  }
