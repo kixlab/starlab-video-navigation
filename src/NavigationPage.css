@@ -1,35 +1,80 @@
-.App {
+.navigationPage {
   text-align: center;
-  padding: 20px;
+  padding: 40px 0;
 }
 
+.videoContainer {
+  display: inline-block;
+  width: 50%;
+}
+
+.infoContainer {
+  display: inline-block;
+  width: 50%;
+}
+  
 .videoWrapper {
+  width: 500px;
+}
+
+.objectWrapper {
+  width: 500px;
+  margin: 0 calc(50% - 250px);
+  text-align: center;
+}
+
+.playbar {
+  width: 500px;
+  height: 12px;
+  margin: 0 calc(50% - 250px);
+  margin-top: 10px;
+  background-color: #c4c4c4;
+  border-radius: 3px;
+  position: relative;
+}
+
+.progressbar {
+  height: 5px;
+  margin: 0 calc(50% - 250px);
+  background-color: skyblue;
+  border-radius: 3px;
+}
+
+.objectTag {
+  font-size: 17px;
+  width: fit-content;
+  margin-left: 10px;
+  margin-top: 8px;
+  padding: 5px;
   display: inline-block;
-  width: 40%;
+  color: gray;
+  border-radius: 10px;
+  border: 1px solid gray;
+  cursor: pointer;
 }
 
-.aggGraph {
+.selectedTag {
+  font-size: 17px;
+  width: fit-content;
+  margin-left: 10px;
+  margin-top: 8px;
+  padding: 5px;
   display: inline-block;
-  width: 40%;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
-.atomicActions {
-  width: 80%;
-  height: 300px;
-  overflow-x: scroll;
-  margin: 20px 10%;
+.tagWrapper {
+  display: inline-block;
 }
 
-.actionWrapper {
-    width: 250px;
-    display: inline-block;
-    font-size: 15px;
-    font-weight: bold;
-    margin-left: 10px;
-    height: 100%;
-}
-
-.actionWrapper:hover {
-  font-weight: bold;
-  font-size: 15px;
+.timeline {
+  background-color: black;
+  position: absolute;
+  height: 12px;
+  display: inline-block;
+  cursor: pointer;
 }

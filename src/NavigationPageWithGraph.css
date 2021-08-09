@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.videoWrapper {
+  display: inline-block;
+  width: 40%;
+}
+
+.aggGraph {
+  display: inline-block;
+  width: 40%;
+}
+
+.atomicActions {
+  width: 80%;
+  height: 300px;
+  overflow-x: scroll;
+  margin: 20px 10%;
+}
+
+.actionWrapper {
+    width: 250px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    height: 100%;
+}
+
+.actionWrapper:hover {
+  font-weight: bold;
+  font-size: 15px;
+}
