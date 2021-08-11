@@ -24,6 +24,13 @@ function NavigationPage() {
   const totalTime = (ref && ref.current && ref.current.duration) || 0;
   const playbarElement = document.getElementsByClassName('playbar');
 
+  const imgSrc = [
+    './data/objects/steak/steak_1.png',
+    './data/objects/steak/steak_2.png',
+    './data/objects/steak/steak_3.png',
+    './data/objects/steak/steak_4.png'
+  ]
+
   useEffect (() => {
     parse_data();
     addTimeUpdate();
@@ -255,18 +262,20 @@ function NavigationPage() {
           ref={ref}
           src={video}>
         </video>
-        <div className={"playbar"} onClick={handle_timeline_click} data-tip data-for="playbarTip">
-          {objTime && objTime.map((ele, ind) => (
-            <div 
-              key={ind} 
-              className={"timeline"} 
-              style={{width: `calc(${ele.end}px - ${ele.start}px)`, left: `${ele.start}px`}} 
-            />
-          ))}
+        <div className={"barWrapper"}>
+          {totalTime != 0 &&
+            <div className={"progressbar"} style={{width: `${getProgressLength()}px`}} data-tip data-for="playbarTip"></div>
+          }
+          <div className={"playbar"} onClick={handle_timeline_click} data-tip data-for="playbarTip">
+            {objTime && objTime.map((ele, ind) => (
+              <div 
+                key={ind} 
+                className={"timeline"} 
+                style={{width: `calc(${ele.end}px - ${ele.start}px)`, left: `${ele.start}px`}} 
+              />
+            ))}
+          </div>
         </div>
-        {totalTime != 0 &&
-          <div className={"progressbar"} style={{width: `${getProgressLength()}px`}} data-tip data-for="playbarTip"></div>
-        }
         <div className={"actionbarWrapper"}>
           {actTime &&
            <div>
@@ -287,14 +296,24 @@ function NavigationPage() {
         <ReactTooltip id="playbarTip" place="top">
           {posToTime(playbarPosition)}
         </ReactTooltip>
-        {selectedObj.length != 0 &&
-          <div>
-            <p>Selected Object :</p>
-            {selectedObj.map((item, ind) => (
-              <p key={ind}>{item.name}</p>
-            ))}
-          </div>
-        } 
+        <div className={"objectImages"}>
+          {selectedObj.length != 0 &&
+            <div>
+              {selectedObj.map((item, ind) => (
+                <div key={ind}>
+                  <p>{item.name}</p>
+                  {item.name == "beef (steak)" && 
+                    <div>
+                      {imgSrc.map((imgUrl, ind) => (
+                        <img key={ind} className={"objectImg"} src={require(`${imgUrl}`).default}/>
+                      ))}
+                    </div>
+                  }
+                </div>
+              ))}
+            </div>
+          }
+        </div>
       </div>
       <div className="infoContainer">
         <h3>Control Section</h3>
