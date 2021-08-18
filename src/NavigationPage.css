@@ -31,6 +31,33 @@
   padding: 0 20px;
 }
 
+.titleWrapper {
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 8px 0;
+}
+
+.title {
+  text-align: left;
+  font-size: 24px;
+  display: inline-block;
+  width: 80%;
+}
+
+.resetButton {
+  display: inline-block;
+  background-color: #efefef;
+  font-size: 20px;
+  margin-top: 2.5px;
+  width: 9%;
+  margin-left: 10%;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  vertical-align: top;
+}
+
 .actionInfo {
   height: 26px;
   padding: 5px 10px;
@@ -90,6 +117,12 @@
 }
 
 .barWrapper{
+  margin-top: 10px;
+}
+
+.imgWrapper {
+  display: inline-block;
+  text-align: left;
   margin-top: 10px;
 }
 
@@ -154,7 +187,7 @@
 }
 
 .actionbar {
-  height: 9px;
+  height: 13px;
   background-color: lightcoral;
   border-radius: 3px;
   position: absolute
@@ -164,12 +197,36 @@
   margin: 20px;
   border: 4px solid lightblue;
   border-radius: 10px;
-  height: 700px;
 }
 
 .objectImg {
   display: inline-block;
-  width: 120px;
-  height: 90px;
-  margin-left: 10px;
+  width: 115px;
+  height: 86px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.imgWrapper:hover {
+  opacity: 0.6;
+  border-radius: 3px;
+  color: black;
+}
+
+.imgName {
+  font-size: 20px;
+  color: black;
+}
+
+.imgContainer {
+  margin: 0 calc(50% - 250px);
+  margin-bottom: 10px;
+  width: 500px;
+}
+
+.imgDescription {
+  font-size: 15px;
+  text-align: center;
+  color: gray;
 }

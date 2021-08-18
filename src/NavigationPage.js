@@ -5,6 +5,7 @@ import './NavigationPage.css';
 import video from "./video/The Best Steak Wrap - Clean Eating.mp4";
 import sceneGraphs from './data/how_to_100m_data_sg.json';
 import actionList from './data/atomic_action.json';
+import objectImages from './data/objects.json';
 
 
 function NavigationPage() {
@@ -14,21 +15,24 @@ function NavigationPage() {
   const [objTime, setObjTime] = useState();
   const [actTime, setActTime] = useState();
 
-  const [actions, setActionList] = useState(actionList);
+  const [actions, setActionList] = useState();
   const [selectedAction, setAction] = useState();
 
   const [currentTime, setCurrentTime] = useState(0);
   const [playbarPosition, setplaybarPosition] = useState(0);
 
+  const [objOpen, setObjOpen] = useState(true);
+  const [actOpen, setActOpen] = useState(true);
+
   const ref = useRef();
   const totalTime = (ref && ref.current && ref.current.duration) || 0;
   const playbarElement = document.getElementsByClassName('playbar');
 
-  const imgSrc = [
-    './data/objects/steak/steak_1.png',
-    './data/objects/steak/steak_2.png',
-    './data/objects/steak/steak_3.png',
-    './data/objects/steak/steak_4.png'
+  const colorOption = [
+    'lightcoral',
+    'lightgreen',
+    'lightseagreen',
+    'yellow'
   ]
 
   useEffect (() => {
@@ -91,10 +95,8 @@ function NavigationPage() {
 
   const parse_actions = (objList) => {
     var action_objs = new Array();
-    // push total action
-    action_objs.push({label: 'TOTAL', objects: objList, duration: {start: 0, end: 12225}});
 
-    actions.map((action) => {
+    actionList.map((action) => {
       var objNames = new Set();
       sceneGraphs.map((sg) => {
         if (sg.frame >= action.frame_start && sg.frame <= action.frame_end) {
@@ -109,9 +111,8 @@ function NavigationPage() {
           objs.push(obj);
         }
       });
-      action_objs.push({label: action.class, objects: objs, duration: {start: action.frame_start, end: action.frame_end}});
+      action_objs.push({label: action.class, objects: objs, overlap: action.overlap ? 1 : 0, duration: {start: action.frame_start, end: action.frame_end}});
     });
-    console.log(action_objs)
     return action_objs;
   }
 
@@ -156,7 +157,8 @@ function NavigationPage() {
       })
       
     }
-    var obj_time = limit_time_with_action(obj_timelist);
+    
+    var obj_time = selectedAction ? limit_time_with_action(obj_timelist) : obj_timelist;
     setObjTime(obj_time);
   }
 
@@ -208,6 +210,7 @@ function NavigationPage() {
       var actTime = {start: act.duration.start * 0.041, end: act.duration.end * 0.041};
       setAction(act);
       setActTime(actTime);
+      handle_time_change(act.duration.start / 25);
     }
     setObject([]);
     setObjTime(null);
@@ -216,8 +219,14 @@ function NavigationPage() {
   // video jump on click timeline
   const handle_timeline_click = () => {
     var newTime = playbarPosition * totalTime / 500;
+    // handle_time_change(newTime);
     const observedVideoElement = ref && ref.current;
     observedVideoElement.currentTime = newTime;
+  }
+
+  const handle_time_change = (time) => {
+    const observedVideoElement = ref && ref.current;
+    observedVideoElement.currentTime = time;
   }
 
   // get time tootltip value with position on timeline
@@ -253,6 +262,38 @@ function NavigationPage() {
     return currentTime * 500 / totalTime;
   }
 
+  const handle_reset_button = () => {
+    setObject([]);
+    setAction(null);
+    setObjTime(null);
+    setActTime(null);
+  }
+
+  const objectImgExist = (input_obj) => {
+    var object = null;
+    objectImages.map((obj) => {
+      if (obj.name == input_obj.name) {
+        object = obj;
+      }
+    });
+    return object;
+  }
+
+  const obejctImgOverlapWithAction = (input_obj) => {
+    var object = objectImgExist(input_obj);
+    var res_ind = []
+    object && object.time.map((t, ind) => {
+      if (selectedAction) {
+        if (selectedAction.duration.start / 25 <= t && t <= selectedAction.duration.end / 25) {
+          res_ind.push({timeIndex: ind, time: t})
+        }
+      } else {
+        res_ind.push({timeIndex: ind, time: t})
+      }
+    })
+    return res_ind;
+  }
+
   return (
     <div className={"navigationPage"}>
       <div className={"videoContainer"}>
@@ -277,6 +318,18 @@ function NavigationPage() {
           </div>
         </div>
         <div className={"actionbarWrapper"}>
+          {/* {actions && actions.map((action, ind) => (
+            <div key={ind}>
+              <div 
+                className={"actionbar"} 
+                style={{width: `calc(${action.duration.end * 0.041}px - ${action.duration.start * 0.041}px)`, left: `${action.duration.start * 0.041}px`, 
+                        backgroundColor: `lightcoral`,
+                        top: `calc(${action.overlap * 12}px)`}}
+                onClick={() => handle_time_change(action.duration.start / 25)}
+              />
+            </div>
+          ))} */}
+
           {actTime &&
            <div>
               <div 
@@ -284,6 +337,7 @@ function NavigationPage() {
                 style={{width: `calc(${actTime.end}px - ${actTime.start}px)`, left: `${actTime.start}px`}} 
                 data-tip
                 data-for="actionbarTip"
+                onClick={() => handle_time_change(selectedAction.duration.start / 25)}
               />
               {selectedAction && 
                 <ReactTooltip id="actionbarTip" place="top">
@@ -298,14 +352,25 @@ function NavigationPage() {
         </ReactTooltip>
         <div className={"objectImages"}>
           {selectedObj.length != 0 &&
-            <div>
+            <div> 
+              <h4>Selected Objects</h4>
               {selectedObj.map((item, ind) => (
-                <div key={ind}>
-                  <p>{item.name}</p>
-                  {item.name == "beef (steak)" && 
-                    <div>
-                      {imgSrc.map((imgUrl, ind) => (
-                        <img key={ind} className={"objectImg"} src={require(`${imgUrl}`).default}/>
+                <div key={ind} className={"imgContainer"}>
+                  <div className={"imgName"}>{item.name}</div>
+                  {obejctImgOverlapWithAction(item).length > 0 &&
+                    <div> 
+                      {obejctImgOverlapWithAction(item).map((ele, ind) => (
+                        <div 
+                          key={ind} 
+                          className={"imgWrapper"} 
+                          onClick={() => handle_time_change(ele.time)}
+                        >
+                          <img  
+                            className={"objectImg"} 
+                            src={require(`./data/objects/${item.name}/${item.name}${ele.timeIndex + 1}.png`).default}
+                          />
+                          <div className={"imgDescription"}>{secToMin(ele.time)}</div>
+                        </div>
                       ))}
                     </div>
                   }
@@ -318,9 +383,24 @@ function NavigationPage() {
       <div className="infoContainer">
         <h3>Control Section</h3>
         <div className="infoWrapper">
+          <div>
+            <h3 style={{ cursor: "pointer" }} onClick={() => setObjOpen(!objOpen)}>Objects</h3>
+            {objOpen && objectList && objectList.map((obj, ind) => (
+              <div 
+                key={ind} 
+                className={selectedObj.includes(obj) ? "selectedTag" : "objectTag"}
+                onClick={() => handle_object_click(obj)}
+              >
+                {obj.name}
+              </div>
+            ))}
+          </div>
           <div className={"actionWrapper"}>
-            <h3>Actions</h3>
-            {actions && actions.map((action, ind) => (
+            <div className={"titleWrapper"}>
+              <h3 style={{ cursor: "pointer" }} onClick={() => setActOpen(!actOpen)}>Actions</h3>
+              {/* <div onClick={handle_reset_button} className={"resetButton"}>reset</div> */}
+            </div>
+            {actOpen && actions && actions.map((action, ind) => (
               <div key={ind}>
               {selectedAction && selectedAction.label == action.label 
                 ?
@@ -350,34 +430,6 @@ function NavigationPage() {
               </div>
             ))}
           </div>
-          {/* <div className={"objectWrapper"}>
-            <h3>Objects</h3>
-            {selectedAction && selectedAction.objects.map((obj, ind) => (
-              <div 
-                key={ind} 
-                className={selectedObj.includes(obj) ? "selectedTag" : "objectTag"} 
-                onClick={() => handle_object_click(obj)}
-              >
-                {obj.name}
-              </div>
-            ))}
-          </div> */}
-          {/* <div className={"objectWrapper"}>
-            <h3>Objects</h3>
-            {objectList && objectList.map((obj, ind) => (
-              <div 
-                key={ind} 
-                className={selectedObj.includes(obj) ? "selectedTag" : "objectTag"} 
-                onClick={() => handle_object_click(obj)}
-              >
-                {obj.name}
-              </div>
-            ))}
-          </div> */}
-        </div>
-
-        <div>
-
         </div>
       </div>
     </div>
