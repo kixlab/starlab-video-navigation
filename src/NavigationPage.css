@@ -1,35 +1,232 @@
-.App {
+.navigationPage {
   text-align: center;
-  padding: 20px;
+  padding: 40px 0;
 }
 
+.videoContainer {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+
+.infoContainer {
+  display: inline-block;
+  width: 50%;
+}
+  
 .videoWrapper {
-  display: inline-block;
-  width: 40%;
+  width: 500px;
 }
 
-.aggGraph {
-  display: inline-block;
-  width: 40%;
-}
-
-.atomicActions {
-  width: 80%;
-  height: 300px;
-  overflow-x: scroll;
-  margin: 20px 10%;
+.objectWrapper {
+  width: 500px;
+  margin: 0 calc(50% - 250px);
+  text-align: center;
 }
 
 .actionWrapper {
-    width: 250px;
-    display: inline-block;
-    font-size: 15px;
-    font-weight: bold;
-    margin-left: 10px;
-    height: 100%;
+  width: calc(100% - 40px);
+  overflow: scroll;
+  height: 100%;
+  padding: 0 20px;
 }
 
-.actionWrapper:hover {
+.titleWrapper {
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 8px 0;
+}
+
+.title {
+  text-align: left;
+  font-size: 24px;
+  display: inline-block;
+  width: 80%;
+}
+
+.resetButton {
+  display: inline-block;
+  background-color: #efefef;
+  font-size: 20px;
+  margin-top: 2.5px;
+  width: 9%;
+  margin-left: 10%;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.actionInfo {
+  height: 26px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #efefef;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.selectedActionInfo {
+  height: fit-content;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #efefef;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.selectedActionTop {
+  border-bottom: 1.5px solid black;
+  padding-bottom: 5px;
   font-weight: bold;
+}
+
+.actionName {
+  text-align: left;
+  font-size: 20px;
+  display: inline-block;
+  width: 80%;
+}
+
+.actionDuration {
+  display: inline-block;
+  color: gray;
   font-size: 15px;
+  margin-top: 2.5px;
+  width: 20%;
+  text-align: right;
+}
+
+
+.actionTag {
+  font-size: 17px;
+  width: fit-content;
+  margin-left: 10px;
+  margin-top: 8px;
+  padding: 5px;
+  display: inline-block;
+  color: gray;
+  border-radius: 10px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.tagWrapper {
+  display: inline-block;
+}
+
+.barWrapper{
+  margin-top: 10px;
+}
+
+.imgWrapper {
+  display: inline-block;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.playbar {
+  width: 500px;
+  height: 12px;
+  margin: 0 calc(50% - 250px);
+  background-color: #c4c4c4;
+  border-radius: 3px;
+  position: relative;
+  margin-bottom: 2px;
+}
+
+.progressbar {
+  height: 5px;
+  margin: 0 calc(50% - 250px);
+  background-color: skyblue;
+  border-radius: 3px;
+}
+
+.objectTag {
+  font-size: 17px;
+  width: fit-content;
+  margin-left: 10px;
+  margin-top: 8px;
+  padding: 5px;
+  display: inline-block;
+  color: gray;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background-color: white;
+  cursor: pointer;
+}
+
+.selectedTag {
+  font-size: 17px;
+  width: fit-content;
+  margin-left: 10px;
+  margin-top: 8px;
+  padding: 5px;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.timeline {
+  background-color: black;
+  position: absolute;
+  height: 12px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.actionbarWrapper {
+  width: 500px;
+  height: 9px;
+  margin: 0 calc(50% - 250px);
+  position: relative;
+}
+
+.actionbar {
+  height: 13px;
+  background-color: lightcoral;
+  border-radius: 3px;
+  position: absolute
+}
+
+.infoWrapper {
+  margin: 20px;
+  border: 4px solid lightblue;
+  border-radius: 10px;
+}
+
+.objectImg {
+  display: inline-block;
+  width: 115px;
+  height: 86px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.imgWrapper:hover {
+  opacity: 0.6;
+  border-radius: 3px;
+  color: black;
+}
+
+.imgName {
+  font-size: 20px;
+  color: black;
+}
+
+.imgContainer {
+  margin: 0 calc(50% - 250px);
+  margin-bottom: 10px;
+  width: 500px;
+}
+
+.imgDescription {
+  font-size: 15px;
+  text-align: center;
+  color: gray;
 }
