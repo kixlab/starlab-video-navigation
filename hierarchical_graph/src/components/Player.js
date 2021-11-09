@@ -3,10 +3,19 @@ import styled from 'styled-components';
 import YouTube from 'react-youtube';
 
 const Player = (props) => {
+    const [player, setPlayer] = useState(null);
 
     const _onReady = (event) => {
         event.target.pauseVideo();
+        setPlayer(event.target);
     }
+
+    // set player seek time on props change
+    useEffect(() => {
+        if (player) {
+            player.seekTo(props.seekTime);
+        }
+    }, [props.seekTime]);
 
     const opts = {
         height: '390',

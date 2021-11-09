@@ -4,11 +4,12 @@ import './App.css';
 import { Graph, Player } from "./components";
 
 function App() {
+  const [seekTime, setSeekTime] = useState(0);
 
   return (
     <div className="App">
-      <Player/>
-      <Graph/>
+      <Player seekTime={seekTime}/>
+      <Graph setSeekTime={setSeekTime}/>
     </div>
   );
 }
