@@ -71,7 +71,7 @@ const Graph = (props) => {
     }
 
     return (
-        <svg viewBox="0 0 3500 3000">
+        <svg viewBox="0 0 3000 2800">
             {dataset.tools.map((tool, i) => (
                 <Tool start={tool.start} end={tool.end} name={tool.name} isCurrent={checkIsCurrent("tools", i)}/>
             ))}

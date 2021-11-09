@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import YouTube from 'react-youtube';
 
+import HighlightBar from './HighlightBar';
+
 const Player = (props) => {
     const [player, setPlayer] = useState(null);
     const [playbackTimeout, setPlaybackTimeout] = useState(null);
@@ -68,7 +70,7 @@ const Player = (props) => {
         <>
             <YouTube videoId="T7icxr899qc" opts={opts} onReady={_onReady} onStateChange={_onStateChange}/>
             <ProgressBar type="range" value={progress}/>
-            <HighlightBar currentPlayback={currentPlayback} />
+            <HighlightBar currentPlayback={props.currentPlayback} duration={player ? player.getDuration() : 0}/>
         </>
     );
 }
