@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import Step from './Step';
 import Ingredient from './Ingredient';
+import Tool from './Tool';
 
 const data = {
     ingredients: [
@@ -60,6 +61,9 @@ const Graph = (props) => {
 
     return (
         <svg viewBox="0 0 3500 3000">
+            {dataset.tools.map((tool) => (
+                <Tool start={tool.start} end={tool.end} name={tool.name}/>
+            ))}
             {dataset.steps.map((step) => (
                 <Step row={step.row} col={step.col} name={step.name} time={step.time} setSeekTime={props.setSeekTime}/>
             ))}
