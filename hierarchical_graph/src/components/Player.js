@@ -5,6 +5,8 @@ import YouTube from 'react-youtube';
 const Player = (props) => {
     const [player, setPlayer] = useState(null);
     const [playbackTimeout, setPlaybackTimeout] = useState(null);
+    const [progressInterval, setProgressInterval] = useState(null);
+    const [progress, setProgress] = useState(0);
 
     const _onReady = (event) => {
         event.target.pauseVideo();
@@ -17,6 +19,12 @@ const Player = (props) => {
             if(playbackTimeout) {
                 clearTimeout(playbackTimeout);
             }
+            clearInterval(progressInterval);
+        } else if(event.data == 1) {
+            var interval = setInterval(function () {
+                updateProgressBar();
+            }, 1000)
+            setProgressInterval(interval);
         }
     }
 
@@ -27,6 +35,12 @@ const Player = (props) => {
         var timeout = setTimeout(playback, (time[1] - time[0])*1000, time)
         setPlaybackTimeout(timeout);
     }
+
+    const updateProgressBar = () => {
+        var currTime = player.getCurrentTime();
+        var duration = player.getDuration();
+        setProgress(currTime/duration * 100);
+    };
 
     // set player seek time on props change
     useEffect(() => {
@@ -51,8 +65,16 @@ const Player = (props) => {
     };
 
     return (
-        <YouTube videoId="T7icxr899qc" opts={opts} onReady={_onReady} onStateChange={_onStateChange}/>
+        <>
+            <YouTube videoId="T7icxr899qc" opts={opts} onReady={_onReady} onStateChange={_onStateChange}/>
+            <ProgressBar type="range" value={progress}/>
+            <HighlightBar currentPlayback={currentPlayback} />
+        </>
     );
 }
+
+const ProgressBar = styled.input`
+    width: 640px;
+`;
 
 export default Player;
