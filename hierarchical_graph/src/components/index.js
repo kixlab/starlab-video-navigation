@@ -1,3 +1,4 @@
 import Graph from "./Graph";
+import Player from "./Player";
 
-export { Graph };
+export { Graph, Player };
