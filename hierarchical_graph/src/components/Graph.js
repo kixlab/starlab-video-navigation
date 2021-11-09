@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 
+import Step from './Step';
+
 const data = {
     ingredients: [
         {name: "Salt", step_list: [5]},
@@ -56,6 +58,11 @@ const Graph = (props) => {
     const [dataset, setDataset] = useState(data);
 
     return (
+        <svg viewBox="0 0 3500 3000">
+            {dataset.steps.map((step) => (
+                <Step row={step.row} col={step.col} name={step.name} time={step.time} setSeekTime={props.setSeekTime}/>
+            ))}
+        </svg>
     );
 }
 
