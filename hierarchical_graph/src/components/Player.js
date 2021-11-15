@@ -30,11 +30,13 @@ const Player = (props) => {
         }
     }
 
-    const playback = (time) => {
-        var currTime = player.getCurrentTime();
-        player.seekTo(time[0]);
+    const playback = (timeIdx) => {
+        if(timeIdx == props.currentPlayback.time.length) {
+            timeIdx = 0;
+        }
+        player.seekTo(props.currentPlayback.time[timeIdx][0]);
         player.playVideo();
-        var timeout = setTimeout(playback, (time[1] - time[0])*1000, time)
+        var timeout = setTimeout(playback, (props.currentPlayback.time[timeIdx][1] - props.currentPlayback.time[timeIdx][0])*1000, timeIdx+1)
         setPlaybackTimeout(timeout);
     }
 
@@ -47,12 +49,12 @@ const Player = (props) => {
     // set player seek time on props change
     useEffect(() => {
         if (player && props.currentPlayback) {
-            player.seekTo(props.currentPlayback.time[0]);
+            player.seekTo(props.currentPlayback.time[0][0]);
             player.playVideo();
             if(playbackTimeout != null) {
                 clearTimeout(playbackTimeout);
             }
-            var timeout = setTimeout(playback, (props.currentPlayback.time[1] - props.currentPlayback.time[0])*1000, props.currentPlayback.time)
+            var timeout = setTimeout(playback, (props.currentPlayback.time[0][1] - props.currentPlayback.time[0][0])*1000, 1)
             setPlaybackTimeout(timeout);
         }
     }, [props.currentPlayback]);

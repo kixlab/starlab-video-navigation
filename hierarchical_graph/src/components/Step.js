@@ -7,7 +7,8 @@ import Link from './Link';
 const Step = (props) => { 
     const setStep = () => {
         props.setStep(props.idx);
-    } 
+    }
+    
     return (
         <>
             <ClickableG onClick={setStep}>
@@ -19,16 +20,13 @@ const Step = (props) => {
                 <rect x={props.col*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD_W} 
                     y={props.row*(NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H} 
                     width={NODE_WIDTH} height={NODE_HEIGHT} fill="lightgray"
-                    stroke={props.isCurrent ? "#3786E2" : "transparent"} stroke-width="8"/>
+                    stroke={props.isCurrent ? "#3786E2" : "transparent"} strokeWidth="8"/>
             </ClickableG>
             <Link row={props.row} col={props.col} 
-                  prev_steps={props.prev_steps ? props.prev_steps.map(idx => { 
-                      var step = props.all_steps[idx];
-                      step.idx = idx;
-                      return step;
-                    }) : null} 
+                  prev_steps={props.prev_steps ? props.prev_steps.map(idx => props.all_steps[idx]) : null} 
                   ingredients={props.ingredients ? props.ingredients.map(idx => props.all_ingredients[idx]) : null} 
-                  all_ingredients={props.all_ingredients} all_steps={props.all_steps}/>
+                  all_ingredients={props.all_ingredients} all_steps={props.all_steps}
+                  setIngredient={props.setIngredient}/>
         </>
     );
 }

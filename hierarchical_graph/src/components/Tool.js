@@ -33,7 +33,7 @@ const Tool = (props) => {
             <rect x={start[1]*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD_W - TOOL_PADD_W/2}
                   y={start[0]*(NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H - TOOL_PADD_H/2}
                   width={width} height={height} rx="16" fill={props.isCurrent ? "#e3edf7" : "#fff"} 
-                  stroke={props.isCurrent ? "#3786E2" : "lightgray"} stroke-width="4"/>
+                  stroke={props.isCurrent ? "#3786E2" : "lightgray"} strokeWidth="4"/>
         </ClickableG>
     );
 }

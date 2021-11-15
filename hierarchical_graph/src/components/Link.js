@@ -75,6 +75,25 @@ const Link = (props) => {
         })
     }
 
+    const identifySteps = (ingrIdx) => {
+        var currStep = props.all_steps.find(step => step.ingredients && step.ingredients.includes(ingrIdx));
+        var step_list = [];
+        while(true) {
+            step_list.push(currStep.idx);
+            currStep = props.all_steps.find(step => step.prev_steps && step.prev_steps.includes(currStep.idx));
+            if(currStep == null) {
+                break;
+            }
+        }
+        return step_list;
+    }
+
+    const onClick = (e) => {
+        var ingr_idx = parseInt(e.target.dataset.idx);
+        var step_list = identifySteps(ingr_idx);
+        props.setIngredient(ingr_idx, step_list);
+    }
+
     var circles = [];
     var paths = [];
     if(props.ingredients) {
@@ -83,10 +102,11 @@ const Link = (props) => {
             var start_point = [end_point[0] - NODE_MARGIN_W/2 + margin, end_point[1] - NODE_HEIGHT/2];
             paths.push(<path key={i} name={props.name} d={generateIngrPath(start_point, end_point, margin)} 
                              stroke={selectColor(props.ingredients[i].idx)} 
-                             fill="transparent" stroke-width="8"/>);
-            circles.push(<IngredientCircle key={i} cx={start_point[0]} cy={start_point[1] - 10} r="20"
+                             fill="transparent" strokeWidth="8"/>);
+            circles.push(<IngredientCircle cx={start_point[0]} cy={start_point[1] - 10} r="20"
                             name={props.ingredients[i].name} fill={selectColor(props.ingredients[i].idx)}
-                            onMouseEnter={onCircleEnter} onMouseLeave={onCircleLeave}/>);
+                            data-idx={props.ingredients[i].idx} 
+                            onMouseEnter={onCircleEnter} onMouseLeave={onCircleLeave} onClick={onClick}/>);
         }
     }
 
@@ -100,9 +120,9 @@ const Link = (props) => {
                 ((prev_step.row) * (NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H + NODE_HEIGHT/2)
             ];
 
-            paths.push(<path key={i} name={props.name} d={generateStepPath(start_point, end_point, margin)} 
+            paths.push(<path name={props.name} d={generateStepPath(start_point, end_point, margin)} 
                              stroke={findColor(props.prev_steps[i])} 
-                             fill="transparent" stroke-width="8"/>);
+                             fill="transparent" strokeWidth="8"/>);
         }
     }
 
