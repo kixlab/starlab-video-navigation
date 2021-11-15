@@ -71,6 +71,7 @@ const Player = (props) => {
         <>
             <YouTube videoId="T7icxr899qc" opts={opts} onReady={_onReady} onStateChange={_onStateChange}/>
             <ProgressBar type="range" value={progress}/>
+            <br/>
             <HighlightBar currentPlayback={props.currentPlayback} duration={player ? player.getDuration() : 0}/>
         </>
     );

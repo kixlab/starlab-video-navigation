@@ -11,16 +11,11 @@ const Step = (props) => {
     return (
         <>
             <ClickableG onClick={setStep}>
-                {props.isCurrent ?
-                    <CurrStepLabel x={props.col*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD_W}
-                                y={props.row*(NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H - 8}>
-                                    {props.name}
-                    </CurrStepLabel> :
-                    <StepLabel x={props.col*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD_W}
-                            y={props.row*(NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H - 8}>
-                                {props.name}
-                    </StepLabel>
-                }
+                <StepLabel x={props.col*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD_W}
+                        y={props.row*(NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H - 8}
+                        style={props.isCurrent ? {"font-weight": "bold", "fill": "#3786E2"} : {}}>
+                            {props.name}
+                </StepLabel>
                 <rect x={props.col*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD_W} 
                     y={props.row*(NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H} 
                     width={NODE_WIDTH} height={NODE_HEIGHT} fill="lightgray"
@@ -47,9 +42,7 @@ const StepLabel = styled.text`
 `;
 
 const CurrStepLabel = styled.text`
-    font-size: 30px;
-    font-weight: bold;
-    fill: #3786E2;
+
 `;
 
 export default Step;

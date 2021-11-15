@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import { NODE_HEIGHT, NODE_WIDTH, NODE_MARGIN_H, NODE_MARGIN_W, GRAPH_PAD_W, GRAPH_PAD_H, INGRE_PADD_W } from "../global.js";
 
 const Link = (props) => {
+    const [tooltipStyle, setTooltipStyle] = useState({ x: 0, y: 0 , visibility: 'hidden', text: ""});
+
     function selectColor(number) {
         const hue = number * 137.508; // use golden angle approximation
         return `hsl(${hue},50%,75%)`;
@@ -58,6 +60,21 @@ const Link = (props) => {
         ((props.row) * (NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H + NODE_HEIGHT/2)
     ];
 
+    const onCircleEnter = (e) => {
+        setTooltipStyle({
+            x: parseInt(e.target.getAttribute("cx")),
+            y: e.target.getAttribute("cy") - 30,
+            visibility: 'visible',
+            text: e.target.getAttribute("name")
+        })
+    }
+
+    const onCircleLeave = (e) => {
+        setTooltipStyle({
+            visibility: 'hidden',
+        })
+    }
+
     var circles = [];
     var paths = [];
     if(props.ingredients) {
@@ -67,8 +84,9 @@ const Link = (props) => {
             paths.push(<path key={i} name={props.name} d={generateIngrPath(start_point, end_point, margin)} 
                              stroke={selectColor(props.ingredients[i].idx)} 
                              fill="transparent" stroke-width="8"/>);
-            circles.push(<circle key={i} cx={start_point[0]} cy={start_point[1] - 10} r="20" 
-                                 fill={selectColor(props.ingredients[i].idx)}/>);
+            circles.push(<IngredientCircle key={i} cx={start_point[0]} cy={start_point[1] - 10} r="20"
+                            name={props.ingredients[i].name} fill={selectColor(props.ingredients[i].idx)}
+                            onMouseEnter={onCircleEnter} onMouseLeave={onCircleLeave}/>);
         }
     }
 
@@ -92,13 +110,30 @@ const Link = (props) => {
         <>
             {circles}
             {paths}
+            <IngredientCont x={tooltipStyle.x - 100} y={tooltipStyle.y - 50} width="200" height="60" rx="8" visibility={tooltipStyle.visibility}/>
+            <IngredientLabel x={tooltipStyle.x} y={tooltipStyle.y - 10} visibility={tooltipStyle.visibility}>{tooltipStyle.text}</IngredientLabel>
         </>
     );
 }
 
+const IngredientCircle = styled.circle`
+    cursor: pointer;
+    &:hover {
+        stroke: #3786E2;
+        stroke-width: 8px;
+    }
+`;
+
 const IngredientLabel = styled.text`
-    font-size: 28px;
-    text-align: center;
+    font-size: 32px;
+    fill: #3786E2;
+    text-anchor: middle;
+`;
+
+const IngredientCont = styled.rect`
+    fill: #fff;
+    stroke: #3786E2;
+    stroke-width: 4px;
 `;
 
 export default Link;

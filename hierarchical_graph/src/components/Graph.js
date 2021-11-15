@@ -46,13 +46,13 @@ const data = {
         {name: "Add", row: 1, col: 8, time: [570, 577], prev_steps: [13, 15], ingredients: null},
     ],
     tools: [
-        {name: "Sink", start: [1, 0], end: [1, 0]},
-        {name: "Cutting Board 1", start: [1, 1], end: [4, 1]},
-        {name: "Bowl 1", start: [1, 2], end: [1, 2]},
-        {name: "Bowl 2", start: [3, 3], end: [3, 3]},
-        {name: "Cutting Board 2", start: [1, 3], end: [1, 3]},
-        {name: "Cutting Board 3", start: [3, 4], end: [6, 4]},
-        {name: "Sauce Pot", start: [1, 4], end: [1, 8]},
+        {name: "Sink", steps: [0]},
+        {name: "Cutting Board 1", steps: [1, 2, 3, 4]},
+        {name: "Bowl 1", steps: [5]},
+        {name: "Bowl 2", steps: [7]},
+        {name: "Cutting Board 2", steps: [6]},
+        {name: "Cutting Board 3", steps: [10, 11, 12, 13]},
+        {name: "Sauce Pot", steps: [8, 9, 14, 15, 16]},
     ]
 }
 
@@ -61,6 +61,13 @@ const Graph = (props) => {
 
     const setStep = (step) => {
         props.setCurrentPlayback({type: "step", idx: step, time: dataset.steps[step].time});
+    }
+
+    const setTool = (tool) => {
+        props.setCurrentPlayback({
+            type: "tool", idx: tool, 
+            time: dataset.tools[tool].steps.map(idx => dataset.steps[idx].time)
+        });
     }
 
     const checkIsCurrent = (type, idx) => {
@@ -73,7 +80,8 @@ const Graph = (props) => {
     return (
         <svg viewBox="0 0 4500 2000">
             {dataset.tools.map((tool, i) => (
-                <Tool start={tool.start} end={tool.end} name={tool.name} isCurrent={checkIsCurrent("tools", i)}/>
+                <Tool idx={i} steps={tool.steps} name={tool.name} all_steps={dataset.steps} 
+                      isCurrent={checkIsCurrent("tool", i)} setTool={setTool}/>
             ))}
             {dataset.steps.map((step, i) => (
                 <Step idx={i} row={step.row} col={step.col} name={step.name}
