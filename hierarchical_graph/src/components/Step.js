@@ -22,7 +22,7 @@ const Step = (props) => {
                     width={NODE_WIDTH} height={NODE_HEIGHT} fill="lightgray"
                     stroke={props.isCurrent ? "#3786E2" : "transparent"} strokeWidth="8"/>
             </ClickableG>
-            <Link row={props.row} col={props.col} 
+            <Link idx={props.idx} row={props.row} col={props.col} currentPlayback={props.currentPlayback}
                   prev_steps={props.prev_steps ? props.prev_steps.map(idx => props.all_steps[idx]) : null} 
                   ingredients={props.ingredients ? props.ingredients.map(idx => props.all_ingredients[idx]) : null} 
                   all_ingredients={props.all_ingredients} all_steps={props.all_steps}

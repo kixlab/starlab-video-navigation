@@ -53,13 +53,6 @@ const Link = (props) => {
         }
     }
 
-    var total_ingre = (props.ingredients ? props.ingredients.length : 0);
-
-    var end_point = [
-        ((props.col) * (NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD_W), 
-        ((props.row) * (NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H + NODE_HEIGHT/2)
-    ];
-
     const onCircleEnter = (e) => {
         setTooltipStyle({
             x: parseInt(e.target.getAttribute("cx")),
@@ -94,17 +87,25 @@ const Link = (props) => {
         props.setIngredient(ingr_idx, step_list);
     }
 
+    var total_ingre = (props.ingredients ? props.ingredients.length : 0);
+
+    var end_point = [
+        ((props.col) * (NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD_W), 
+        ((props.row) * (NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H + NODE_HEIGHT/2)
+    ];
+
     var circles = [];
     var paths = [];
     if(props.ingredients) {
         for(var i = 0; i < props.ingredients.length; i++) {
             var margin = NODE_MARGIN_W/2/total_ingre * i;
             var start_point = [end_point[0] - NODE_MARGIN_W/2 + margin, end_point[1] - NODE_HEIGHT/2];
+            var color = props.currentPlayback && props.currentPlayback.type === "ingredient" && props.currentPlayback.idx === props.ingredients[i].idx ? "#3786E2" : selectColor(props.ingredients[i].idx);
             paths.push(<path key={i} name={props.name} d={generateIngrPath(start_point, end_point, margin)} 
-                             stroke={selectColor(props.ingredients[i].idx)} 
+                             stroke={color} 
                              fill="transparent" strokeWidth="8"/>);
             circles.push(<IngredientCircle cx={start_point[0]} cy={start_point[1] - 10} r="20"
-                            name={props.ingredients[i].name} fill={selectColor(props.ingredients[i].idx)}
+                            name={props.ingredients[i].name} fill={color}
                             data-idx={props.ingredients[i].idx} 
                             onMouseEnter={onCircleEnter} onMouseLeave={onCircleLeave} onClick={onClick}/>);
         }
@@ -120,8 +121,16 @@ const Link = (props) => {
                 ((prev_step.row) * (NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H + NODE_HEIGHT/2)
             ];
 
+            var color = findColor(props.prev_steps[i]);
+            if(props.currentPlayback && props.currentPlayback.type === "ingredient") {
+                var list_idx = props.currentPlayback.step_list.findIndex(idx => idx === prev_step.idx);
+                if(list_idx != -1 && list_idx + 1 < props.currentPlayback.step_list.length && props.currentPlayback.step_list[list_idx+1] === props.idx) {
+                    color = "#3786E2";
+                }
+            }
+
             paths.push(<path name={props.name} d={generateStepPath(start_point, end_point, margin)} 
-                             stroke={findColor(props.prev_steps[i])} 
+                             stroke={color} 
                              fill="transparent" strokeWidth="8"/>);
         }
     }

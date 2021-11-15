@@ -81,7 +81,10 @@ const Graph = (props) => {
 
     const checkIsCurrent = (type, idx) => {
         if (props.currentPlayback) {
-            return props.currentPlayback.type === type && props.currentPlayback.idx === idx ? true : false;
+            if(props.currentPlayback.type === type && props.currentPlayback.idx === idx)
+                return true;
+            if(props.currentPlayback.type === "ingredient" && type === "step" && props.currentPlayback.step_list.includes(idx))
+                return true;
         }
         return false;
     }
@@ -95,7 +98,7 @@ const Graph = (props) => {
             {dataset.steps.map((step, i) => (
                 <Step idx={i} row={step.row} col={step.col} name={step.name}
                       setStep={setStep} setIngredient={setIngredient}
-                      isCurrent={checkIsCurrent("step", i)}
+                      isCurrent={checkIsCurrent("step", i)} currentPlayback={props.currentPlayback}
                       prev_steps={step.prev_steps} ingredients={step.ingredients} 
                       all_steps={dataset.steps} all_ingredients={dataset.ingredients}/>
             ))}
