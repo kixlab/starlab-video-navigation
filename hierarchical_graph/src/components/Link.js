@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { NODE_HEIGHT, NODE_WIDTH, NODE_MARGIN_H, NODE_MARGIN_W, GRAPH_PAD_W, GRAPH_PAD_H, INGRE_PADD_W } from "../global.js";
 
 const Link = (props) => {
-    
     function selectColor(number) {
         const hue = number * 137.508; // use golden angle approximation
         return `hsl(${hue},50%,75%)`;
@@ -33,6 +32,23 @@ const Link = (props) => {
         return `M ${M[0]} ${M[1]} 
                 C ${C0[0]} ${C0[1]}, ${C1[0]} ${C1[1]}, ${C2[0]} ${C2[1]} 
                 S ${S0[0]} ${S0[1]}, ${S1[0]}, ${S1[1]}`
+    }
+
+    const findColor = (prev_step) => {
+        if(prev_step.ingredients) {
+            if(prev_step.ingredients.length > 1 || prev_step.prev_steps != null) {
+                return selectColor(props.all_ingredients.length + prev_step.idx);
+            } else if(prev_step.ingredients.length == 1) {
+                return selectColor(props.all_ingredients[prev_step.ingredients[0]].idx);
+            }
+        } else if (prev_step.prev_steps) {
+            if(prev_step.prev_steps.length > 1) {
+                return selectColor(props.all_ingredients.length + prev_step.idx);
+            } else {
+                var prev_step_idx = prev_step.prev_steps[0];
+                return findColor(props.all_steps[prev_step_idx]);
+            }
+        }
     }
 
     var total_ingre = (props.ingredients ? props.ingredients.length : 0);
@@ -67,7 +83,7 @@ const Link = (props) => {
             ];
 
             paths.push(<path key={i} name={props.name} d={generateStepPath(start_point, end_point, margin)} 
-                             stroke={selectColor(Math.floor(Math.random() * 10))} 
+                             stroke={findColor(props.prev_steps[i])} 
                              fill="transparent" stroke-width="8"/>);
         }
     }

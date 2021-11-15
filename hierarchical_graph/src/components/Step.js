@@ -27,7 +27,11 @@ const Step = (props) => {
                     stroke={props.isCurrent ? "#3786E2" : "transparent"} stroke-width="8"/>
             </ClickableG>
             <Link row={props.row} col={props.col} 
-                  prev_steps={props.prev_steps ? props.prev_steps.map(idx => props.all_steps[idx]) : null} 
+                  prev_steps={props.prev_steps ? props.prev_steps.map(idx => { 
+                      var step = props.all_steps[idx];
+                      step.idx = idx;
+                      return step;
+                    }) : null} 
                   ingredients={props.ingredients ? props.ingredients.map(idx => props.all_ingredients[idx]) : null} 
                   all_ingredients={props.all_ingredients} all_steps={props.all_steps}/>
         </>
