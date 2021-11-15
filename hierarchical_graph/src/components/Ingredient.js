@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import { NODE_HEIGHT, NODE_WIDTH, NODE_MARGIN_H, NODE_MARGIN_W, GRAPH_PAD, INGRE_PADD_W } from "../global.js";
+import { NODE_HEIGHT, NODE_WIDTH, NODE_MARGIN_H, NODE_MARGIN_W, GRAPH_PAD_W, GRAPH_PAD_H, INGRE_PADD_W } from "../global.js";
 
 const Ingredient = (props) => {
     
@@ -10,8 +10,8 @@ const Ingredient = (props) => {
     }
 
     const generateInitPath = (start, end) => {
-        var M = [((start.col) * (NODE_WIDTH/2+INGRE_PADD_W) + NODE_WIDTH/4 + GRAPH_PAD), (NODE_HEIGHT/2 + GRAPH_PAD + NODE_HEIGHT)];
-        var S1 = [((end.col) * (NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD), ((end.row) * (NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD + NODE_HEIGHT/2)];
+        var M = [((start.col) * (NODE_WIDTH/2+INGRE_PADD_W) + NODE_WIDTH/4 + GRAPH_PAD_W), (NODE_HEIGHT/2 + GRAPH_PAD_H + NODE_HEIGHT)];
+        var S1 = [((end.col) * (NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD_W), ((end.row) * (NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H + NODE_HEIGHT/2)];
         var C2 = [S1[0] - NODE_MARGIN_W/2, (M[1] + S1[1]) / 2];
         var C0 = [C2[0], M[1]];
         var C1 = C0;
@@ -21,8 +21,8 @@ const Ingredient = (props) => {
     }
 
     const generatePath = (start, end) => {
-        var M = [((start.col) * (NODE_WIDTH+NODE_MARGIN_W) + NODE_WIDTH + GRAPH_PAD), ((start.row) * (NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD + NODE_HEIGHT/2)];
-        var S1 = [((end.col) * (NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD), ((end.row) * (NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD + NODE_HEIGHT/2)];
+        var M = [((start.col) * (NODE_WIDTH+NODE_MARGIN_W) + NODE_WIDTH + GRAPH_PAD_W), ((start.row) * (NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H + NODE_HEIGHT/2)];
+        var S1 = [((end.col) * (NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD_W), ((end.row) * (NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H + NODE_HEIGHT/2)];
         var C2 = [S1[0] - NODE_MARGIN_W/2, (M[1] + S1[1]) / 2];
         var C0 = [C2[0], M[1]];
         var C1 = C0;
@@ -46,19 +46,19 @@ const Ingredient = (props) => {
         }
     }
 
-    var label = (<IngredientLabel x={props.idx*(NODE_WIDTH/2+INGRE_PADD_W) + GRAPH_PAD} 
-                                  y={NODE_HEIGHT/2 + GRAPH_PAD - 7}>
+    var label = (<IngredientLabel x={props.idx*(NODE_WIDTH/2+INGRE_PADD_W) + GRAPH_PAD_W} 
+                                  y={NODE_HEIGHT/2 + GRAPH_PAD_H - 7}>
                                       {props.name.split(" ").join("\n")}
                 </IngredientLabel>);
     if(props.name.includes(" ")) {
         label = (
             <>
-                <IngredientLabel x={props.idx*(NODE_WIDTH/2+INGRE_PADD_W) + GRAPH_PAD} 
-                                 y={NODE_HEIGHT/2 + GRAPH_PAD - 35}>
+                <IngredientLabel x={props.idx*(NODE_WIDTH/2+INGRE_PADD_W) + GRAPH_PAD_W} 
+                                 y={NODE_HEIGHT/2 + GRAPH_PAD_H - 35}>
                                     {props.name.split(" ")[0]}
                 </IngredientLabel>)
-                <IngredientLabel x={props.idx*(NODE_WIDTH/2+INGRE_PADD_W) + GRAPH_PAD} 
-                                 y={NODE_HEIGHT/2 + GRAPH_PAD - 7}>
+                <IngredientLabel x={props.idx*(NODE_WIDTH/2+INGRE_PADD_W) + GRAPH_PAD_W} 
+                                 y={NODE_HEIGHT/2 + GRAPH_PAD_H - 7}>
                                      {props.name.split(" ")[1]}
                 </IngredientLabel>)    
             </>
@@ -70,8 +70,8 @@ const Ingredient = (props) => {
             {!props.name.includes("Intermediate") ?
                 <>
                     {label}
-                    <rect x={props.idx*(NODE_WIDTH/2+INGRE_PADD_W) + GRAPH_PAD} 
-                          y={NODE_HEIGHT/2 + GRAPH_PAD} 
+                    <rect x={props.idx*(NODE_WIDTH/2+INGRE_PADD_W) + GRAPH_PAD_W} 
+                          y={NODE_HEIGHT/2 + GRAPH_PAD_H} 
                           width={NODE_WIDTH/2} height={NODE_HEIGHT} fill="gray"/>
                 </>
                 : ""

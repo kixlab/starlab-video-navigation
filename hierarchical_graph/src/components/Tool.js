@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import { NODE_HEIGHT, NODE_WIDTH, NODE_MARGIN_H, NODE_MARGIN_W, GRAPH_PAD, TOOL_PADD_H, TOOL_PADD_W} from "../global.js";
+import { NODE_HEIGHT, NODE_WIDTH, NODE_MARGIN_H, NODE_MARGIN_W, GRAPH_PAD_W, GRAPH_PAD_H, TOOL_PADD_H, TOOL_PADD_W} from "../global.js";
 
 
 const Tool = (props) => { 
@@ -9,12 +9,12 @@ const Tool = (props) => {
 
     return (
         <>
-            <StepLabel x={props.start[1]*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD - TOOL_PADD_W/2} 
-                       y={props.start[0]*(NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD - TOOL_PADD_H/2 - 10}>
+            <StepLabel x={props.start[1]*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD_W - TOOL_PADD_W/2} 
+                       y={props.start[0]*(NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H - TOOL_PADD_H/2 - 10}>
                            {props.name}
             </StepLabel>
-            <rect x={props.start[1]*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD - TOOL_PADD_W/2}
-                  y={props.start[0]*(NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD - TOOL_PADD_H/2}
+            <rect x={props.start[1]*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD_W - TOOL_PADD_W/2}
+                  y={props.start[0]*(NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H - TOOL_PADD_H/2}
                   width={width} height={height} 
                   fill="white" stroke="lightgray" stroke-width="4" rx="16"/>
         </>

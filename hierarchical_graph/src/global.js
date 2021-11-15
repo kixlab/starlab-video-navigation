@@ -1,8 +1,9 @@
 export const NODE_WIDTH = 200;
 export const NODE_HEIGHT = 100;
 export const NODE_MARGIN_H = 100;
-export const NODE_MARGIN_W = 180;
-export const GRAPH_PAD = 20;
-export const TOOL_PADD_H = 60;
+export const NODE_MARGIN_W = 280;
+export const GRAPH_PAD_W = 200;
+export const GRAPH_PAD_H = 20;
+export const TOOL_PADD_H = 80;
 export const TOOL_PADD_W = 40;
 export const INGRE_PADD_W = 100;

@@ -1,29 +1,36 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import { NODE_HEIGHT, NODE_WIDTH, NODE_MARGIN_H, NODE_MARGIN_W, GRAPH_PAD } from "../global.js";
+import { NODE_HEIGHT, NODE_WIDTH, NODE_MARGIN_H, NODE_MARGIN_W, GRAPH_PAD_W, GRAPH_PAD_H } from "../global.js";
+
+import Link from './Link';
 
 const Step = (props) => { 
     const setStep = () => {
         props.setStep(props.idx);
-    }
-
+    } 
     return (
-        <ClickableG onClick={setStep}>
-            {props.isCurrent ?
-                <CurrStepLabel x={props.col*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD}
-                               y={props.row*(NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD - 8}>
-                                   {props.name}
-                </CurrStepLabel> :
-                <StepLabel x={props.col*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD}
-                           y={props.row*(NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD - 8}>
-                               {props.name}
-                </StepLabel>
-            }
-            <rect x={props.col*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD} 
-                  y={props.row*(NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD} 
-                  width={NODE_WIDTH} height={NODE_HEIGHT} fill="lightgray"
-                  stroke={props.isCurrent ? "#3786E2" : "transparent"} stroke-width="8"/>
-        </ClickableG>
+        <>
+            <ClickableG onClick={setStep}>
+                {props.isCurrent ?
+                    <CurrStepLabel x={props.col*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD_W}
+                                y={props.row*(NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H - 8}>
+                                    {props.name}
+                    </CurrStepLabel> :
+                    <StepLabel x={props.col*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD_W}
+                            y={props.row*(NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H - 8}>
+                                {props.name}
+                    </StepLabel>
+                }
+                <rect x={props.col*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD_W} 
+                    y={props.row*(NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H} 
+                    width={NODE_WIDTH} height={NODE_HEIGHT} fill="lightgray"
+                    stroke={props.isCurrent ? "#3786E2" : "transparent"} stroke-width="8"/>
+            </ClickableG>
+            <Link row={props.row} col={props.col} 
+                  prev_steps={props.prev_steps ? props.prev_steps.map(idx => props.all_steps[idx]) : null} 
+                  ingredients={props.ingredients ? props.ingredients.map(idx => props.all_ingredients[idx]) : null} 
+                  all_ingredients={props.all_ingredients} all_steps={props.all_steps}/>
+        </>
     );
 }
 
