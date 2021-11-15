@@ -25,7 +25,7 @@ const Player = (props) => {
         } else if(event.data == 1) {
             var interval = setInterval(function () {
                 updateProgressBar();
-            }, 1000)
+            }, 100)
             setProgressInterval(interval);
         }
     }
@@ -61,6 +61,7 @@ const Player = (props) => {
         height: '390',
         width: '640',
         playerVars: {
+            controls: 0,
             // https://developers.google.com/youtube/player_parameters
             autoplay: 1,
         },

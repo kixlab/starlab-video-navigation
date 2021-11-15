@@ -7,12 +7,12 @@ import Tool from './Tool';
 
 const data = {
     ingredients: [
-        {name: "Salt", step_list: [5]},
-        {name: "Milk", step_list: [5]},
         {name: "Chicken Breast", step_list: [0, 1, 5, 6]},
         {name: "Apple", step_list: [2, 6]},
         {name: "Garlic", step_list: [3, 7]},
         {name: "Ginger", step_list: [4, 7]},
+        {name: "Salt", step_list: [5]},
+        {name: "Milk", step_list: [5]},
         {name: "Soy Sauce", step_list: [7]},
         {name: "Gochu Garu", step_list: [7]},
         {name: "Gochu Jang", step_list: [7]},
@@ -33,26 +33,26 @@ const data = {
         {name: "Mince", row: 4, col: 2, time: [213, 228]},
         {name: "Mince", row: 5, col: 2, time: [218, 228]},
         {name: "Mix", row: 2, col: 3, time: [140, 174]},
-        {name: "Put", row: 3, col: 4, time: [289, 316]},
-        {name: "Mix", row: 6, col: 4, time: [186, 250]},
-        {name: "Add", row: 6, col: 5, time: [323, 338]},
-        {name: "Cook", row: 6, col: 6, time: [342, 348]},
-        {name: "Add", row: 6, col: 7, time: [488, 498]},
-        {name: "Simmer", row: 6, col: 8, time: [500, 519]},
-        {name: "Add", row: 6, col: 9, time: [570, 577]},
-        {name: "Chop", row: 11, col: 5, time: [361, 370]},
-        {name: "Chop", row: 12, col: 5, time: [374, 392]},
-        {name: "Chop", row: 13, col: 5, time: [405, 410]},
-        {name: "Chop", row: 14, col: 5, time: [415, 423]},
+        {name: "Put", row: 2, col: 4, time: [289, 316]},
+        {name: "Mix", row: 4, col: 4, time: [186, 250]},
+        {name: "Add", row: 2, col: 5, time: [323, 338]},
+        {name: "Cook", row: 2, col: 6, time: [342, 348]},
+        {name: "Add", row: 2, col: 7, time: [488, 498]},
+        {name: "Simmer", row: 2, col: 8, time: [500, 519]},
+        {name: "Add", row: 2, col: 9, time: [570, 577]},
+        {name: "Chop", row: 4, col: 5, time: [361, 370]},
+        {name: "Chop", row: 5, col: 5, time: [374, 392]},
+        {name: "Chop", row: 6, col: 5, time: [405, 410]},
+        {name: "Chop", row: 7, col: 5, time: [415, 423]},
     ],
     tools: [
         {name: "Sink", start: [2, 1], end: [2, 1]},
         {name: "Cutting Board 1", start: [2, 2], end: [5, 2]},
         {name: "Bowl 1", start: [2, 3], end: [2, 3]},
-        {name: "Bowl 2", start: [6, 4], end: [6, 4]},
-        {name: "Cutting Board 2", start: [3, 4], end: [3, 4]},
-        {name: "Cutting Board 3", start: [11, 5], end: [14, 5]},
-        {name: "Sauce Pot", start: [6, 5], end: [6, 9]},
+        {name: "Bowl 2", start: [4, 4], end: [4, 4]},
+        {name: "Cutting Board 2", start: [2, 4], end: [2, 4]},
+        {name: "Cutting Board 3", start: [4, 5], end: [7, 5]},
+        {name: "Sauce Pot", start: [2, 5], end: [2, 9]},
     ]
 }
 
@@ -71,7 +71,7 @@ const Graph = (props) => {
     }
 
     return (
-        <svg viewBox="0 0 3000 2800">
+        <svg viewBox="0 0 4000 3000">
             {dataset.tools.map((tool, i) => (
                 <Tool start={tool.start} end={tool.end} name={tool.name} isCurrent={checkIsCurrent("tools", i)}/>
             ))}
