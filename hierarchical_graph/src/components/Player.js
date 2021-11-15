@@ -17,14 +17,21 @@ const Player = (props) => {
     
     const _onStateChange = (event) => {
         if(event.data == 2) {
-            props.setCurrentPlayback(null);
+            console.log("pause");
+            if(progressInterval) {
+                clearInterval(progressInterval);
+                setProgressInterval(null);
+            }
             if(playbackTimeout) {
                 clearTimeout(playbackTimeout);
+                setPlaybackTimeout(null);
             }
-            clearInterval(progressInterval);
+            props.setCurrentPlayback(null);
         } else if(event.data == 1) {
+            console.log("play");
             var interval = setInterval(function () {
                 updateProgressBar();
+                console.log("interval");
             }, 100)
             setProgressInterval(interval);
         }
@@ -54,6 +61,9 @@ const Player = (props) => {
             if(playbackTimeout != null) {
                 clearTimeout(playbackTimeout);
             }
+            if(progressInterval != null) {
+                clearInterval(progressInterval);
+            }
             var timeout = setTimeout(playback, (props.currentPlayback.time[0][1] - props.currentPlayback.time[0][0])*1000, 1)
             setPlaybackTimeout(timeout);
         }
@@ -69,10 +79,24 @@ const Player = (props) => {
         },
     };
 
+    const onChange = (event) => {
+        var duration = player.getDuration();
+        setProgress(event.target.value);
+        player.seekTo(duration * event.target.value / 100);
+    }
+
+    const onMouseDown = (event) => {
+        player.pauseVideo();
+    }
+
+    const onMouseUp = (event) => {
+        player.playVideo();
+    }
+
     return (
         <>
             <YouTube videoId="T7icxr899qc" opts={opts} onReady={_onReady} onStateChange={_onStateChange}/>
-            <ProgressBar type="range" value={progress}/>
+            <ProgressBar type="range" value={progress} onMouseDown={onMouseDown} onMouseUp={onMouseUp} onChange={onChange}/>
             <br/>
             <HighlightBar currentPlayback={props.currentPlayback} duration={player ? player.getDuration() : 0}/>
         </>
