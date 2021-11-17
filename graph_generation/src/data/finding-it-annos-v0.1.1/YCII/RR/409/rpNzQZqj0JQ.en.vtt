@@ -1,0 +1,220 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:01:37.000 --> 00:02:10.000
+annot: boil water in a pot and add salt, 3-4 tsp of oil, add basmati rice and cook for about 6-7 minutes
+ACTID: 0
+PRED: boil
+[DOBJ, ] water (None)
+[PP, , in] a pot (None)
+
+
+00:02:11.000 --> 00:02:45.000
+annot: heat 2 tbsp
+ACTID: 1
+PRED: heat
+
+
+00:02:11.000 --> 00:02:45.000
+annot: of oil in a pan
+ACTID: 2
+PRED: oil
+
+
+00:02:11.000 --> 00:02:45.000
+annot: add bay leaf
+ACTID: 3
+PRED: add
+[DOBJ, ] bay leaf (None)
+
+
+00:02:11.000 --> 00:02:45.000
+annot: cinnamon sticks
+ACTID: 4
+PRED: stick
+
+
+00:02:11.000 --> 00:02:45.000
+annot: cloves
+ACTID: 5
+PRED: cloves
+
+
+00:02:11.000 --> 00:02:45.000
+annot: and add all the chopped vegetables saute until partially cooked
+ACTID: 6
+PRED: add
+[DOBJ, ] all the chopped vegetables saute until partially cooked (None)
+
+
+00:02:46.000 --> 00:03:13.000
+annot: Add chopped potatoes
+ACTID: 7
+PRED: add
+
+
+00:03:14.000 --> 00:03:30.000
+annot: Drain the water from the cooked rice
+ACTID: 8
+PRED: drain
+[DOBJ, ] the water from the cooked rice (None)
+
+
+00:03:14.000 --> 00:03:30.000
+annot: let it
+ACTID: 9
+PRED: let
+[DOBJ, ] it (None)
+
+
+00:03:14.000 --> 00:03:30.000
+annot: cool
+ACTID: 10
+PRED: cool
+
+
+00:03:40.000 --> 00:05:04.000
+annot: Add all the spices into the cooked vegetables
+ACTID: 11
+PRED: add
+[DOBJ, ] all the spices (None)
+[PP, , into] the cooked vegetables (None)
+
+
+00:03:40.000 --> 00:05:04.000
+annot: mix it well
+ACTID: 12
+PRED: mix
+[DOBJ, ] it (None)
+
+
+00:03:40.000 --> 00:05:04.000
+annot: Add a cup of curd
+ACTID: 13
+PRED: add
+[DOBJ, ] a cup of curd (None)
+
+
+00:03:40.000 --> 00:05:04.000
+annot: 1.5 tsp garlic ginger paste
+ACTID: 14
+PRED: paste
+
+
+00:03:40.000 --> 00:05:04.000
+annot: 2 tsp of soy sauce, 1 tsp of chili sauce, add salt
+ACTID: 15
+PRED: sauce
+
+
+00:03:40.000 --> 00:05:04.000
+annot: mix it well to combine
+ACTID: 16
+PRED: mix
+[DOBJ, ] it (None)
+
+
+00:05:05.000 --> 00:05:50.000
+annot: Add half part of mint leaves
+ACTID: 17
+PRED: add
+
+
+00:05:05.000 --> 00:05:50.000
+annot: and water into the vegetables
+ACTID: 18
+PRED: water
+
+
+00:05:05.000 --> 00:05:50.000
+annot: let it
+ACTID: 19
+PRED: let
+[DOBJ, ] it (None)
+
+
+00:05:05.000 --> 00:05:50.000
+annot: simmer for 5-10 minutes
+ACTID: 20
+PRED: simmer
+[PP, , for] 5-10 minutes (None)
+
+
+00:05:51.000 --> 00:06:13.000
+annot: Add tofu and cashews into the pan
+ACTID: 21
+PRED: add
+[DOBJ, ] tofu (None), cashews (None)
+[PP, , into] the pan (None)
+
+
+00:05:51.000 --> 00:06:13.000
+annot: mix it gently
+ACTID: 22
+PRED: mix
+[DOBJ, ] it (None)
+
+
+00:06:13.000 --> 00:07:45.000
+annot: Add little oil on the pressure cooker bowl
+ACTID: 23
+PRED: add
+[DOBJ, ] little oil (None)
+[PP, , on] the pressure cooker bowl (None)
+
+
+00:06:13.000 --> 00:07:45.000
+annot: spread a layer of vegetables and top it with ¼ of cooked rice
+ACTID: 24
+PRED: spread
+[DOBJ, ] a layer of vegetables (None), top it (None)
+[PP, , with] 1/4 of cooked rice (None)
+
+
+00:06:13.000 --> 00:07:45.000
+annot: then add cinnamon sticks cardamom
+ACTID: 25
+PRED: add
+
+
+00:06:13.000 --> 00:07:45.000
+annot: cloves mint leaves roasted onions, repeat the process for further layers
+ACTID: 26
+PRED: leave
+[DOBJ, ] roasted onions (None), repeat the process for further layers (None)
+
+
+00:07:46.000 --> 00:08:56.000
+annot: sprinkle coriander at the top and steam cook for half an hour without weight
+ACTID: 27
+PRED: sprinkle
+[DOBJ, ] coriander at the top (None), steam cook (None)
+[PP, , for] half an hour (None)
+[PP, , without] weight (None)
+
+
+00:09:00.000 --> 00:09:42.000
+annot: transfer the biryani onto a wide pan
+ACTID: 28
+PRED: transfer
+[DOBJ, ] the biryani (None)
+[PP, , onto] a wide pan (None)
+
+
+00:09:00.000 --> 00:09:42.000
+annot: mix the rice gently
+ACTID: 29
+PRED: mix
+[DOBJ, ] the rice (None)
+
+
+00:09:00.000 --> 00:09:42.000
+annot: Serve it along with raita
+ACTID: 30
+PRED: serve
+[DOBJ, ] it (None)
+
+

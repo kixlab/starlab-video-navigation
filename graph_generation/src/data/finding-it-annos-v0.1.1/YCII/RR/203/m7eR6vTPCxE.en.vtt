@@ -1,0 +1,180 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:31.000 --> 00:00:44.000
+annot: Mince onions
+ACTID: 0
+PRED: mince
+[DOBJ, food] onions (-1)
+
+
+00:00:31.000 --> 00:00:44.000
+annot: add ground beef to a bowl with them
+ACTID: 1
+PRED: add
+[DOBJ, food] ground beef (-1)
+[PP, location, to] a bowl (-1)
+[PP, food, with] them (0)
+
+
+00:00:38.000 --> 00:01:06.000
+annot: Add bread crumbs, parmesan cheese, soy sauce, crushed garlic, milk, egg
+ACTID: 2
+PRED: add
+[DOBJ, food] bread crumbs (-1), parmesan cheese (-1), soy sauce (-1), crushed garlic (-1), milk (-1), egg (-1)
+[PP, food, ] (1)
+
+
+00:01:07.000 --> 00:01:16.000
+annot: season with salt and pepper
+ACTID: 3
+PRED: season
+[DOBJ, food] (2)
+[PP, food, with] salt (-1), pepper (-1)
+
+
+00:01:17.000 --> 00:01:25.000
+annot: use hand to mix everything
+ACTID: 4
+PRED: mix
+[DOBJ, food] everything (3)
+
+
+00:01:32.000 --> 00:01:54.000
+annot: Take small portion of the mixture to shape into balls
+ACTID: 5
+PRED: shape
+[DOBJ, food] small portion of the mixture (4)
+[PP, other, into] balls (-1)
+
+
+00:01:56.000 --> 00:02:00.000
+annot: Add some oil to a preheated pan
+ACTID: 6
+PRED: add
+[DOBJ, food] some oil (-1)
+[PP, location, to] a preheated pan (-1)
+
+
+00:02:00.000 --> 00:02:18.000
+annot: Put the balls in
+ACTID: 7
+PRED: put
+[DOBJ, food] the balls (5)
+[PP, food, in] (6)
+
+
+00:02:00.000 --> 00:02:18.000
+annot: cook in batches
+ACTID: 8
+PRED: cook
+[DOBJ, food] (7)
+[PP, other, in] batches (-1)
+
+
+00:02:25.000 --> 00:02:28.000
+annot: Add some cooking oil to a preheated pan
+ACTID: 9
+PRED: add
+[DOBJ, food] some cooking oil (-1)
+[PP, location, to] a preheated pan (-1)
+
+
+00:02:30.000 --> 00:02:42.000
+annot: Add onions, garlic
+ACTID: 10
+PRED: add
+[DOBJ, food] onions (-1), garlic (-1)
+[PP, food, ] (9)
+
+
+00:02:30.000 --> 00:02:42.000
+annot: saute
+ACTID: 11
+PRED: saute
+[DOBJ, food] (10)
+
+
+00:02:45.000 --> 00:03:00.000
+annot: Add favourite pasta sauce, a little water
+ACTID: 12
+PRED: add
+[DOBJ, food] favourite pasta sauce (-1), a little water (-1)
+[PP, food, ] (11)
+
+
+00:02:45.000 --> 00:03:00.000
+annot: season with basil
+ACTID: 13
+PRED: season
+[DOBJ, food] (12)
+[PP, food, with] basil (-1)
+
+
+00:03:01.000 --> 00:03:13.000
+annot: Add sugar, pepper and the bell peppers
+ACTID: 14
+PRED: add
+[DOBJ, food] sugar (-1), pepper (-1), the bell peppers (-1)
+[PP, food, ] (13)
+
+
+00:03:14.000 --> 00:03:18.000
+annot: Stir
+ACTID: 15
+PRED: stir
+[DOBJ, food] (14)
+
+
+00:03:14.000 --> 00:03:18.000
+annot: cook to a boil
+ACTID: 16
+PRED: cook
+[DOBJ, food] (15)
+[PP, other, to] a boil (-1)
+
+
+00:03:25.000 --> 00:03:35.000
+annot: Add the balls in it
+ACTID: 17
+PRED: add
+[DOBJ, food] the balls (8)
+[PP, food, in] it (16)
+
+
+00:03:25.000 --> 00:03:35.000
+annot: cook with lid covered
+ACTID: 18
+PRED: cook
+[DOBJ, food] (17)
+[PP, other, with] lid covered (-1)
+
+
+00:03:39.000 --> 00:03:44.000
+annot: Boil some spaghetti in the water for 10 minutes
+ACTID: 19
+PRED: boil
+[DOBJ, food] some spaghetti (-1)
+[PP, location, in] the water (-1)
+[PP, other, for] 10 minutes (-1)
+
+
+00:03:53.000 --> 00:04:07.000
+annot: Pour the sauce on the cooked pasta
+ACTID: 20
+PRED: pour
+[DOBJ, food] the sauce (18)
+[PP, food, on] the cooked pasta (19)
+
+
+00:03:53.000 --> 00:04:07.000
+annot: place meat balls on top
+ACTID: 21
+PRED: place
+[DOBJ, food]  meat balls (18)
+[PP, food, on] top (20)
+
+

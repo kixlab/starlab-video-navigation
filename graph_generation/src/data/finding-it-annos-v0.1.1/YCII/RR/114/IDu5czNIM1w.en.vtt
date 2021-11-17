@@ -1,0 +1,121 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:23.000 --> 00:00:44.000
+annot: peel the potatoes
+ACTID: 0
+PRED: peel
+[DOBJ, food] the potatoes (-1)
+
+
+00:00:23.000 --> 00:00:44.000
+annot: cut them
+ACTID: 1
+PRED: cut
+[DOBJ, food] them (0)
+
+
+00:00:45.000 --> 00:01:00.000
+annot: Put the potatoes in a pot
+ACTID: 2
+PRED: put
+[DOBJ, food] the potatoes (1)
+[PP, location, in] a pot (-1)
+
+
+00:00:45.000 --> 00:01:00.000
+annot: cover them with cold water
+ACTID: 3
+PRED: cover
+[DOBJ, food] them (2)
+[PP, food, with] cold water (-1)
+
+
+00:00:45.000 --> 00:01:00.000
+annot: Add some salt
+ACTID: 4
+PRED: add
+[DOBJ, food] some salt (-1)
+[PP, food, ] (3)
+
+
+00:00:45.000 --> 00:01:00.000
+annot: bring the water to boil
+ACTID: 5
+PRED: bring
+[DOBJ, food] the water (4)
+[PP, other, to] boil (-1)
+
+
+00:01:01.000 --> 00:01:08.000
+annot: Boil for 10 to 12 mins
+ACTID: 6
+PRED: boil
+[DOBJ, food] (5)
+[PP, other, for] 10 to 12 mins (-1)
+
+
+00:01:09.000 --> 00:01:20.000
+annot: Chop 3 to 4 cloves of garlic
+ACTID: 7
+PRED: chop
+[DOBJ, food] 3 to 4 cloves of garlic (-1)
+
+
+00:01:28.000 --> 00:01:38.000
+annot: Drain the potatoes
+ACTID: 8
+PRED: drain
+[DOBJ, food] the potatoes (6)
+
+
+00:01:28.000 --> 00:01:38.000
+annot: return them to the pot
+ACTID: 9
+PRED: return
+[DOBJ, food] them (8)
+[PP, food, to] the pot (-1)
+
+
+00:01:39.000 --> 00:01:44.000
+annot: Allow the potatoes to dry on the stove for a minute
+ACTID: 10
+PRED: allow
+[DOBJ, food] the potatoes (9)
+
+
+00:01:45.000 --> 00:02:05.000
+annot: Quickly add water, grated parmesan cheese, chopped chives, cream cheese and minced garlic
+ACTID: 11
+PRED: add
+[DOBJ, food] water (-1), grated parmesan cheese (-1), chopped chives (-1), cream cheese (-1), minced garlic (7)
+[PP, food, ] (10)
+
+
+00:02:06.000 --> 00:02:26.000
+annot: mash the potatoes using potato masher until the mixture is smooth
+ACTID: 12
+PRED: mash
+[DOBJ, food] the potatoes (11)
+[PP, other, using] potato masher (-1)
+
+
+00:02:27.000 --> 00:02:43.000
+annot: season with salt and pepper to taste and mash
+ACTID: 13
+PRED: season
+[DOBJ, food] (12)
+[PP, food, with] salt (-1), pepper (-1)
+
+
+00:02:44.000 --> 00:02:56.000
+annot: garnish with pepper and chives
+ACTID: 14
+PRED: garnish
+[DOBJ, food] (13)
+[PP, food, with] pepper (-1), chives (-1)
+
+

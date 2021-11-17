@@ -1,0 +1,223 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:01:55.000 --> 00:02:19.000
+annot: Cut and shape the apple slices as to thick, flat and even surface
+ACTID: 0
+PRED: cut
+[DOBJ, food] the apple slices (-1)
+[PP, other, as] thick flat even surface (-1)
+
+
+00:02:22.000 --> 00:02:26.000
+annot: place the apple pieces on a plate
+ACTID: 1
+PRED: place
+[DOBJ, food] the apple pieces (0)
+[PP, location, on] a plate (-1)
+
+
+00:02:22.000 --> 00:02:26.000
+annot: season with salt and pepper
+ACTID: 2
+PRED: season
+[DOBJ, food]  (1)
+[PP, food, with] salt (-1), pepper (-1)
+
+
+
+00:02:30.000 --> 00:03:36.000
+annot: Heat some duck fat in a pan
+ACTID: 3
+PRED: Heat
+[DOBJ, food] some duck fat  (-1)
+[PP, location, in] a pan (-1)
+
+
+00:02:30.000 --> 00:03:36.000
+annot: fry seasoned apple slices on both the sides
+ACTID: 4
+PRED: fry
+[DOBJ, food] seasoned apple slices (2)
+[PP, other, on] both the sides (-1)
+[PP, food, ] (3)
+
+
+
+00:02:30.000 --> 00:03:36.000
+annot: sprinkle little bit of icing sugar to give a glaze
+ACTID: 5
+PRED: sprinkle
+[DOBJ, food] little bit of icing sugar (-1)
+[PP, food, ] (4)
+
+
+
+00:02:30.000 --> 00:03:36.000
+annot: once done transfer them to a plate
+ACTID: 6
+PRED: transfer
+[DOBJ, food] them (5)
+[PP, location, to] a plate (-1)
+
+
+00:03:49.000 --> 00:03:54.000
+annot: cut about 2 ½ to 3 ounces slice of foie gras
+ACTID: 7
+PRED: cut
+[DOBJ, food]  2 1/2 to 3 ounces slice (-1)
+[PP, food, of] foie gras (-1)
+
+
+00:04:09.000 --> 00:04:17.000
+annot: Remove the vein from the foie gras
+ACTID: 8
+PRED: remove
+[DOBJ, food] the vein (-1)
+[PP, food, from] the foie gras (7)
+
+
+00:04:30.000 --> 00:04:45.000
+annot: Sprinkle some salt and pepper on both sides of the foie gras slice
+ACTID: 9
+PRED: sprinkle
+[DOBJ, food] some salt (-1), pepper (-1)
+[PP, food, on] both sides of the foie gras slice(8)
+
+
+00:04:47.000 --> 00:05:18.000
+annot: place the seasoned foie gras in the pan
+ACTID: 10
+PRED: place
+[DOBJ, food] the seasoned foie gras (9)
+[PP, location, in] the pan (-1) 
+
+
+00:04:47.000 --> 00:05:18.000
+annot: cook until it is golden brown
+ACTID: 11
+PRED: cook
+[DOBJ, food]  (10)
+
+
+00:05:19.000 --> 00:05:24.000
+annot: Remove the cooked foie gras
+ACTID: 12
+PRED: remove
+[DOBJ, food] the cooked foie gras (11)
+
+
+00:05:19.000 --> 00:05:24.000
+annot: pat it with a towel to strain excess oil
+ACTID: 13
+PRED: pat
+[DOBJ, food] it (12)
+[PP, location, with] a towel (-1)
+
+
+00:05:32.000 --> 00:05:33.000
+annot: Put the foie gras on the bottom slice of the apple
+ACTID: 14
+PRED: put
+[DOBJ, food] the foie gras (13)
+[PP, food, on] the bottom slice of the apple (6)
+
+
+00:05:34.000 --> 00:05:45.000
+annot: saute one slice of the cep mushroom in duck fat
+ACTID: 15
+PRED: saute
+[DOBJ, food] one slice of the cep mushroom (-1)
+[PP, food, in] duck fat (-1)
+
+
+00:05:46.000 --> 00:05:51.000
+annot: Assemble the sandwich
+ACTID: 16
+PRED: assemble
+[DOBJ, food] the sandwich (14)
+[PP, food, ] (15)
+
+
+
+00:05:46.000 --> 00:05:51.000
+annot: place it in the pan
+ACTID: 17
+PRED: place
+[DOBJ, food] it (16)
+[PP, location, in] the pan (-1)
+
+
+00:05:46.000 --> 00:05:51.000
+annot: place the pan in the oven for 2-3 minutes
+ACTID: 18
+PRED: place
+[DOBJ, food] the pan (17)
+[PP, location, in] the oven (-1)
+[PP, other, for] 2-3 minutes (-1)
+
+
+00:06:04.000 --> 00:06:39.000
+annot: Cook the scraps of the apple in duck fat
+ACTID: 19
+PRED: cook
+[DOBJ, food] the scraps of the apple (-1)
+[PP, food, in] duck fat (-1)
+
+
+00:06:04.000 --> 00:06:39.000
+annot: add little cider vinegar
+ACTID: 20
+PRED: add
+[DOBJ, food] little cider vinegar (-1)
+[PP, food, ] (19)
+
+
+00:06:04.000 --> 00:06:39.000
+annot: reduce it down
+ACTID: 21
+PRED: reduce
+[DOBJ, food] it (20)
+
+
+00:06:04.000 --> 00:06:39.000
+annot: then add apple sweet cider
+ACTID: 22
+PRED: add
+[DOBJ, food] apple sweet cider (-1)
+[PP, food, ] (21)
+
+
+00:06:43.000 --> 00:07:02.000
+annot: Add some beef stock 
+ACTID: 23
+PRED: add
+[DOBJ, food] some beef stock (-1)
+[PP, food, ] (22)
+
+
+00:06:43.000 --> 00:07:02.000
+annot: cook until apples come to a proper consistency
+ACTID: 24
+PRED: cook
+[DOBJ, food] (23)
+
+
+00:06:43.000 --> 00:07:02.000
+annot: then strain the apple
+ACTID: 25
+PRED: strain
+[DOBJ, food] the apple (24)
+
+
+00:07:03.000 --> 00:07:27.000
+annot: Plate the burger with fresh herbs, vinegary and cubes of foie gras
+ACTID: 26
+PRED: plate
+[DOBJ, food] the burger (18)
+[PP, food, with ] fresh herbs (-1), vinegary (25), cubes of foie gras (13)
+
+

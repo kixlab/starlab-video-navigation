@@ -1,0 +1,84 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:42.000 --> 00:00:56.000
+annot: Soak the ribs in water
+ACTID: 0
+PRED: soak
+[DOBJ, food] the ribs (-1)
+[PP, food, in] water (-1)
+
+
+00:01:07.000 --> 00:01:21.000
+annot: peel the apple and kiwi
+ACTID: 1
+PRED: peel
+[DOBJ, food] the apple (-1), kiwi (-1)
+
+
+00:01:07.000 --> 00:01:21.000
+annot: cut the apple and kiwi
+ACTID: 2
+PRED: cut
+[DOBJ, food] the apple (1), kiwi (1)
+
+
+00:01:30.000 --> 00:01:37.000
+annot: cut the onion and garlic
+ACTID: 3
+PRED: cut
+[DOBJ, food] the onion (-1), garlic (-1)
+[PP, food, ] (2)
+
+
+00:01:48.000 --> 00:02:07.000
+annot: Crush the chopped ingredients in a food processor
+ACTID: 4
+PRED: crush
+[DOBJ, food] the chopped ingredients (3)
+[PP, location, in] a food processor  (-1)
+
+
+00:02:43.000 --> 00:03:12.000
+annot: mix the puree with soy sauce, sugar, honey, and sesame oil
+ACTID: 5
+PRED: mix
+[DOBJ, food] the puree (4)
+[PP, food, with] soy sauce (-1), sugar (-1), honey (-1), sesame oil (-1)
+
+
+00:03:12.000 --> 00:03:19.000
+annot: Add pepper and water to the sauce
+ACTID: 6
+PRED: add
+[DOBJ, food] pepper (-1), water (-1)
+[PP, food, to] the sauce (5)
+
+
+00:03:59.000 --> 00:04:13.000
+annot: place the meat in a pan
+ACTID: 7
+PRED: place
+[DOBJ, food] the meat (0)
+[PP, location, in] a pan (-1)
+
+
+00:04:13.000 --> 00:04:20.000
+annot: Pour the marinade over the ribs
+ACTID: 8
+PRED: pour
+[DOBJ, food] the marinade (6)
+[PP, food, over] the ribs (7)
+
+
+00:05:26.000 --> 00:06:04.000
+annot: grill the short ribs on both sides
+ACTID: 9
+PRED: grill
+[DOBJ, food] the short ribs (8)
+[PP, other, on] both sides (-1)
+
+

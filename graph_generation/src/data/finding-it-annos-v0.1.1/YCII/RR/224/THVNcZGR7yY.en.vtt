@@ -1,0 +1,106 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:25.000 --> 00:00:42.000
+annot: Whisk the eggs
+ACTID: 0
+PRED: whisk
+[DOBJ, food] the eggs (-1)
+
+
+00:00:25.000 --> 00:00:42.000
+annot: pour them onto a plate
+ACTID: 1
+PRED: pour
+[DOBJ, food] them (0)
+[PP, location, onto] a plate (-1)
+
+
+00:00:44.000 --> 00:00:54.000
+annot: Add the flour, salt, and pepper to a bag
+ACTID: 2
+PRED: add
+[DOBJ, food] the flour (-1), salt (-1), pepper (-1)
+[PP, location, to] a bag (-1)
+
+
+00:00:44.000 --> 00:00:54.000
+annot: Shake
+ACTID: 3
+PRED: shake
+[DOBJ, food] (2)
+
+
+00:01:22.000 --> 00:02:12.000
+annot: Cover the meat with plastic
+ACTID: 4
+PRED: cover
+[DOBJ, food] the meat (-1)
+[PP, other, with] plastic (-1)
+
+
+00:01:22.000 --> 00:02:12.000
+annot: Pound the meat
+ACTID: 5
+PRED: Pound
+[DOBJ, food] the meat (4)
+
+
+00:02:14.000 --> 00:02:19.000
+annot: Cut the beef into half
+ACTID: 6
+PRED: cut
+[DOBJ, food] the beef (5)
+[PP, other, into] half (-1)
+
+
+00:02:29.000 --> 00:03:24.000
+annot: Coat the beef in the flour, the egg, and the bread crumbs
+ACTID: 7
+PRED: coat
+[DOBJ, food] the flour (3), the egg (1), the bread crumbs (-1)
+[PP, food, ] (6)
+
+
+00:03:42.000 --> 00:03:42.000
+annot: Make a salad
+ACTID: 8
+PRED: make
+[DOBJ, food] a salad (-1)
+
+
+00:03:51.000 --> 00:03:57.000
+annot: Pour oil into a pan
+ACTID: 9
+PRED: pour
+[DOBJ, food] oil (-1)
+[PP, location, into] a pan (-1)
+
+
+00:03:58.000 --> 00:04:25.000
+annot: Fry the beef in the pan
+ACTID: 10
+PRED: fry
+[DOBJ, food] the beef (7)
+[PP, food, in] the pan (9)
+
+
+00:05:10.000 --> 00:05:23.000
+annot: Dip the zuccini in the egg
+ACTID: 11
+PRED: dip
+[DOBJ, food] the zuccini (-1)
+[PP, food, in] the egg (1)
+
+
+00:05:23.000 --> 00:06:12.000
+annot: Fry the zuccini
+ACTID: 12
+PRED: fry
+[DOBJ, food] the zuccini (11)
+
+
+

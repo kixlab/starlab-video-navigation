@@ -1,0 +1,86 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:59.000 --> 00:01:23.000
+annot: Slice the meat into chunks
+ACTID: 0
+PRED: slice
+[DOBJ, food] the meat (-1)
+[PP, other, into] chunks (-1)
+
+
+00:01:48.000 --> 00:02:19.000
+annot: mix paprika and pepper with the meat
+ACTID: 1
+PRED: mix
+[DOBJ, food] paprika (-1), pepper (-1)
+[PP, food, with] the meat (0)
+
+
+00:02:27.000 --> 00:02:48.000
+annot: cut the onion into slices
+ACTID: 2
+PRED: cut
+[DOBJ, food] the onion (-1)
+[PP, other, into] slices (-1)
+
+
+00:02:53.000 --> 00:03:01.000
+annot: Add oil to a pot
+ACTID: 3
+PRED: add
+[DOBJ, food] oil (-1)
+[PP, location, to] a pot (-1)
+
+
+00:03:07.000 --> 00:03:34.000
+annot: Cook the onions in the pot
+ACTID: 4
+PRED: cook
+[DOBJ, food] the onions (2)
+[PP, food, in] the pot (3)
+
+
+00:04:24.000 --> 00:04:47.000
+annot: Cook the meat in the pot
+ACTID: 5
+PRED: cook
+[DOBJ, food] the meat (1)
+[PP, location, in] the pot (-1)
+
+
+00:05:04.000 --> 00:05:19.000
+annot: Add water to the pot
+ACTID: 6
+PRED: add
+[DOBJ, food] water (-1)
+[PP, food, to] the pot (5)
+
+
+00:05:24.000 --> 00:06:47.000
+annot: Add tomato
+ACTID: 7
+PRED: add
+[DOBJ, food] tomato (-1)
+[PP, food, ] (6)
+
+
+00:05:24.000 --> 00:06:47.000
+annot: Add onions
+ACTID: 8
+PRED: add
+[DOBJ, food] onions (4)
+[PP, food, ] (7)
+
+
+00:05:24.000 --> 00:06:47.000
+annot: Add cumin, curry, and seasoning to the pot
+ACTID: 9
+PRED: add
+[DOBJ, food] cumin (-1), curry (-1), seasoning (-1)
+[PP, food, to] the pot (8)
+
+

@@ -1,0 +1,69 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:49.000 --> 00:01:11.000
+annot: Chop 5 cloves of garlic and a white onion to slices
+ACTID: 0
+PRED: chop
+[DOBJ, food] 5 cloves of garlic (-1), a white onion (-1)
+[PP, other, to] slices (-1)
+
+
+00:00:49.000 --> 00:01:11.000
+annot: put them in a bowl
+ACTID: 1
+PRED: put
+[DOBJ, food] them (0)
+[PP, location, in] a bowl (-1)
+
+
+00:01:17.000 --> 00:02:00.000
+annot: Add some chopped green onions, ground some pear in the mixture
+ACTID: 2
+PRED: add
+[DOBJ, food] some chopped green onions (-1), ground some pear (-1)
+[PP, food, in] the mixture (1)
+
+
+00:02:09.000 --> 00:03:05.000
+annot: Add some soy sauce, stock, oil, sugar, sesame oil, sesame seeds and black pepper
+ACTID: 3
+PRED: add
+[DOBJ, food] some soy sauce (-1), stock (-1), oil (-1), sugar (-1), sesame oil (-1), sesame seeds (-1), black pepper (-1)
+[PP, food, ] (2)
+
+
+00:03:23.000 --> 00:04:01.000
+annot: Add some rib eye beef to the sauce
+ACTID: 4
+PRED: add
+[DOBJ, food] some rib eye beef (-1)
+[PP, food, to] the sauce (3)
+
+
+00:03:23.000 --> 00:04:01.000
+annot: mix them together
+ACTID: 5
+PRED: mix
+[DOBJ, food] them (4)
+
+
+00:04:28.000 --> 00:05:00.000
+annot: Cook the flavored beef on a grill
+ACTID: 6
+PRED: cook
+[DOBJ, food] the flavored beef (5)
+[PP, location, on] a grill (-1)
+
+
+00:04:28.000 --> 00:05:00.000
+annot: serve on a plate
+ACTID: 7
+PRED: serve
+[DOBJ, food] (6)
+[PP, location, on] a plate (-1)
+
+

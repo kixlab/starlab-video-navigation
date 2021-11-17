@@ -1,0 +1,76 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:20.000 --> 00:00:33.000
+annot: Melt butter in a pan,
+ACTID: 0
+PRED: melt
+[DOBJ, food] butter (-1)
+[PP, location, in] a pan (-1)
+
+
+00:00:20.000 --> 00:00:33.000
+annot: spread it
+ACTID: 1
+PRED: spread
+[DOBJ, food] it (0)
+
+
+00:00:20.000 --> 00:00:33.000
+annot: place the bread slices on the pan
+ACTID: 2
+PRED: place
+[DOBJ, food] the bread slices (-1)
+[PP, food, on] the pan (1)
+
+
+00:00:34.000 --> 00:00:58.000
+annot: top the bread slice with shredded cheese
+ACTID: 3
+PRED: top
+[DOBJ, food] the bread slice (2)
+[PP, food, with] shredded cheese (-1)
+
+
+00:00:34.000 --> 00:00:58.000
+annot: cover it with the other bread slice
+ACTID: 4
+PRED: cover
+[DOBJ, food] it (3)
+[PP, food, with] the other bread slice (2)
+
+
+00:00:59.000 --> 00:01:34.000
+annot: Add some more shredded cheese on top of it
+ACTID: 5
+PRED: add
+[DOBJ, food] some more shredded cheese (-1)
+[PP, food, on] top of it (4)
+
+
+00:00:59.000 --> 00:01:34.000
+annot: flip it over
+ACTID: 6
+PRED: flip
+[DOBJ, food] it (5)
+
+
+00:00:59.000 --> 00:01:34.000
+annot: add cheese on the other side as well
+ACTID: 7
+PRED: add
+[DOBJ, food] cheese (-1)
+[PP, food, on] the other side as well (6)
+
+
+00:01:35.000 --> 00:01:54.000
+annot: Toast it for about 3-4 minutes on each side until it is crispy
+ACTID: 8
+PRED: toast
+[DOBJ, food] it (7)
+[PP, other, for] about 3-4 minutes
+
+

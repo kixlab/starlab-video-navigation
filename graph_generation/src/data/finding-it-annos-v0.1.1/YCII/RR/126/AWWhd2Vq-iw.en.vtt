@@ -1,0 +1,131 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:01:02.000 --> 00:01:38.000
+annot: Cook some peeled beef brisket on a pan
+ACTID: 0
+PRED: cook
+[DOBJ, food] some peeled beef brisket (-1)
+[PP, location, on] a pan (-1)
+
+
+00:01:43.000 --> 00:02:04.000
+annot: Cook some chopped white onions in the same pan
+ACTID: 1
+PRED: cook
+[DOBJ, food] some chopped white onions (-1)
+[PP, food, in] the same pan (0)
+
+
+00:01:43.000 --> 00:02:04.000
+annot: add some minced garlic
+ACTID: 2
+PRED: add
+[DOBJ, food] some minced garlic (-1)
+[PP, food, ] (1)
+
+
+00:02:28.000 --> 00:02:42.000
+annot: Add the onions to the beef
+ACTID: 3
+PRED: add
+[DOBJ, food] the onions (2)
+[PP, food, to] the beef (0)
+
+
+00:02:28.000 --> 00:02:42.000
+annot: add some tomato sauce
+ACTID: 4
+PRED: add
+[DOBJ, food] some tomato sauce (-1)
+[PP, food, ] (3)
+
+
+00:02:51.000 --> 00:03:23.000
+annot: Add a spoon of beef stock, chili flakes
+ACTID: 5
+PRED: add
+[DOBJ, food] a spoon of beef stock (-1), chili flakes (-1)
+[PP, food, ] (4)
+
+
+00:02:51.000 --> 00:03:23.000
+annot: mix it up
+ACTID: 6
+PRED: mix
+[DOBJ, food] it (5)
+
+
+00:03:32.000 --> 00:03:45.000
+annot: Put the mixture in a pot
+ACTID: 7
+PRED: put
+[DOBJ, food] the mixture (6)
+[PP, location, in] a pot (-1)
+
+
+00:03:32.000 --> 00:03:45.000
+annot: cook in an oven for 3 to 3.5 hours
+ACTID: 8
+PRED: cook
+[DOBJ, food] (7)
+[PP, location, in] an oven (-1)
+[PP, other, for] 3 to 3.5 hours (-1)
+
+
+00:03:53.000 --> 00:04:00.000
+annot: Chop some red onions, parsley and tomatos
+ACTID: 9
+PRED: chop
+[DOBJ, food] some red onions (-1), parsley (-1), tomatos (-1)
+
+
+00:03:53.000 --> 00:04:00.000
+annot: mix them together
+ACTID: 10
+PRED: mix
+[DOBJ, food] them (9)
+
+
+00:04:35.000 --> 00:04:45.000
+annot: Chop some avocado
+ACTID: 11
+PRED: chop
+[DOBJ, food] some avocado (-1)
+
+
+00:04:35.000 --> 00:04:45.000
+annot: pour some lemon juice on it
+ACTID: 12
+PRED: pour
+[DOBJ, food] some lemon juice (-1)
+[PP, food, on] it (11)
+
+
+00:04:48.000 --> 00:04:52.000
+annot: Tear up the beef into slices
+ACTID: 13
+PRED: tear
+[DOBJ, food] the beef (8)
+[PP, other, into] slices (-1)
+
+
+00:04:48.000 --> 00:04:52.000
+annot: coat them with the sauce again
+ACTID: 14
+PRED: coat
+[DOBJ, food] them (13)
+[PP, food, with] the sauce again (8)
+
+
+00:05:13.000 --> 00:05:21.000
+annot: Put all the ingredients in some tacos
+ACTID: 15
+PRED: put
+[DOBJ, food] pulled beef (14), avocado (12), sauce (10)
+[PP, food, in] some tacos (-1)
+
+

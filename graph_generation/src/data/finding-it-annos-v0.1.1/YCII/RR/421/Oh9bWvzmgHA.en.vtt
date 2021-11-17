@@ -1,0 +1,170 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:40.000 --> 00:01:18.000
+annot: Add little oil on a hot pan
+ACTID: 0
+PRED: add
+[DOBJ, food] little oil (-1)
+[PP, location, on] a hot pan (-1)
+
+
+00:00:40.000 --> 00:01:18.000
+annot: temper it with mustard seeds
+ACTID: 1
+PRED: temper
+[DOBJ, food] it (0)
+[PP, food, with] mustard seeds (-1)
+
+
+00:00:40.000 --> 00:01:18.000
+annot: Add cumin seeds, green chili, curry leaf, tumeric, salt, citric acid
+ACTID: 2
+PRED: add
+[DOBJ, food] cumin seeds (-1), green chili (-1), curry leaf (-1), turmeric (-1), salt (-1), citric acid (-1)
+[PP, food, ] (1)
+
+
+00:00:40.000 --> 00:01:18.000
+annot: mix it lightly
+ACTID: 3
+PRED: mix
+[DOBJ, food] it (2)
+
+
+00:01:18.000 --> 00:01:56.000
+annot: Add little water
+ACTID: 4
+PRED: add
+[DOBJ, food] little water (-1)
+[PP, food, ] (3)
+
+
+00:01:18.000 --> 00:01:56.000
+annot: add chopped coriander, mint, mashed potatoes
+ACTID: 5
+PRED: add
+[DOBJ, food] chopped coriander (-1), mint (-1), mashed potatoes (-1)
+[PP, food, ] (4)
+
+
+00:01:18.000 --> 00:01:56.000
+annot: toss it
+ACTID: 6
+PRED: toss
+[DOBJ, food] it (5)
+
+
+00:02:21.000 --> 00:03:03.000
+annot: Take 300 grams of flour in a mixing bowl
+ACTID: 7
+PRED: take
+[DOBJ, food] 300 grams of flour (-1)
+[PP, location, in] a mixing bowl (-1)
+
+
+00:02:21.000 --> 00:03:03.000
+annot: add ajwine powder, salt
+ACTID: 8
+PRED: add
+[DOBJ, food] ajwine powder (-1), salt (-1)
+[PP, food, ] (7)
+
+
+00:02:21.000 --> 00:03:03.000
+annot: pour 100 grams of oil
+ACTID: 9
+PRED: pour
+[DOBJ, food] 100 grams of oil (-1)
+[PP, food, ] (8)
+
+
+00:02:21.000 --> 00:03:03.000
+annot: add water in batches to make a thick dough
+ACTID: 10
+PRED: add
+[DOBJ, food] water in batches (-1)
+[PP, food, ] (9)
+
+
+00:03:04.000 --> 00:03:17.000
+annot: Cling wrap the dough
+ACTID: 11
+PRED: wrap
+[DOBJ, food] the dough (10)
+
+
+00:03:04.000 --> 00:03:17.000
+annot: let it rest for 30 minutes
+ACTID: 12
+PRED: let
+[DOBJ, food] it (11)
+[PP, other, for] 30 minutes (-1)
+
+
+00:03:20.000 --> 00:04:17.000
+annot: Divide the dough into pieces
+ACTID: 13
+PRED: divide
+[DOBJ, food] the dough (12)
+[PP, other, into] pieces (-1)
+
+
+00:03:20.000 --> 00:04:17.000
+annot: roll the dough into small circular shape
+ACTID: 14
+PRED: roll
+[DOBJ, food] the dough (13)
+[PP, other, into] small circular shape (-1)
+
+
+00:03:20.000 --> 00:04:17.000
+annot: cut it into half
+ACTID: 15
+PRED: cut
+[DOBJ, food] it (14)
+[PP, other, into] half (-1)
+
+
+00:04:36.000 --> 00:05:25.000
+annot: wet the edges
+ACTID: 16
+PRED: wet
+[DOBJ, food] the edges (15)
+
+
+00:04:36.000 --> 00:05:25.000
+annot: form a cone
+ACTID: 17
+PRED: form
+[DOBJ, food] a cone (-1)
+[PP, food, ] (16)
+
+
+00:04:36.000 --> 00:05:25.000
+annot: stuff the potato masala inside
+ACTID: 18
+PRED: stuff
+[DOBJ, food] the potato masala (6)
+[PP, food, inside] (17)
+
+
+00:04:36.000 --> 00:05:25.000
+annot: press the edges together hard to seal it
+ACTID: 19
+PRED: press
+[DOBJ, food] the edges (18)
+
+
+00:05:26.000 --> 00:05:58.000
+annot: Fry the samosas in oil until golden
+ACTID: 20
+PRED: fry
+[DOBJ, food] the samosas (19)
+[PP, food, in] oil (-1)
+[PP, food, until] golden (-1)
+
+

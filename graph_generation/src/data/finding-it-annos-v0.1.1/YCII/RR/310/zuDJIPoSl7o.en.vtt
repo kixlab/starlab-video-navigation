@@ -1,0 +1,38 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:17.000 --> 00:00:57.000
+annot: cut the fish into strips
+ACTID: 0
+PRED: cut
+[DOBJ, food] the fish (-1)
+[PP, other, into] strips (-1)
+
+
+00:01:18.000 --> 00:01:29.000
+annot: Divide the fish into four portions
+ACTID: 1
+PRED: divide
+[DOBJ, food] the fish (0)
+[PP, other, into] four portions (-1)
+
+
+00:01:18.000 --> 00:01:29.000
+annot: arrange the fish on a plate with shredded vegetables
+ACTID: 2
+PRED: arrange
+[DOBJ, food] the fish (1)
+[PP, food, on] a plate with shredded vegetables (-1)
+
+
+00:02:27.000 --> 00:02:36.000
+annot: Add garnish to the plate
+ACTID: 3
+PRED: add
+[DOBJ, food] garnish (-1)
+[PP, food, to] the plate (2)
+
+

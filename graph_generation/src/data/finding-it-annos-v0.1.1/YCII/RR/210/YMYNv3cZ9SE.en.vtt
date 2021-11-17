@@ -1,0 +1,179 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:13.000 --> 00:00:25.000
+annot: peel the potatoes
+ACTID: 0
+PRED: peel
+[DOBJ, food] the potatoes (-1)
+
+
+00:00:13.000 --> 00:00:25.000
+annot: cut them to halves
+ACTID: 1
+PRED: cut
+[DOBJ, food] them (0)
+[PP, other, to] halves (-1)
+
+
+00:00:29.000 --> 00:00:36.000
+annot: Boil a kettle of water
+ACTID: 2
+PRED: boil
+[DOBJ, location] a kettle of water (-1)
+
+
+00:00:29.000 --> 00:00:36.000
+annot: use them to boil the potatoes
+ACTID: 3
+PRED: boil
+[DOBJ, food] the potatoes (1)
+[PP, location, using] them (2)
+
+
+00:00:40.000 --> 00:01:10.000
+annot: Grate the potatoes
+ACTID: 4
+PRED: grate
+[DOBJ, food] the potatoes (3)
+
+
+00:00:40.000 --> 00:01:10.000
+annot: rinse
+ACTID: 5
+PRED: rinse
+[DOBJ, food] (4)
+
+
+00:00:40.000 --> 00:01:10.000
+annot: drain them on a towel
+ACTID: 6
+PRED: drain
+[DOBJ, food] them (5)
+[PP, location, on] a towel (-1)
+
+
+00:01:22.000 --> 00:01:26.000
+annot: Crack an egg in 1/2 cup milk
+ACTID: 7
+PRED: crack
+[DOBJ, food] an egg (-1)
+[PP, food, in] 1/2 cup milk (-1)
+
+
+00:01:27.000 --> 00:01:40.000
+annot: Add some salt and pepper to the milk
+ACTID: 8
+PRED: add
+[DOBJ, food] some salt (-1), pepper (-1)
+[PP, food, to] the milk (7)
+
+
+00:01:27.000 --> 00:01:40.000
+annot: whisk around
+ACTID: 9
+PRED: whisk
+[DOBJ, food] (8)
+
+
+00:01:59.000 --> 00:02:21.000
+annot: mix the potato, baking powder and flour
+ACTID: 10
+PRED: mix
+[DOBJ, food] the potato (6), baking powder (-1), flour (-1)
+
+
+00:02:30.000 --> 00:02:34.000
+annot: Cook some bacon on a pan
+ACTID: 11
+PRED: cook
+[DOBJ, food] some bacon (-1)
+[PP, location, on] a pan (-1)
+
+
+00:02:40.000 --> 00:02:46.000
+annot: Mash the boiled potatoes with some milk added
+ACTID: 12
+PRED: mash
+[DOBJ, food] the boiled potatoes (3)
+[PP, food, with] some milk (-1)
+
+
+
+00:02:50.000 --> 00:03:04.000
+annot: Add the cooked potatoes to the grated potato
+ACTID: 13
+PRED: add
+[DOBJ, food] the cooked potatoes (12)
+[PP, food, to] the grated potato (10)
+
+
+00:02:50.000 --> 00:03:04.000
+annot: add the milk mixture
+ACTID: 14
+PRED: add
+[DOBJ, food] the milk mixture (9)
+[PP, food, ] (13)
+
+
+00:03:05.000 --> 00:03:12.000
+annot: mix everything well in the bowl
+ACTID: 15
+PRED: mix
+[DOBJ, food] everything (14)
+[PP, location, in] the bowl (-1)
+
+
+00:03:18.000 --> 00:03:32.000
+annot: heat some butter in the pan
+ACTID: 16
+PRED: heat
+[DOBJ, food] some butter (-1)
+[PP, location, in] the pan (-1)
+
+
+00:03:18.000 --> 00:03:32.000
+annot: pour in some mixture in to cook
+ACTID: 17
+PRED: pour
+[DOBJ, food] some mixture (15)
+[PP, food, in]  (16)
+[PP, other, in] to cook (-1)
+
+
+00:03:35.000 --> 00:03:43.000
+annot: Cover
+ACTID: 18
+PRED: cover
+[DOBJ, food] (17)
+
+
+00:03:35.000 --> 00:03:43.000
+annot: cook under medium heat
+ACTID: 19
+PRED: cook
+[DOBJ, food] (18)
+[PP, other, under] medium heat (-1)
+
+
+00:03:47.000 --> 00:04:06.000
+annot: Flip the stuff over when the bottom is done
+ACTID: 20
+PRED: flip
+[DOBJ, food] the stuff  (19)
+
+
+00:04:07.000 --> 00:04:20.000
+annot: Serve them with the bacon and scrambled eggs
+ACTID: 21
+PRED: serve
+[DOBJ, food] them (20)
+[PP, food, with] the bacon (11), scrambled eggs (-1)
+
+
+
+
+

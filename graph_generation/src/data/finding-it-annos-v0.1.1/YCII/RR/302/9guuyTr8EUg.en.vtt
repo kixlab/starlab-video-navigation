@@ -1,0 +1,133 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:01:26.000 --> 00:01:50.000
+annot: Cook the rice noodles in boiling water
+ACTID: 0
+PRED: cook
+[DOBJ, food] the rice noodles (-1)
+[PP, food, in] boiling water (-1)
+
+
+00:02:00.000 --> 00:02:46.000
+annot: Combine soy sauce, garlic, ginger, sesame seeds, red pepper, and salt
+ACTID: 1
+PRED: combine
+[DOBJ, food] soy sauce (-1), garlic (-1), ginger (-1), sesame seeds (-1), red pepper (-1), salt (-1)
+
+
+00:02:50.000 --> 00:02:57.000
+annot: Pour oil into the wok
+ACTID: 2
+PRED: pour
+[DOBJ, food] oil (-1)
+[PP, location, into] the wok (-1)
+
+
+00:02:58.000 --> 00:03:13.000
+annot: Add the spice mixture and onions to the wok
+ACTID: 3
+PRED: add
+[DOBJ, food] the spice mixture (1), onions (-1)
+[PP, food, to] the wok (2)
+
+
+00:03:23.000 --> 00:03:32.000
+annot: Add the rice noodles and bean sprouts to the wok
+ACTID: 4
+PRED: add
+[DOBJ, food] the rice noodles (0), bean sprouts (-1)
+[PP, food, to] the wok (3)
+
+
+00:03:23.000 --> 00:03:32.000
+annot: stir
+ACTID: 5
+PRED: stir
+[PP, food, ] (4)
+
+
+00:03:51.000 --> 00:04:19.000
+annot: Add the vegetables to the wok
+ACTID: 6
+PRED: add
+[DOBJ, food] the vegetables (-1)
+[PP, food, to] the wok (5)
+
+
+00:03:51.000 --> 00:04:19.000
+annot: stir
+ACTID: 7
+PRED: stir
+[PP, food, ] (6)
+
+00:04:29.000 --> 00:04:40.000
+annot: mix flour and water together
+ACTID: 8
+PRED: mix
+[DOBJ, food] flour (-1), water (-1)
+
+
+00:04:43.000 --> 00:04:50.000
+annot: heat the paste in the microwave
+ACTID: 9
+PRED: heat
+[DOBJ, food] the paste (8)
+[PP, location, in] the microwave (-1)
+
+
+00:05:10.000 --> 00:05:14.000
+annot: place the filling on the corner of the wrapper
+ACTID: 10
+PRED: place
+[DOBJ, food] the filling (7)
+[PP, location, on] the corner of the wrapper (-1)
+
+
+00:05:14.000 --> 00:05:25.000
+annot: roll the wrapper half way up
+ACTID: 11
+PRED: roll
+[DOBJ, food] the wrapper (10)
+
+
+00:05:25.000 --> 00:05:33.000
+annot: Fold the sides of the wrapper in
+ACTID: 12
+PRED: fold
+[DOBJ, food] the sides of the wrapper (11)
+
+
+00:05:33.000 --> 00:05:48.000
+annot: Roll the wrapper all the way up
+ACTID: 13
+PRED: roll
+[DOBJ, food] the wrapper (12)
+[PP, other, ] all the way up (-1)
+
+00:05:33.000 --> 00:05:48.000
+annot: seal with the paste
+ACTID: 14
+PRED: seal
+[DOBJ, food] the paste (9)
+[PP, food, ] (13)
+
+00:06:05.000 --> 00:06:12.000
+annot: place the spring rolls in the oil
+ACTID: 15
+PRED: place
+[DOBJ, food] the spring rolls (14)
+[PP, other, in] the oil (-1)
+
+
+00:06:12.000 --> 00:06:34.000
+annot: Cook the spring rolls until golden brown
+ACTID: 16
+PRED: cook
+[DOBJ, food] the spring rolls (15)
+[PP, other, until] golden brown (-1)
+
+

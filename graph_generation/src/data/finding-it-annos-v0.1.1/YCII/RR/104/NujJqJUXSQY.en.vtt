@@ -1,0 +1,69 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:12.000 --> 00:00:16.000
+annot: heat two pieces of bread on the grill
+ACTID: 0
+PRED: heat
+[DOBJ, food] two pieces of bread (-1)
+[PP, location, on] the grill (-1)
+
+
+00:00:18.000 --> 00:00:32.000
+annot: beat 6 eggs in a large cup
+ACTID: 1
+PRED: beat
+[DOBJ, food] 6 eggs (-1)
+[PP, location, in] a large cup (-1)
+
+
+00:00:36.000 --> 00:00:46.000
+annot: Add milk to the cup
+ACTID: 2
+PRED: add
+[DOBJ, food] milk (-1)
+[PP, food, to] the cup (1)
+
+
+00:00:52.000 --> 00:00:55.000
+annot: Melt a little butter in the pan
+ACTID: 3
+PRED: melt
+[DOBJ, food] a little butter (-1)
+[PP, location, in] the pan (-1)
+
+
+00:01:10.000 --> 00:01:30.000
+annot: Add a little salt and pepper in the egg mixture
+ACTID: 4
+PRED: add
+[DOBJ, food] a little salt (-1), pepper (-1)
+[PP, food, in] the egg mixture (2)
+
+
+00:01:10.000 --> 00:01:30.000
+annot: whisk everything well
+ACTID: 5
+PRED: whisk
+[DOBJ, food] everything (4)
+
+
+00:01:32.000 --> 00:02:15.000
+annot: Pour the egg mixture in the pan to cook by stirring
+ACTID: 6
+PRED: pour
+[DOBJ, food] the egg mixture (5)
+[PP, food, in] the pan (3)
+
+
+00:03:06.000 --> 00:03:25.000
+annot: Serve the scrambled eggs with the prepared toast
+ACTID: 7
+PRED: serve
+[DOBJ, food] the scrambled eggs (6)
+[PP, food, with] the prepared toast (0)
+
+

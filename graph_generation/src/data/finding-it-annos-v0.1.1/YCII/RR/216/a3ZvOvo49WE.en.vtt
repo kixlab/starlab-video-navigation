@@ -1,0 +1,124 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:51.000 --> 00:01:50.000
+annot: cut the onions into ¼ inch slices
+ACTID: 0
+PRED: cut
+[DOBJ, food] the onions (-1)
+[PP, other, into] 1/4 inch slices (-1)
+
+
+00:01:55.000 --> 00:03:28.000
+annot: Add olive oil on the iron pan
+ACTID: 1
+PRED: add
+[DOBJ, food] olive oil (-1)
+[PP, location, on] the iron pan (-1)
+
+
+00:01:55.000 --> 00:03:28.000
+annot: sear the bratwurst
+ACTID: 2
+PRED: sear
+[DOBJ, food] the bratwurst (-1)
+[PP, food, ] (1)
+
+
+00:03:34.000 --> 00:04:07.000
+annot: Add the onions onto the pan covering the bratwurst
+ACTID: 3
+PRED: add
+[DOBJ, food] the onions (0)
+[PP, food, onto] the pan covering the bratwurst (2)
+
+
+00:04:08.000 --> 00:04:26.000
+annot: Pour some german beer over the onions
+ACTID: 4
+PRED: pour
+[DOBJ, food] some german beer (-1)
+[PP, food, over] the onions (3)
+
+
+00:04:27.000 --> 00:05:00.000
+annot: Remove the pan off the coal heat
+ACTID: 5
+PRED: remove
+[DOBJ, food] the pan (4)
+[PP, location, off] the coal heat (-1)
+
+
+00:04:27.000 --> 00:05:00.000
+annot: close the grill lid
+ACTID: 6
+PRED: close
+[DOBJ, location] the grill lid (-1)
+[PP, food, ] (5)
+
+
+00:04:27.000 --> 00:05:00.000
+annot: cook indirectly for about half an hour
+ACTID: 7
+PRED: cook
+[DOBJ, food] (6)
+[PP, other, for] about half an hour (-1)
+
+
+00:05:10.000 --> 00:05:55.000
+annot: place the bratwurst on direct heat on the grill
+ACTID: 8
+PRED: place
+[DOBJ, food] the bratwurst (7)
+[PP, location, on] direct heat on the grill (-1)
+
+
+00:05:10.000 --> 00:05:55.000
+annot: let it grill until cooked on both side
+ACTID: 9
+PRED: grill
+[DOBJ, food]  (8)
+
+
+00:05:56.000 --> 00:06:37.000
+annot: grill the sandwich roll along with the brats
+ACTID: 10
+PRED: grill
+[DOBJ, food] the sandwich roll (-1)
+[PP, food, with] the brats (9)
+
+
+00:06:45.000 --> 00:07:00.000
+annot: place the grilled bratwurst in the sandwich bread
+ACTID: 11
+PRED: place
+[DOBJ, food] the grilled bratwurst (10)
+[PP, food, in] the sandwich bread (10)
+
+
+00:07:02.000 --> 00:08:00.000
+annot: Add onions in between the bread
+ACTID: 12
+PRED: add
+[DOBJ, food] onions (7)
+[PP, food, between]  the bread (11)
+
+
+00:07:02.000 --> 00:08:00.000
+annot: spread ketchup on the bratwurst
+ACTID: 13
+PRED: spread
+[DOBJ, food] ketchup (-1)
+[PP, food, on]  the bratwurst (12)
+
+
+00:07:02.000 --> 00:08:00.000
+annot: serve
+ACTID: 14
+PRED: serve
+[DOBJ, food] (13)
+
+

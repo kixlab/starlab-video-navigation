@@ -1,0 +1,70 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:10.000 --> 00:00:25.000
+annot: Add chopped shallots, garlic, parsley, walnut, salt, pepper, and the juice of one lemon to a bowl
+ACTID: 0
+PRED: add
+[DOBJ, food] chopped shallots (-1), garlic (-1), parsley (-1), walnut (-1), salt (-1), pepper (-1), the juice of one lemon (-1)
+[PP, location, to] a bowl (-1)
+
+
+00:00:27.000 --> 00:00:33.000
+annot: Flatten the batter between two layers of baking paper
+ACTID: 1
+PRED: flatten
+[DOBJ, food] the batter (0)
+[PP, location, between] two layers of baking paper (-1)
+
+
+00:00:27.000 --> 00:00:33.000
+annot: place on ice to harden
+ACTID: 2
+PRED: place
+[DOBJ, food]  (1)
+[PP, location, on] ice (-1)
+
+
+00:00:39.000 --> 00:00:45.000
+annot: Pour cream into a pan of cooked spinach
+ACTID: 3
+PRED: pour
+[DOBJ, food] cream (-1)
+[PP, food, into] a pan of cooked spinach (-1)
+
+
+00:00:46.000 --> 00:00:56.000
+annot: place the spinach onto a plate
+ACTID: 4
+PRED: place
+[DOBJ, food] the spinach (3)
+[PP, location, onto] a plate (-1)
+
+
+00:00:46.000 --> 00:00:56.000
+annot: add the snails
+ACTID: 5
+PRED: add
+[DOBJ, food] the snails (-1)
+[PP, food, ] (4)
+
+
+00:00:59.000 --> 00:01:08.000
+annot: Cover the snails with the butter and breadcrumbs
+ACTID: 6
+PRED: cover
+[DOBJ, food] the snails (5)
+[PP, food, with] the butter (2), breadcrumbs (-1)
+
+
+00:00:59.000 --> 00:01:08.000
+annot: place in the oven
+ACTID: 7
+PRED: place
+[DOBJ, food]  (6)
+[PP, location, in] the oven (-1)
+
+

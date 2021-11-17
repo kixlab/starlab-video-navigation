@@ -1,0 +1,147 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:12.000 --> 00:00:27.000
+annot: Slices stick pepperoni into thin round pieces
+ACTID: 0
+PRED: slice
+[DOBJ, food] stick pepperoni (-1)
+[PP, other, into] thin round pieces (-1)
+
+
+00:00:30.000 --> 00:00:44.000
+annot: Chop bacon into small slices
+ACTID: 1
+PRED: chop
+[DOBJ, food] bacon (-1)
+[PP, other, into] small slices (-1)
+
+
+00:00:30.000 --> 00:00:44.000
+annot: put them in a bowl
+ACTID: 2
+PRED: put
+[DOBJ, food] them (1)
+[PP, location, in] a bowl (-1)
+
+
+00:00:46.000 --> 00:00:58.000
+annot: Add the sliced bacon to a frying pan
+ACTID: 3
+PRED: add
+[DOBJ, food] the sliced bacon (2)
+[PP, location, to] a frying pan (-1)
+
+00:00:46.000 --> 00:00:58.000
+annot: cook thoroughly
+ACTID: 4
+PRED: cook
+[DOBJ, food]  (3)
+
+
+00:00:46.000 --> 00:00:58.000
+annot: cool
+ACTID: 5
+PRED: cool
+[DOBJ, food] (4)
+
+
+00:01:06.000 --> 00:01:23.000
+annot: roll the pizza dough using rolling pin and sprinkling flour into a thin crust
+ACTID: 6
+PRED: roll
+[DOBJ, food] the pizza dough (-1)
+[PP, other, using] rolling pin (-1)
+[PP, other, into] a thin crust (-1)
+
+
+00:01:24.000 --> 00:01:36.000
+annot: sprinkle flour on the pizza peel 
+ACTID: 7
+PRED: sprinkle
+[DOBJ, food] flour (-1)
+[PP, location, on] the pizza peel (-1)
+
+00:01:24.000 --> 00:01:36.000
+annot: place the pizza crust on it
+ACTID: 8
+PRED: place
+[DOBJ, food] the pizza crust (6)
+[PP, food, on] it (7)
+
+
+00:01:37.000 --> 00:02:04.000
+annot: Spread a layer of pizza sauce
+ACTID: 9
+PRED: spread
+[DOBJ, food] a layer of pizza sauce (-1)
+[PP, food, ] (8)
+
+
+00:01:37.000 --> 00:02:04.000
+annot: add a layer of grated cheese
+ACTID: 10
+PRED: add
+[DOBJ, food] a layer of grated cheese (-1)
+[PP, food, ] (9)
+
+
+00:01:37.000 --> 00:02:04.000
+annot: place the sliced pepperoni
+ACTID: 11
+PRED: place
+[DOBJ, food] the sliced pepperoni (0)
+[PP, food, ] (10)
+
+
+00:01:37.000 --> 00:02:04.000
+annot: put the fried bacon on top
+ACTID: 12
+PRED: put
+[DOBJ, food] the fried bacon (5)
+[PP, food, on] top (11)
+
+
+00:02:07.000 --> 00:02:15.000
+annot: Put the pizza in the oven over pizza stone for 7 minutes at 500 degrees F
+ACTID: 13
+PRED: put
+[DOBJ, food] the pizza (12)
+[PP, location, in] the oven (-1)
+[PP, location, over] pizza stone (-1)
+[PP, other, for] 7 minutes (-1)
+[PP, other, at] 500 degrees (-1)
+
+
+00:02:21.000 --> 00:02:37.000
+annot: remove the pizza
+ACTID: 14
+PRED: remove
+[DOBJ, food] the pizza (13)
+
+
+00:02:21.000 --> 00:02:37.000
+annot: cut it into pies
+ACTID: 15
+PRED: cut
+[DOBJ,  food] it (14)
+[PP, food, into] pies (-1)
+
+
+00:02:21.000 --> 00:02:37.000
+annot: serve
+ACTID: 16
+PRED: serve
+[DOBJ, food] (15)
+
+00:02:44.000 --> 00:03:02.000
+annot: repeat the procedure for another pizza
+ACTID: 17
+PRED: repeat
+[DOBJ, other] the procedure (-1)
+[PP, food, for] another pizza (-1)
+
+

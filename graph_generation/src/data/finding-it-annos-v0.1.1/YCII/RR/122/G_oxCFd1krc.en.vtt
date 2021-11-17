@@ -1,0 +1,145 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:23.000 --> 00:00:38.000
+annot: Chop some tomatoes to halves
+ACTID: 0
+PRED: chop
+[DOBJ, food] some tomatoes (-1)
+[PP, other, to] halves (-1)
+
+
+00:00:23.000 --> 00:00:38.000
+annot: put on a baking pan
+ACTID: 1
+PRED: put
+[DOBJ, food] (0)
+[PP, location, on] a baking pan (-1)
+
+
+00:00:45.000 --> 00:01:08.000
+annot: Chop some white onions to chunks
+ACTID: 2
+PRED: chop
+[DOBJ, food] some white onions (-1)
+[PP, other, to] chunks (-1)
+
+
+00:00:45.000 --> 00:01:08.000
+annot: add to the tomato
+ACTID: 3
+PRED: add
+[DOBJ, food] (2)
+[PP, food, to] the tomato (1)
+
+
+00:01:10.000 --> 00:01:21.000
+annot: Smash 3 cloves of garlic
+ACTID: 4
+PRED: smash
+[DOBJ, food] 3 cloves of garlic (-1)
+
+
+00:01:10.000 --> 00:01:21.000
+annot: mix with the onions
+ACTID: 5
+PRED: mix
+[DOBJ, food] (4)
+[PP, food, with] the onions (3)
+
+
+00:01:38.000 --> 00:01:52.000
+annot: Spread some olive oil, salt and pepper to the baking pan
+ACTID: 6
+PRED: spread
+[DOBJ, food] some olive oil (-1), salt (-1), pepper (-1)
+[PP, food, to] the baking pan (5)
+
+
+00:01:52.000 --> 00:02:04.000
+annot: Roast the ingredients for 40 minutes
+ACTID: 7
+PRED: roast
+[DOBJ, food] the ingredients (6)
+[PP, other, for] 40 minutes (-1)
+
+
+00:02:13.000 --> 00:02:32.000
+annot: Put the roasted ingredients in a soup pot
+ACTID: 8
+PRED: put
+[DOBJ, food] the roasted ingredients (7)
+[PP, location, in] a soup pot (-1)
+
+
+00:02:33.000 --> 00:02:39.000
+annot: Add 4 cups of chicken broth to the pot
+ACTID: 9
+PRED: add
+[DOBJ, food] 4 cups of chicken broth (-1)
+[PP, food, to] the pot (8)
+
+
+00:02:40.000 --> 00:02:43.000
+annot: heat the soup to a boil
+ACTID: 10
+PRED: heat
+[DOBJ, food] the soup (9)
+[PP, other, to] a boil (-1)
+
+
+00:02:43.000 --> 00:03:19.000
+annot: Simmer for 25 minutes
+ACTID: 11
+PRED: simmer
+[DOBJ, food] (10)
+[PP, other, for] 25 minutes (-1)
+
+
+00:02:43.000 --> 00:03:19.000
+annot: use a blender to blend everything in the soup
+ACTID: 12
+PRED: blend
+[DOBJ, food] everything in the soup (11)
+
+
+00:03:26.000 --> 00:03:39.000
+annot: Add more salt and pepper to the soup
+ACTID: 13
+PRED: add
+[DOBJ, food] more salt (-1), pepper (-1)
+[PP, food, to] the soup (12)
+
+
+00:03:26.000 --> 00:03:39.000
+annot: stir
+ACTID: 14
+PRED: stir
+[DOBJ, food] (13)
+
+
+00:03:54.000 --> 00:04:16.000
+annot: Take out the soup
+ACTID: 15
+PRED: take
+[DOBJ, food] the soup (14)
+
+
+00:03:54.000 --> 00:04:16.000
+annot: garnish with basil leaves and olive oil
+ACTID: 16
+PRED: garnish
+[DOBJ, food] (15)
+[PP, food, with] basil leaves (-1), olive oil (-1)
+
+
+00:03:54.000 --> 00:04:16.000
+annot: serve
+ACTID: 17
+PRED: serve
+[DOBJ, food] (16)
+
+

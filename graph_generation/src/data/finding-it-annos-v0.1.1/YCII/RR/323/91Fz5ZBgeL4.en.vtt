@@ -1,0 +1,68 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:01:22.000 --> 00:01:31.000
+annot: mix the eggs with salt and pepper
+ACTID: 0
+PRED: mix
+[DOBJ, food] the eggs (-1)
+[PP, food, with] salt (-1), pepper (-1)
+
+
+00:01:32.000 --> 00:01:40.000
+annot: cut the asperagus and tomato into pieces
+ACTID: 1
+PRED: cut
+[DOBJ, food] the asperagus (-1), tomato (-1)
+[PP, other, into] pieces (-1)
+
+
+00:01:41.000 --> 00:02:00.000
+annot: Add oil and an egg to the wok
+ACTID: 2
+PRED: add
+[DOBJ, food] oil (-1), an egg (0)
+[PP, location, to] the wok (-1)
+
+
+00:02:00.000 --> 00:02:20.000
+annot: Add the chopped vegetables to the wok
+ACTID: 3
+PRED: add
+[DOBJ, food] the chopped vegetables (1)
+[PP, food, to] the wok (2)
+
+
+00:02:00.000 --> 00:02:20.000
+annot: stir
+ACTID: 4
+PRED: stir
+[DOBJ, food] (3)
+
+
+00:02:22.000 --> 00:02:43.000
+annot: Add the pork, green onion, and rice to the wok
+ACTID: 5
+PRED: add
+[DOBJ, food] the pork (-1), green onion (-1), rice (-1)
+[PP, food, to] the wok (4)
+
+
+00:02:54.000 --> 00:03:10.000
+annot: Add salt and pepper to the rice
+ACTID: 6
+PRED: add
+[DOBJ, food] salt (-1), pepper (-1)
+[PP, food, to] the rice (5)
+
+
+00:02:54.000 --> 00:03:10.000
+annot: and stir
+ACTID: 7
+PRED: stir
+[DOBJ, food] (6)
+
+

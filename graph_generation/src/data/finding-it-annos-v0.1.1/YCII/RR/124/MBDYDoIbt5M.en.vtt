@@ -1,0 +1,126 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:01:16.000 --> 00:01:26.000
+annot: peel carrots
+ACTID: 0
+PRED: peel
+[DOBJ, food] carrots (-1)
+
+
+00:01:16.000 --> 00:01:26.000
+annot: cut off the tops
+ACTID: 1
+PRED: cut
+[DOBJ, food] the tops (-1)
+[PP, food, ] (0)
+
+
+00:01:26.000 --> 00:01:30.000
+annot: Trim into the length of a hotdog
+ACTID: 2
+PRED: trim
+[DOBJ, food] (1)
+[PP, other, into] the length of a hotdog (-1)
+
+
+00:01:33.000 --> 00:01:44.000
+annot: boil in water for 8 - 10 minutes
+ACTID: 3
+PRED: boil
+[DOBJ, food]  (2)
+[PP, location, in] water (-1)
+[PP, other, for] 8 10 minutes (-1)
+
+
+00:01:50.000 --> 00:02:01.000
+annot: Add soy sauce, water, vinegar, miso paste to a seal bag
+ACTID: 4
+PRED: add
+[DOBJ, food] soy sauce (-1), water (-1), vinegar (-1), miso paste (-1)
+[PP, location, to] a seal bag (-1)
+
+
+
+00:02:02.000 --> 00:02:18.000
+annot: Add liquid smoke, syrump, salt, garlic powder, onion powder, smoked paprika
+ACTID: 5
+PRED: add
+[DOBJ, food] liquid smoke (-1), syrump (-1), salt (-1), garlic powder (-1), onion powder (-1), smoked paprika (-1)
+[PP, food, ] (4)
+
+
+
+00:02:19.000 --> 00:02:32.000
+annot: Take the carrots out
+ACTID: 6
+PRED: take
+[DOBJ, food] the carrots (3)
+
+
+00:02:19.000 --> 00:02:32.000
+annot: cool under cold water
+ACTID: 7
+PRED: cool
+[DOBJ, food] (6)
+[PP, location, under] cold water (-1)
+
+
+00:02:19.000 --> 00:02:32.000
+annot: put into the seal bag
+ACTID: 8
+PRED: put
+[DOBJ, food] (7)
+[PP, food, into] the seal bag (5)
+
+
+00:02:38.000 --> 00:02:52.000
+annot: Wait for 2 days
+ACTID: 9
+PRED: wait
+[DOBJ, food] (8)
+[PP, other, for] 2 days (-1)
+
+
+00:02:38.000 --> 00:02:52.000
+annot: take carrots and the juice out
+ACTID: 10
+PRED: take
+[DOBJ, food] carrots (9), the juice (9)
+
+
+00:02:55.000 --> 00:03:15.000
+annot: Cook the carrots on a pan
+ACTID: 11
+PRED: cook
+[DOBJ, food] the carrots (10)
+[PP, location, on] a pan (-1)
+
+
+00:02:55.000 --> 00:03:15.000
+annot: pour some juice on the pan
+ACTID: 12
+PRED: pour
+[DOBJ, food] some juice (10)
+[PP, food, on] the pan (11)
+
+
+00:03:18.000 --> 00:03:32.000
+annot: Put the carrot rod in hotdog buns
+ACTID: 13
+PRED: put
+[DOBJ, food] the carrot rod (12)
+[PP, food, in] hotdog buns (-1)
+
+
+00:03:18.000 --> 00:03:32.000
+annot: serve with vegetable and sauce
+ACTID: 14
+PRED: serve
+[DOBJ, food] (13)
+[PP, food, with] vegetable (-1), sauce (-1)
+
+

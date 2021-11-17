@@ -1,0 +1,118 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:11.000 --> 00:00:25.000
+annot: season the bread crumbs with black pepper and salt
+ACTID: 0
+PRED: season
+[DOBJ, food] the bread crumbs (-1)
+[PP, food, with] black pepper (-1),  salt (-1)
+
+
+00:00:25.000 --> 00:01:02.000
+annot: coating sliced chicken breasts with flour mixture
+ACTID: 1
+PRED: coat
+[DOBJ, food] sliced chicken breasts (-1)
+[PP, food, with] flour mixture (-1)
+
+
+00:00:25.000 --> 00:01:02.000
+annot: coating of eggs and bread crumbs
+ACTID: 2
+PRED: coat
+[DOBJ, food] (1)
+[PP, food, of] eggs (-1), bread crumbs (0)
+
+
+00:01:02.000 --> 00:02:10.000
+annot: put oil in the pan
+ACTID: 3
+PRED: put
+[DOBJ, food] oil (-1)
+[PP, location, in] the pan (-1)
+
+
+00:01:02.000 --> 00:02:10.000
+annot: fry the chicken for 10 mins
+ACTID: 4
+PRED: fry
+[DOBJ, food] the chicken (2)
+[PP, other, for] 10 min (-1)
+[PP, food, ] (3)
+
+
+00:02:10.000 --> 00:03:53.000
+annot: Pour some sauce on the plate
+ACTID: 5
+PRED: pour
+[DOBJ, food] some sauce (-1)
+[PP, location, on] the plate (-1)
+
+
+00:02:10.000 --> 00:03:53.000
+annot: put the chicken on it
+ACTID: 6
+PRED: put
+[DOBJ, food] the chicken (4)
+[PP, food, on] it (5)
+
+
+00:02:10.000 --> 00:03:53.000
+annot: put more sauce on top of it
+ACTID: 7
+PRED: put
+[DOBJ, food] more sauce (-1)
+[PP, food, on] top of it (6)
+
+
+00:03:53.000 --> 00:04:08.000
+annot: Bake the chicken in the oven at 400 degrees for 15 mins
+ACTID: 8
+PRED: bake
+[DOBJ, food] the chicken (7)
+[PP, location, in] the oven at 400 degrees for 15 mins (-1)
+
+
+00:04:08.000 --> 00:04:45.000
+annot: Put some mozzarella cheese on the chicken
+ACTID: 9
+PRED: put
+[DOBJ, food] some mozzarella cheese (-1)
+[PP, food, on] the chicken (8)
+
+
+00:04:08.000 --> 00:04:45.000
+annot: melt the mozzarella by putting the chicken in the oven for 5 mins
+ACTID: 10
+PRED: melt
+[DOBJ, food] the mozzarella (9)
+
+
+00:04:45.000 --> 00:06:13.000
+annot: Cook some pasta in the pan
+ACTID: 11
+PRED: cook
+[DOBJ, food] some pasta (-1)
+[PP, location, in] the pan (-1)
+
+
+00:04:45.000 --> 00:06:13.000
+annot: mix it with the sauce and pecorino cheese
+ACTID: 12
+PRED: mix
+[DOBJ, food] it (11)
+[PP, food, with] the sauce (-1), pecorino cheese (-1)
+
+
+00:06:13.000 --> 00:06:31.000
+annot: Take the chicken out of the oven
+ACTID: 13
+PRED: take
+[DOBJ, food] (10)
+[PP, location, of] the oven (-1)
+
+

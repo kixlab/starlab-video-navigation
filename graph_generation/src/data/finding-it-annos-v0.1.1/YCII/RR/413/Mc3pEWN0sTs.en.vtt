@@ -1,0 +1,135 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:17.000 --> 00:00:32.000
+annot: Finely chop a red shallot
+ACTID: 0
+PRED: chop
+[DOBJ, food] a red shallot (-1)
+
+
+00:00:33.000 --> 00:01:05.000
+annot: Add the shallots, sugar, fish sauce, oyster sauce, five spice powder, black pepper and oil to a bowl
+ACTID: 1
+PRED: add
+[DOBJ, food] the shallots (0), sugar (-1), fish sauce (-1), oyster sauce (-1), five spice powder (-1), black pepper (-1), oil (-1)
+[PP, location, to] a bowl (-1)
+
+
+00:00:33.000 --> 00:01:05.000
+annot: mix
+ACTID: 2
+PRED: mix
+[DOBJ, food] (1)
+
+
+00:01:06.000 --> 00:01:25.000
+annot: Coat the pieces of pork in the marinade
+ACTID: 3
+PRED: coat
+[DOBJ, food] the pieces of pork (-1)
+[PP, location, in] the marinade (2)
+
+
+00:01:26.000 --> 00:02:00.000
+annot: Thinly slice a cucumber and a carrot
+ACTID: 4
+PRED: slice
+[DOBJ, food] a cucumber (-1), a carrot (-1)
+
+
+00:02:02.000 --> 00:02:16.000
+annot: transfer the vegetables to a tray
+ACTID: 5
+PRED: transfer
+[DOBJ, food] the vegetables (4)
+[PP, location, to] a tray (-1)
+
+
+00:02:02.000 --> 00:02:16.000
+annot: add sugar, vinegar, and salt
+ACTID: 6
+PRED: add
+[DOBJ, food] sugar (-1), vinegar (-1), salt (-1)
+[PP, food, ] (5)
+
+
+00:02:02.000 --> 00:02:16.000
+annot: mix
+ACTID: 7
+PRED: mix
+[DOBJ, food] (6)
+
+
+00:02:17.000 --> 00:02:38.000
+annot: Bake two loaves of bread in the oven
+ACTID: 8
+PRED: bake
+[DOBJ, food] two loaves of bread (-1)
+[PP, location, in] the oven (-1)
+
+
+00:02:39.000 --> 00:02:55.000
+annot: Pour oil into a hot frying pan
+ACTID: 9
+PRED: pour
+[DOBJ, food] oil (-1)
+[PP, location, into] a hot frying pan (-1)
+
+
+00:02:39.000 --> 00:02:55.000
+annot: Place the pork
+ACTID: 10
+PRED: place
+[DOBJ, food] the pork (3)
+
+
+00:02:57.000 --> 00:03:11.000
+annot: Thinly slice the pieces of pork
+ACTID: 11
+PRED: slice
+[DOBJ, food] the pieces of pork (10)
+
+
+00:03:12.000 --> 00:03:36.000
+annot: Pour the remainder of the marinade in a pan
+ACTID: 12
+PRED: pour
+[DOBJ, food] the remainder of the marinade (2)
+[PP, location, in] a pan (-1)
+
+
+00:03:12.000 --> 00:03:36.000
+annot: add water
+ACTID: 13
+PRED: add
+[DOBJ, food] water (-1)
+[PP, food, ] (12)
+
+00:03:12.000 --> 00:03:36.000
+annot: bring to a boil
+ACTID: 14
+PRED: bring
+[DOBJ, food] (13)
+[PP, other, to] a boil (-1)
+
+
+00:03:54.000 --> 00:03:59.000
+annot: Spread some butter on one side of the bread
+ACTID: 15
+PRED: spread
+[DOBJ, food] some butter (-1)
+[PP, food, on] one side of the bread (8)
+
+
+00:04:00.000 --> 00:04:26.000
+annot: Add the cucumbers, carrots, pork, and sauce, to the bread
+ACTID: 16
+PRED: add
+[DOBJ, food] the cucumbers (7), carrots (7), pork (11), sauce (14)
+[PP, food, to] the bread (15)
+
+

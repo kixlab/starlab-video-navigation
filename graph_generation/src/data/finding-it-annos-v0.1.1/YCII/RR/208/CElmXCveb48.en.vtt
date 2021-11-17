@@ -1,0 +1,111 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:24.000 --> 00:00:34.000
+annot: Add butter and sausage to a pan
+ACTID: 0
+PRED: add
+[DOBJ, food] butter (-1), sausage (-1)
+[PP, location, to] a pan (-1)
+
+
+00:00:34.000 --> 00:00:37.000
+annot: Cook the pan of sausage in the oven
+ACTID: 1
+PRED: cook
+[DOBJ, food] the pan of sausage (0)
+[PP, location, in] the oven (-1)
+
+
+00:00:40.000 --> 00:00:52.000
+annot: peel
+ACTID: 2
+PRED: peel
+[DOBJ, food] the potatos (-1)
+
+
+00:00:40.000 --> 00:00:52.000
+annot: cut the potatos into pieces
+ACTID: 3
+PRED: cut
+[DOBJ, food] the potatos (2)
+[PP, other, into] pieces (-1)
+
+
+00:00:52.000 --> 00:01:07.000
+annot: Boil the potatos in salted water
+ACTID: 4
+PRED: boil
+[DOBJ, food] the potatos (3)
+[PP, food, in] salted water (-1)
+
+
+00:01:26.000 --> 00:01:33.000
+annot: mash the potatos with butter
+ACTID: 5
+PRED: mash
+[DOBJ, food] the potatos (4)
+[PP, food, with] butter (-1)
+
+
+00:01:34.000 --> 00:01:38.000
+annot: Add milk to the potatos
+ACTID: 6
+PRED: add
+[DOBJ, food] milk (-1)
+[PP, food, to] the potatos (5)
+
+
+00:01:39.000 --> 00:01:47.000
+annot: Add mustard and butter to the potatos
+ACTID: 7
+PRED: add
+[DOBJ, food] mustard (-1), butter (-1)
+[PP, food, to] the potatos (6)
+
+
+00:01:49.000 --> 00:01:57.000
+annot: Chop the onion and garlic
+ACTID: 8
+PRED: chop
+[DOBJ, food] the onion (-1), garlic (-1)
+
+
+00:02:00.000 --> 00:02:07.000
+annot: Cook the onion and garlic in a pot with butter
+ACTID: 9
+PRED: cook
+[DOBJ, food] the onion (8), garlic (8)
+[PP, food, in] a pot with butter (-1)
+
+
+00:02:07.000 --> 00:02:23.000
+annot: Add ale and beef stock to the gravy
+ACTID: 10
+PRED: add
+[DOBJ, food] ale (-1), beef stock (-1)
+[PP, food, to] the gravy (9)
+
+
+00:02:32.000 --> 00:02:36.000
+annot: Chop up the pear
+ACTID: 11
+PRED: chop
+[DOBJ, food] the pear (-1)
+
+
+00:02:38.000 --> 00:03:00.000
+annot: Cook the pears in a pot with butter, sugar, mustard, and pepper
+ACTID: 12
+PRED: cook
+[DOBJ, food] the pears (11)
+[PP, location, in] a pot (-1)
+[PP, food, with] butter (-1), sugar (-1), mustard (-1), and pepper (-1)
+
+
+
+
+

@@ -1,0 +1,106 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:01:19.000 --> 00:01:34.000
+annot: mix chicken stock, sugar
+ACTID: 0
+PRED: mix
+[DOBJ, food] chicken stock (-1), sugar (-1)
+
+
+00:01:36.000 --> 00:01:56.000
+annot: Add the white vinegar, hoi sin sauce 
+ACTID: 1
+PRED: add
+[DOBJ, food] the white vinegar (-1), hoi sin sauce (-1)
+[PP, food, ] (0)
+
+
+00:01:36.000 --> 00:01:56.000
+annot: mix
+ACTID: 2
+PRED: mix
+[DOBJ, food]  (1)
+
+
+00:02:16.000 --> 00:02:32.000
+annot: mix the corn starch to thicken it
+ACTID: 3
+PRED: mix
+[DOBJ, food] the corn starch (-1)
+[PP, food, ] (2)
+
+
+00:04:04.000 --> 00:04:18.000
+annot: Pour the flour, black pepper on chicken dice
+ACTID: 4
+PRED: pour
+[DOBJ, food]  the flour (-1), black pepper (-1)
+[PP, food, on] chicken dice (-1)
+
+
+00:04:04.000 --> 00:04:18.000
+annot: stir
+ACTID: 5
+PRED: stir
+[DOBJ, food] (4)
+
+
+00:04:27.000 --> 00:04:37.000
+annot: Add the egg white to the chicken too
+ACTID: 6
+PRED: add
+[DOBJ, food] the egg white (-1)
+[PP, food, to] the chicken (5)
+
+
+00:04:49.000 --> 00:05:28.000
+annot: Coat the chicken in the corn starch
+ACTID: 7
+PRED: coat
+[DOBJ, food] the chicken (6)
+[PP, food, in] the corn starch (-1)
+
+
+00:05:33.000 --> 00:06:16.000
+annot: Fry the chicken in hot oil in a pan
+ACTID: 8
+PRED: fry
+[DOBJ, food] the chicken (7)
+[PP, food, in] hot oil in a pan (-1)
+
+
+00:06:58.000 --> 00:07:50.000
+annot: heat the sesame oil, ginger slice, minced garlic, green onion and chili pepper in the pan
+ACTID: 9
+PRED: heat
+[DOBJ, food] the sesame oil (-1), ginger slice (-1), minced garlic (-1), green onion (-1), chili pepper (-1)
+[PP, food, in] the pan (-1)
+ 
+
+00:07:53.000 --> 00:08:12.000
+annot: Pour the prepared sauce in the pan
+ACTID: 10
+PRED: pour
+[DOBJ, food] the prepared sauce (3)
+[PP, food, in] the pan (9)
+
+
+00:08:25.000 --> 00:08:50.000
+annot: Add in the fried chicken
+ACTID: 11
+PRED: add
+[DOBJ, food] the fried chicken (8)
+[PP, food, in] (10)
+
+
+00:08:25.000 --> 00:08:50.000
+annot: stir it well to serve
+ACTID: 12
+PRED: stir
+[DOBJ, food] it (11)
+
+

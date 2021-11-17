@@ -1,0 +1,128 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:15.000 --> 00:00:32.000
+annot: Prepare some washed chicken wingettes
+ACTID: 0
+PRED: prepare
+[DOBJ, food] some washed chicken wingettes (-1)
+
+
+00:00:15.000 --> 00:00:32.000
+annot: coat in lori season salt
+ACTID: 1
+PRED: coat
+[DOBJ, food] (0)
+[PP, food, in] lori season salt (-1)
+
+
+00:00:35.000 --> 00:00:40.000
+annot: Add 1 cup flour in a large bowl
+ACTID: 2
+PRED: add
+[DOBJ, food] 1 cup flour (-1)
+[PP, location, in] a large bowl (-1)
+
+
+00:00:41.000 --> 00:01:01.000
+annot: Add paprika, black pepper, cayenne pepper and sea salt
+ACTID: 3
+PRED: add
+[DOBJ, food] paprika (-1), black pepper (-1), cayenne pepper (-1), sea salt (-1)
+[PP, food, ] (2)
+
+
+00:00:41.000 --> 00:01:01.000
+annot: mix them
+ACTID: 4
+PRED: mix
+[DOBJ, food] them (3)
+
+
+00:01:07.000 --> 00:01:29.000
+annot: Put the mixture and chicken wings in a bag
+ACTID: 5
+PRED: put
+[DOBJ, food] the mixture (4), chicken wings (1)
+[PP, location, in] a bag (-1)
+
+
+00:01:07.000 --> 00:01:29.000
+annot: shake to coat the chicken well
+ACTID: 6
+PRED: shake
+[DOBJ, food] (5)
+[PP, other, to] coat the chicken well (-1)
+
+
+00:01:43.000 --> 00:01:50.000
+annot: Cover the chicken
+ACTID: 7
+PRED: cover
+[DOBJ, food] the chicken (6)
+
+
+00:01:43.000 --> 00:01:50.000
+annot: put in the fridge for 30 minutes
+ACTID: 8
+PRED: put
+[DOBJ, food] (7)
+[PP, location, in] the fridge for 30 minutes (-1)
+
+
+00:02:03.000 --> 00:02:23.000
+annot: Add butter, hot sauce, pepper, garlic powder, melted butter
+ACTID: 9
+PRED: add
+[DOBJ, food] butter (-1), hot sauce (-1), pepper (-1), garlic powder (-1), melted butter (-1)
+
+
+00:02:03.000 --> 00:02:23.000
+annot: mix well
+ACTID: 10
+PRED: mix
+[DOBJ, food] (9)
+
+
+00:02:24.000 --> 00:02:32.000
+annot: Add celery flakes and parsley
+ACTID: 11
+PRED: add
+[DOBJ, food] celery flakes (-1), parsley (-1)
+[PP, food, ] (10)
+
+
+00:02:24.000 --> 00:02:32.000
+annot: stir
+ACTID: 12
+PRED: stir
+[DOBJ, food] (11)
+
+
+00:02:34.000 --> 00:02:55.000
+annot: Fry the chicken in oil;
+ACTID: 13
+PRED: fry
+[DOBJ, food] the chicken (8)
+[PP, food, in] oil (-1)
+
+
+00:02:34.000 --> 00:02:55.000
+annot: pour the sauce to coat the chicken well
+ACTID: 14
+PRED: pour
+[DOBJ, food] the sauce (12)
+[PP, food, to] coat the chicken (13)
+
+
+00:03:00.000 --> 00:04:00.000
+annot: Put the chicken on plate to serve
+ACTID: 15
+PRED: put
+[DOBJ, food] the chicken (14)
+[PP, location, on] plate (-1)
+
+

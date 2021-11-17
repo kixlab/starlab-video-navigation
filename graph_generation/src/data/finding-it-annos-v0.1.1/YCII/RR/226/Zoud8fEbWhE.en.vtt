@@ -1,0 +1,115 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:33.000 --> 00:01:20.000
+annot: cut the romaine lettuce to fairly small pieces
+ACTID: 0
+PRED: cut
+[DOBJ, food] the romaine lettuce (-1)
+[PP, other, to] fairly small pieces (-1)
+
+
+00:00:33.000 --> 00:01:20.000
+annot: put it in a large bowl
+ACTID: 1
+PRED: put
+[DOBJ, food] it (0)
+[PP, location, in] a large bowl (-1)
+
+
+00:01:22.000 --> 00:01:37.000
+annot: Add diced cucumber, green pepper
+ACTID: 2
+PRED: add
+[DOBJ, food] diced cucumber (-1), green pepper (-1)
+[PP, food, ] (1)
+
+
+00:01:38.000 --> 00:02:22.000
+annot: Add finely chopped parsley, chopped onion, chopped green onion, and mint
+ACTID: 3
+PRED: add
+[DOBJ, food] finely chopped parsley (-1), chopped onion (-1), chopped green onion (-1), mint (-1)
+[PP, food, ] (2)
+
+
+00:02:25.000 --> 00:03:33.000
+annot: Add canned tomatoes, cheese
+ACTID: 4
+PRED: add
+[DOBJ, food] canned tomatoes (-1), cheese (-1)
+[PP, food, ] (3) 
+
+
+00:02:25.000 --> 00:03:33.000
+annot: then mix everything up
+ACTID: 5
+PRED: mix
+[DOBJ, food] everything (4)
+
+
+00:04:00.000 --> 00:05:56.000
+annot: Combine juice of 3 lemones
+ACTID: 6
+PRED: combine
+[DOBJ, food] juice of 3 lemones (-1)
+
+
+00:04:00.000 --> 00:05:56.000
+annot: Add 1 tbsp garlic paste, regular mustard, 1 tbsp white pepper, and black pepper
+ACTID: 7
+PRED: add
+[DOBJ, food] 1 tbsp garlic paste (-1), regular mustard (-1), 1 tbsp white pepper (-1), 1 tbsp black pepper (-1)
+[PP, food, ] (6)
+
+
+00:06:16.000 --> 00:06:28.000
+annot: Add a little bit maple syrup and some olive oil
+ACTID: 8
+PRED: add
+[DOBJ, food] a little bit maple syrup (-1), some olive oil (-1)
+[PP, food, ] (7)
+
+
+00:06:44.000 --> 00:07:18.000
+annot: pour the dressing to a jar
+ACTID: 9
+PRED: pour
+[DOBJ, food] the dressing (8)
+[PP, location, to] a jar (-1)
+
+
+00:07:30.000 --> 00:07:37.000
+annot: Cover the jar
+ACTID: 10
+PRED: cover
+[DOBJ, food] the jar (9)
+
+
+00:07:30.000 --> 00:07:37.000
+annot: shake everything inside to mix it well
+ACTID: 11
+PRED: shake
+[DOBJ, food] everything (10)
+[PP, other, inside] to mix it well (-1)
+
+
+00:08:29.000 --> 00:09:00.000
+annot: Pour the dressing on the mixed salad
+ACTID: 12
+PRED: pour
+[DOBJ, food] the dressing (11)
+[PP, food, on] the mixed salad (5)
+
+
+00:08:29.000 --> 00:09:00.000
+annot: serve with some chips
+ACTID: 13
+PRED: serve
+[DOBJ, food] (12)
+[PP, food, with] some chips (-1)
+
+

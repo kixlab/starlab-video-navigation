@@ -1,0 +1,85 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:35.000 --> 00:00:40.000
+annot: Harshly boil potatoes and sweet potatoes for 5-7 minutes
+ACTID: 0
+PRED: boil
+[DOBJ, food] potatoes (-1), sweet potatoes (-1)
+[PP, other, for] 5-7 minutes (-1)
+
+
+00:00:41.000 --> 00:00:53.000
+annot: heat some oil in a pan
+ACTID: 1
+PRED: heat
+[DOBJ, food] some oil (-1)
+[PP, location, in] a pan (-1)
+
+
+00:00:41.000 --> 00:00:53.000
+annot: cook chopped onions in it
+ACTID: 2
+PRED: cook
+[DOBJ, food] chopped onions (-1)
+[PP, food, in] it (1)
+
+
+00:00:55.000 --> 00:00:59.000
+annot: Give a further chop on the cooked onions
+ACTID: 3
+PRED: give
+[DOBJ, other] a further chop (-1)
+[PP, food, on] the cooked onions (2)
+
+
+00:01:01.000 --> 00:01:08.000
+annot: Shred the potatoes and sweet potatoes to a bowl
+ACTID: 4
+PRED: shred
+[DOBJ, food] the potatoes (0), sweet potatoes (0)
+[PP, location, to] a bowl (-1)
+
+
+00:01:01.000 --> 00:01:08.000
+annot: add the cooked onions
+ACTID: 5
+PRED: add
+[DOBJ, food] the cooked onions (3)
+[PP, food, ] (4)
+
+
+00:01:10.000 --> 00:01:18.000
+annot: season with garlic salt, black pepper and chilli powder
+ACTID: 6
+PRED: season
+[DOBJ, food] (5)
+[PP, food, with] garlic salt (-1), black pepper (-1), chilli powder (-1)
+
+
+00:01:19.000 --> 00:01:27.000
+annot: Give a good mix to combine them
+ACTID: 7
+PRED: give
+[DOBJ, food] a good mix to combine them (6)
+
+
+00:01:30.000 --> 00:01:57.000
+annot: Shape the mixture into small patty
+ACTID: 8
+PRED: shape
+[DOBJ, food] the mixture (7)
+[PP, other, into] small patty (-1)
+
+
+00:01:30.000 --> 00:01:57.000
+annot: fry in a pan with some oil
+ACTID: 9
+PRED: fry
+[DOBJ, food] (8)
+[PP, food, in] a pan with some oil (-1)
+
+

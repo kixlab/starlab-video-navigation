@@ -1,0 +1,168 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:02:10.000 --> 00:02:20.000
+annot: Bring the vegetable broth to boil
+ACTID: 0
+PRED: bring
+[DOBJ, food] the vegetable broth (-1)
+[PP, other, to] boil (-1)
+
+
+00:02:10.000 --> 00:02:20.000
+annot: remove from heat
+ACTID: 1
+PRED: remove
+[DOBJ, food] (0)
+[PP, other, from] heat (-1)
+
+
+00:02:10.000 --> 00:02:20.000
+annot: add shiitake mushrooms
+ACTID: 2
+PRED: add
+[DOBJ, food] shiitake mushrooms (-1)
+[PP, food, ] (1)
+
+
+00:02:10.000 --> 00:02:20.000
+annot: cover it
+ACTID: 3
+PRED: cover
+[DOBJ, food] it (2)
+
+
+00:02:10.000 --> 00:02:20.000
+annot: rest it for twenty mins
+ACTID: 4
+PRED: rest
+[DOBJ, food] it (3)
+[PP, other, for] twenty mins (-1)
+
+
+00:02:24.000 --> 00:02:36.000
+annot: Grate the carrot and ginger
+ACTID: 5
+PRED: grate
+[DOBJ, food] the carrot (-1), ginger (-1)
+
+
+00:02:38.000 --> 00:02:42.000
+annot: Tear the seaweed into 1 inch pieces
+ACTID: 6
+PRED: tear
+[DOBJ, food] the seaweed (-1)
+[PP, other, into] 1 inch pieces (-1)
+
+
+00:02:46.000 --> 00:02:55.000
+annot: Remove the mushrooms from the broth
+ACTID: 7
+PRED: remove
+[DOBJ, food] the mushrooms (4)
+[PP, food, from] the broth (4)
+
+
+00:02:46.000 --> 00:02:55.000
+annot: cut the stems
+ACTID: 8
+PRED: cut
+[DOBJ, food] the stems (-1)
+[PP, food, ] (7)
+
+
+00:02:46.000 --> 00:02:55.000
+annot: discard them
+ACTID: 9
+PRED: discard
+[DOBJ, food] them (8)
+
+
+00:02:46.000 --> 00:02:55.000
+annot: slice the caps
+ACTID: 10
+PRED: slice
+[DOBJ, food] the caps (9)
+
+
+00:02:56.000 --> 00:03:02.000
+annot: Add the tofu, seaweed to the vegetable broth
+ACTID: 11
+PRED: add
+[DOBJ, food] the tofu (-1), seaweed (6)
+[PP, food, to] the vegetable broth (7)
+
+
+00:02:56.000 --> 00:03:02.000
+annot: simmer for 3 min
+ACTID: 12
+PRED: simmer
+[DOBJ, food]  (11)
+[PP, other, for] 3 min (-1)
+
+
+00:03:03.000 --> 00:03:10.000
+annot: Add the broccoli, mushroom and carrots to the broth,
+ACTID: 13
+PRED: add
+[DOBJ, food] the broccoli (-1), mushroom (10), carrots  (5)
+[PP, food, to] the broth (12)
+
+
+00:03:03.000 --> 00:03:10.000
+annot: cover it
+ACTID: 14
+PRED: cover
+[DOBJ, food] it (13)
+
+
+00:03:03.000 --> 00:03:10.000
+annot: simmer for another min
+ACTID: 15
+PRED: simmer
+[DOBJ, food] (14)
+[PP, other, for] another min (-1)
+
+
+00:03:12.000 --> 00:03:25.000
+annot: Remove one cup of broth
+ACTID: 16
+PRED: remove
+[DOBJ, food] one cup (-1)
+[PP, food, of] broth (15)
+
+
+00:03:12.000 --> 00:03:25.000
+annot: add it to a small bowl
+ACTID: 17
+PRED: add
+[DOBJ, food] it (16)
+[PP, location, to] a small bowl (-1)
+
+
+00:03:12.000 --> 00:03:25.000
+annot: gently stir it with miso until it is dissolved
+ACTID: 18
+PRED: stir
+[DOBJ, food] it (17)
+[PP, food, with] miso (-1)
+
+
+00:03:28.000 --> 00:03:30.000
+annot: Add the dissolved miso into the soup
+ACTID: 19
+PRED: add
+[DOBJ, food] the dissolved miso (18)
+[PP, food, into] the soup (16)
+
+
+00:03:28.000 --> 00:03:30.000
+annot: stir
+ACTID: 20
+PRED: stir
+[DOBJ, food] (19)
+
+

@@ -1,0 +1,46 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:38.000 --> 00:00:54.000
+annot: Add sesame seeds, salt, pepper, lemon juice and garlic to a blender
+ACTID: 0
+PRED: add
+[DOBJ, food] sesame seeds (-1), salt (-1), pepper (-1), lemon juice (-1), garlic (-1)
+[PP, location, to] a blender (-1)
+
+
+00:01:00.000 --> 00:01:15.000
+annot: Add 1 cup of chickpeas and some water as well
+ACTID: 1
+PRED: add
+[DOBJ, food] 1 cup of chickpeas (-1), some water (-1)
+[PP, food, ] (0)
+
+
+00:01:19.000 --> 00:01:26.000
+annot: Blend everything in the blender
+ACTID: 2
+PRED: blend
+[DOBJ, food] everything (1)
+[PP, location, in] the blender (-1)
+
+
+00:01:27.000 --> 00:01:33.000
+annot: Add some olive oil to the mixture
+ACTID: 3
+PRED: add
+[DOBJ, food] some olive oil (-1)
+[PP, food, to] the mixture (2)
+
+
+00:02:07.000 --> 00:02:09.000
+annot: Spread the mixture on some cookie to eat
+ACTID: 4
+PRED: spread
+[DOBJ, food] the mixture (3)
+[PP, food, on] some cookie to eat (-1)
+
+

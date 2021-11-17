@@ -1,0 +1,143 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:01:28.000 --> 00:01:50.000
+annot: wash the clams with a brush
+ACTID: 0
+PRED: wash
+[DOBJ, food] the clams (-1)
+[PP, other, with] a brush (-1)
+
+
+00:02:38.000 --> 00:03:21.000
+annot: Chop some bacon, celery, white onion, potatoes
+ACTID: 1
+PRED: chop
+[DOBJ, food] some bacon (-1), celery (-1), white onion (-1), potatoes (-1)
+
+
+00:03:25.000 --> 00:03:53.000
+annot: Cook the bacon in a pan
+ACTID: 2
+PRED: cook
+[DOBJ, food] the bacon (1)
+[PP, location, in] a pan (-1)
+
+
+00:03:25.000 --> 00:03:53.000
+annot: boil the clam in a pot of water
+ACTID: 3
+PRED: boil
+[DOBJ, food] the clam (0)
+[PP, location, in] a pot of water (-1)
+
+
+00:04:26.000 --> 00:05:07.000
+annot: Take the clams out
+ACTID: 4
+PRED: take
+[DOBJ, food] the clams (3)
+
+
+00:04:26.000 --> 00:05:07.000
+annot: drain the juice
+ACTID: 5
+PRED: drain
+[DOBJ, food] the juice (-1)
+[PP, food, ] (4)
+
+
+00:05:11.000 --> 00:05:30.000
+annot: Cook the chopped vegetable in a pan
+ACTID: 6
+PRED: cook
+[DOBJ, food] the chopped vegetable (1)
+[PP, location, in] a pan (-1)
+
+
+00:05:35.000 --> 00:05:38.000
+annot: Add the clam juice to the pan
+ACTID: 7
+PRED: add
+[DOBJ, food] the clam juice (5)
+[PP, location, to] the pan (6)
+
+
+00:05:50.000 --> 00:05:59.000
+annot: Take out the clam meat
+ACTID: 8
+PRED: take
+[DOBJ, food] the clam meat (5)
+
+
+00:05:50.000 --> 00:05:59.000
+annot: chop to small pieces
+ACTID: 9
+PRED: chop
+[DOBJ, food] (8)
+[PP, food, to] small pieces (-1)
+
+
+00:06:03.000 --> 00:06:27.000
+annot: heat some butter in a pot
+ACTID: 10
+PRED: heat
+[DOBJ, food] some butter (-1)
+[PP, location, in] a pot (-1)
+
+
+00:06:03.000 --> 00:06:27.000
+annot: add some flour
+ACTID: 11
+PRED: add
+[DOBJ, food] some flour (-1)
+[PP, food, ] (10)
+
+
+00:06:34.000 --> 00:06:46.000
+annot: Add some heavy cream
+ACTID: 12
+PRED: add
+[DOBJ, food] some heavy cream (-1)
+[PP, food, ] (11)
+
+
+00:06:34.000 --> 00:06:46.000
+annot: whisk
+ACTID: 13
+PRED: whisk
+[DOBJ, food] (12)
+
+
+00:07:04.000 --> 00:07:18.000
+annot: Add the cooked vegetable to the cream mixture
+ACTID: 14
+PRED: add
+[DOBJ, food] the cooked vegetable (7)
+[PP, food, to] the cream mixture (13)
+
+
+00:07:21.000 --> 00:07:43.000
+annot: Add the clam meat, bacon and a tin of corn to the mixture
+ACTID: 15
+PRED: add
+[DOBJ, food] the clam meat (9), bacon (2), a tin of corn (-1)
+[PP, food, to] the mixture (14)
+
+
+00:07:46.000 --> 00:08:08.000
+annot: Stir
+ACTID: 16
+PRED: stir
+[DOBJ, food] (15)
+
+00:07:46.000 --> 00:08:08.000
+annot: cook until it is ready to serve
+ACTID: 17
+PRED: cook
+[DOBJ, food] (16)
+
+

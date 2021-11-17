@@ -1,0 +1,91 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:34.000 --> 00:00:44.000
+annot: boil water in a pot with salt and oil
+ACTID: 0
+PRED: boil
+[DOBJ, food] water (-1)
+[PP, location, in] a pot (-1)
+[PP, food, with ] salt (-1), oil (-1)
+
+
+00:00:44.000 --> 00:00:52.000
+annot: Cook the pasta in the water
+ACTID: 1
+PRED: cook
+[DOBJ, food] the pasta (-1)
+[PP, food, in] the water (0)
+
+
+00:00:52.000 --> 00:01:20.000
+annot: Fry the chicken in a pan
+ACTID: 2
+PRED: fry
+[DOBJ, food] the chicken (-1)
+[PP, location, in] a pan (-1)
+
+
+00:01:26.000 --> 00:01:42.000
+annot: season the chicken with salt and pepper
+ACTID: 3
+PRED: season
+[DOBJ, food] the chicken (2)
+[PP, food, with] salt (-1), pepper (-1)
+
+
+00:01:42.000 --> 00:01:54.000
+annot: cut the chicken into strips
+ACTID: 4
+PRED: cut
+[DOBJ, food] the chicken (3)
+[PP, other, into] strips (-1)
+
+
+00:02:05.000 --> 00:02:24.000
+annot: Add tomatos, olives, and chicken to the bowl of pasta
+ACTID: 5
+PRED: add
+[DOBJ, food] tomatos (-1), olives (-1), chicken (4)
+[PP, food, to] the bowl of pasta (1)
+
+
+00:02:25.000 --> 00:02:39.000
+annot: Add yogurt and cheese to a bowl
+ACTID: 6
+PRED: add
+[DOBJ, food] yogurt (-1), cheese (-1)
+[PP, location, to] a bowl (-1)
+
+
+00:02:41.000 --> 00:03:07.000
+annot: Add garlic powder, oregano, pepper, and parsley
+ACTID: 7
+PRED: add
+[DOBJ, food] garlic powder (-1), oregano (-1), pepper (-1), parsley (-1)
+[PP, food, ] (6)
+
+
+00:03:07.000 --> 00:03:22.000
+annot: Add oil and lemon juice
+ACTID: 8
+PRED: add
+[DOBJ, food] oil (-1), lemon juice (-1)
+[PP, food, ] (7)
+
+00:03:07.000 --> 00:03:22.000
+annot: mix together
+ACTID: 9
+PRED: mix
+[DOBJ, food] (8)
+
+00:03:23.000 --> 00:03:33.000
+annot: Pour the sauce over the salad
+ACTID: 10
+PRED: pour
+[DOBJ, food] the sauce (9)
+[PP, food, over] the salad (5)
+

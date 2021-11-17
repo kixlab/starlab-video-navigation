@@ -1,0 +1,144 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:50.000 --> 00:01:35.000
+annot: Add vegetable oil onto a hot pan
+ACTID: 0
+PRED: add
+[DOBJ, food] vegetable oil (-1)
+[PP, location, onto] a hot pan (-1)
+
+
+00:00:50.000 --> 00:01:35.000
+annot: add ginger garlic paste 
+ACTID: 1
+PRED: add
+[DOBJ, food] ginger garlic (-1)
+[PP, food, ] (0)
+
+
+00:00:50.000 --> 00:01:35.000
+annot: add onions to it, some chopped carrots and sausage
+ACTID: 2
+PRED: add
+[DOBJ, food] onions (-1)
+[DOBJ, food] some chopped carrots (-1), sausage (-1)
+[PP, food, to] it (1)
+
+
+00:00:50.000 --> 00:01:35.000
+annot: cook for about 2 minutes until the carrots are tender
+ACTID: 3
+PRED: cook
+[PP, other, for] about 2 minutes until the carrots are tender (-1)
+[PP, food, ] (2)
+
+
+00:01:38.000 --> 00:02:00.000
+annot: Break an egg into the pan,
+ACTID: 4
+PRED: break
+[DOBJ, food] an egg (-1)
+[PP, food, into] the pan (3)
+
+
+00:01:38.000 --> 00:02:00.000
+annot: scramble it
+ACTID: 5
+PRED: scramble
+[DOBJ, food] it (4)
+
+
+00:01:38.000 --> 00:02:00.000
+annot: mix the egg with other ingredients
+ACTID: 6
+PRED: mix
+[DOBJ, food] the egg (5)
+[PP, food, with] other ingredients (5)
+
+
+00:02:01.000 --> 00:02:13.000
+annot: Add the leeks
+ACTID: 7
+PRED: add
+[DOBJ, food] the leeks (-1)
+[PP, food, ] (6)
+
+00:02:01.000 --> 00:02:13.000
+annot: cook for a minute
+ACTID: 8
+PRED: cook
+[PP, other, for] a minute (-1)
+[PP, food, ] (7)
+
+
+00:02:16.000 --> 00:02:41.000
+annot: Add the diced chilli
+ACTID: 9
+PRED: add
+[DOBJ, food] the diced chilli (-1)
+[PP, food, ] (8)
+
+
+00:02:16.000 --> 00:02:41.000
+annot: mix it with the vegetables
+ACTID: 10
+PRED: mix
+[DOBJ, food] it (9)
+[PP, food, with] the vegetables (9)
+
+
+00:02:43.000 --> 00:03:08.000
+annot: Add the cooked rice into the pan
+ACTID: 11
+PRED: add
+[DOBJ, food] the cooked rice (-1)
+[PP, food, into] the pan (10)
+
+
+00:02:43.000 --> 00:03:08.000
+annot: mix it
+ACTID: 12
+PRED: mix
+[DOBJ, food] it (11)
+
+
+00:02:43.000 --> 00:03:08.000
+annot: fry
+ACTID: 13
+PRED: fry
+[DOBJ, food, ] (12)
+
+00:03:09.000 --> 00:03:40.000
+annot: Add 1 tsp of soya sauce, fish sauce, oyster sauce
+ACTID: 14
+PRED: add
+[DOBJ, food] 1 tsp of soya sauce (-1), fish sauce (-1), oyster sauce (-1)
+[PP, food, ] (13)
+
+00:03:09.000 --> 00:03:40.000
+annot: cook for about a minute
+ACTID: 15
+PRED: cook
+[PP, other, for] about a minute (-1)
+[PP, food, ] (14)
+
+00:03:43.000 --> 00:04:08.000
+annot: Add the spring onions in the end
+ACTID: 16
+PRED: add
+[DOBJ, food] the spring onions (-1)
+[PP, other, in] the end (-1)
+[PP, food, ] (15)
+
+
+00:03:43.000 --> 00:04:08.000
+annot: serve it hot
+ACTID: 17
+PRED: serve
+[DOBJ, food] it (16)
+
+

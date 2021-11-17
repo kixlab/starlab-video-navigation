@@ -1,0 +1,159 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:01:04.000 --> 00:01:18.000
+annot: place the egg noodles into a bowl
+ACTID: 0
+PRED: place
+[DOBJ, food] the egg noodles (-1)
+[PP, location, into] a bowl (-1)
+
+
+00:01:24.000 --> 00:01:33.000
+annot: Add the noodles to a pot of boiling water
+ACTID: 1
+PRED: add
+[DOBJ, food] the noodles (0)
+[PP, food, to] a pot of boiling water (-1)
+
+
+00:01:34.000 --> 00:02:00.000
+annot: Drain the noodles in a colander
+ACTID: 2
+PRED: drain
+[DOBJ, food] the noodles (1)
+[PP, location, in] a colander (-1)
+
+
+00:01:34.000 --> 00:02:00.000
+annot: place on a paper towel
+ACTID: 3
+PRED: place
+[DOBJ, food]  (2)
+[PP, food, on] a paper towel (-1)
+
+
+00:02:01.000 --> 00:02:06.000
+annot: cut the pork into thin strips
+ACTID: 4
+PRED: cut
+[DOBJ, food] the pork (-1)
+[PP, other, into] thin strips (-1)
+
+
+00:02:07.000 --> 00:02:44.000
+annot: cut garlic, carrots, celery, onion, and bok choi into thin slices
+ACTID: 5
+PRED: cut
+[DOBJ, food] garlic (-1), carrots (-1), celery (-1), onion (-1), bok choi (-1)
+[PP, other, into] thin slices (-1)
+
+
+00:02:50.000 --> 00:03:06.000
+annot: Add soy sauce, oyster sauce, and sugar into bowl
+ACTID: 6
+PRED: add
+[DOBJ, food] soy sauce (-1), oyster sauce (-1), sugar (-1)
+[PP, location, into] bowl (-1)
+
+
+00:02:50.000 --> 00:03:06.000
+annot: mix
+ACTID: 7
+PRED: mix
+[DOBJ, food]  (6)
+
+
+
+00:03:08.000 --> 00:03:51.000
+annot: Add oil to a hot pan
+ACTID: 8
+PRED: add
+[DOBJ, food] oil (-1)
+[PP, location, to] a hot pan (-1)
+
+
+00:03:08.000 --> 00:03:51.000
+annot: add the vegetables 
+ACTID: 9
+PRED: add
+[DOBJ, food] the vegetables (5)
+[PP, food, ] (8)
+
+
+00:03:08.000 --> 00:03:51.000
+annot: mix with pepper
+ACTID: 10
+PRED: mix
+[DOBJ, food]  (9)
+[PP, food, with] pepper (-1)
+
+
+00:03:52.000 --> 00:03:59.000
+annot: Remove the vegetables into a bowl
+ACTID: 11
+PRED: remove
+[DOBJ, food] the vegetables (10)
+[PP, food, into] a bowl (-1)
+
+
+00:04:02.000 --> 00:04:25.000
+annot: Add oil to the pan
+ACTID: 12
+PRED: add
+[DOBJ, food] oil (-1)
+[PP,  food, to] the pan (11)
+
+
+00:04:02.000 --> 00:04:25.000
+annot: add the noodles
+ACTID: 13
+PRED: add
+[DOBJ, food] the noodles (3)
+[PP, food, ] (12)
+
+
+00:04:26.000 --> 00:04:34.000
+annot: Add the stir fry sauce to the pan
+ACTID: 14
+PRED: add
+[DOBJ, food] the stir fry sauce (7)
+[PP, location, to] the pan (13)
+
+
+
+00:04:35.000 --> 00:04:50.000
+annot: Add the vegetables and pork to the noodles
+ACTID: 15
+PRED: add
+[DOBJ, food] the vegetables (11), pork (4)
+[PP, food, to] the noodles (14)
+
+
+00:04:35.000 --> 00:04:50.000
+annot: mix
+ACTID: 16
+PRED: mix
+[DOBJ, food]  (15)
+
+
+00:04:51.000 --> 00:04:58.000
+annot: Add the remainder of the stir fry sauce and pepper to the noodles
+ACTID: 17
+PRED: add
+[DOBJ, food] the remainder of the stir fry sauce (7), and pepper (-1)
+[PP, food, to] the noodles (16)
+
+
+
+00:04:51.000 --> 00:04:58.000
+annot: mix
+ACTID: 18
+PRED: mix
+[DOBJ, food] (17)
+
+
+

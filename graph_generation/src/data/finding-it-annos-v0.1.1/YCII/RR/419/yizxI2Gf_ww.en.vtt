@@ -1,0 +1,146 @@
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:48.000 --> 00:01:19.000
+annot: Take 2.5 cups of all purpose flour in a bowl
+ACTID: 0
+PRED: take
+[DOBJ, food] 2.5 cups of all purpose flour (-1)
+[PP, food, in] a bowl (-1) 
+
+
+00:00:48.000 --> 00:01:19.000
+annot: add 1 tsp sugar, 1-2 tsp of oil
+ACTID: 1
+PRED: add
+[DOBJ, food] 1 tsp sugar (-1), 1-2 tsp of oil (-1)
+[PP, food, ] (0)
+
+
+00:00:48.000 --> 00:01:19.000
+annot: add the yeast
+ACTID: 2
+PRED: add
+[DOBJ, food] the yeast (-1)
+[PP, food, ] (1)
+
+
+00:01:20.000 --> 00:02:13.000
+annot: Add salt to taste
+ACTID: 3
+PRED: add
+[DOBJ, food] salt (-1)
+[PP, food, ] (2)
+
+
+00:01:20.000 --> 00:02:13.000
+annot: Add ¼ cup of plain yoghurt at room temperature
+ACTID: 4
+PRED: add
+[DOBJ, food] 1/4 cup of plain yoghurt (-1)
+[PP, food, ] (3)
+
+
+00:01:20.000 --> 00:02:13.000
+annot: kneed the dough using the mixer
+ACTID: 5
+PRED: kneed
+[DOBJ, food] the dough (4)
+[PP, location, using] the mixer (-1)
+
+
+00:01:20.000 --> 00:02:13.000
+annot: add a little water at a time to form a soft dough
+ACTID: 6
+PRED: add
+[DOBJ, food] a little water (-1)
+[PP, food, ] (5)
+
+
+00:02:14.000 --> 00:02:32.000
+annot: Take the dough in a separate bowl
+ACTID: 7
+PRED: take
+[DOBJ, food] the dough (6)
+[PP, location, in] a separate bowl (-1)
+
+
+00:02:14.000 --> 00:02:32.000
+annot: let it aside for 30-40 minutes in a warm place
+ACTID: 8
+PRED: set
+[DOBJ, food] it (7)
+[PP, other, for] 30-40 minutes in a warm place (-1)
+
+
+00:02:42.000 --> 00:03:30.000
+annot: grease the dough with oil
+ACTID: 9
+PRED: grease
+[DOBJ, food] the dough (8)
+[PP, food, with] oil (-1)
+
+
+00:02:42.000 --> 00:03:30.000
+annot: take small pieces of dough
+ACTID: 10
+PRED: take
+[DOBJ, food] small pieces of dough (9)
+
+
+00:02:42.000 --> 00:03:30.000
+annot: dip it in loose flour
+ACTID: 11
+PRED: dip
+[DOBJ, food] it (10)
+[PP, food, in] loose flour (-1)
+
+
+00:02:42.000 --> 00:03:30.000
+annot: roll it into a round shape sprinkling flour using a rolling pin
+ACTID: 12
+PRED: roll
+[DOBJ, food] it (11)
+[PP, other, using] a rolling pin (-1)
+
+
+00:03:32.000 --> 00:03:50.000
+annot: heat a pan
+ACTID: 13
+PRED: heat
+[DOBJ, location] a pan (-1)
+
+
+00:03:32.000 --> 00:03:50.000
+annot: cook the naan on medium heat for 2-3 minutes with covered lid
+ACTID: 14
+PRED: cook
+[DOBJ, food] the naan (12)
+[PP, location, on] medium heat for 2-3 minutes with covered lid (13)
+
+
+00:04:00.000 --> 00:04:33.000
+annot: Flip it over the flame to let it puff
+ACTID: 15
+PRED: flip
+[DOBJ, food] it (14)
+
+
+00:04:34.000 --> 00:05:10.000
+annot: spread butter over the naan
+ACTID: 16
+PRED: spread
+[DOBJ, food] butter (-1)
+[PP, food, over] the naan (15)
+
+
+00:04:34.000 --> 00:05:10.000
+annot: sprinkle some kasuri methi
+ACTID: 17
+PRED: sprinkle
+[DOBJ, food] some kasuri methi (-1)
+[PP, food, ] (16)
+
+

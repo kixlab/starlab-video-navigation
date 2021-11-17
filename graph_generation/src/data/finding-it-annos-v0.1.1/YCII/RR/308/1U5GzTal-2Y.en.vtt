@@ -1,0 +1,69 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:25.000 --> 00:00:58.000
+annot: spread rice onto the seaweed
+ACTID: 0
+PRED: spread
+[DOBJ, food] rice (-1)
+[PP, food, onto] the seaweed (-1)
+
+
+00:01:14.000 --> 00:01:22.000
+annot: sprinkle sesame seeds on top of the rice
+ACTID: 1
+PRED: sprinkle
+[DOBJ, food] sesame seeds (-1)
+[PP, food, on] top of the rice (0)
+
+
+00:01:23.000 --> 00:01:29.000
+annot: Flip the sheet over
+ACTID: 2
+PRED: flip
+[DOBJ, food] the sheet (1)
+[PP, other, ] over (-1)
+
+
+00:01:31.000 --> 00:01:55.000
+annot: place tuna in a line on the sheet
+ACTID: 3
+PRED: place
+[DOBJ, food] tuna (-1)
+[PP, food, in] a line on the sheet (2)
+
+
+00:01:58.000 --> 00:02:07.000
+annot: place sauce on the tuna
+ACTID: 4
+PRED: place
+[DOBJ, food] sauce (-1)
+[PP, food, on] the tuna (3)
+
+
+00:02:14.000 --> 00:02:39.000
+annot: roll the sheet up
+ACTID: 5
+PRED: roll
+[DOBJ, food] the sheet (4)
+
+
+00:03:07.000 --> 00:03:50.000
+annot: cut the roll into pieces
+ACTID: 6
+PRED: cut
+[DOBJ, food] the roll (5)
+[PP, other, into] pieces (-1)
+
+
+00:04:05.000 --> 00:04:12.000
+annot: Add sauce to the top of the roll
+ACTID: 7
+PRED: add
+[DOBJ, food] sauce (-1)
+[PP, food, to] the top of the roll (6)
+
+

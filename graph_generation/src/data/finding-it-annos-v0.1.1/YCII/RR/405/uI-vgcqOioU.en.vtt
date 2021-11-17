@@ -1,0 +1,139 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:01:25.000 --> 00:01:34.000
+annot: heat some mustard oil in a pan
+ACTID: 0
+PRED: heat
+[DOBJ, food] some mustard oil  (-1)
+[PP, location, in] a pan (-1)
+
+
+00:02:01.000 --> 00:02:13.000
+annot: Add cinnamon, bay leaf, cardamom, cloves and green cardamom
+ACTID: 1
+PRED: add
+[DOBJ, food] cinnamon (-1), bay leaf (-1), cardamom (-1), cloves (-1), green cardamom (-1)
+[PP, food, ] (0)
+
+
+00:02:21.000 --> 00:02:34.000
+annot: Add finely chopped onions
+ACTID: 2
+PRED: add
+[DOBJ, food] finely chopped onions (-1)
+[PP, food, ] (1)
+
+
+00:02:21.000 --> 00:02:34.000
+annot: stir to cook
+ACTID: 3
+PRED: stir
+[DOBJ, food] (2)
+
+
+00:02:35.000 --> 00:02:42.000
+annot: Add a little bit salt
+ACTID: 4
+PRED: add
+[DOBJ, food] a little bit salt (-1)
+[PP, food, ] (3)
+
+
+00:02:54.000 --> 00:03:18.000
+annot: Add the mutton to the pan
+ACTID: 5
+PRED: add
+[DOBJ, food] the mutton (-1)
+[PP, food, to] the pan (4)
+
+
+00:02:54.000 --> 00:03:18.000
+annot: stir to cook
+ACTID: 6
+PRED: stir
+[DOBJ, food] (5)
+
+
+00:03:35.000 --> 00:03:44.000
+annot: Add garlic ginger paste to the mixture
+ACTID: 7
+PRED: add
+[DOBJ, food] garlic ginger paste (-1)
+[PP, food, to] the mixture (6)
+
+
+
+
+00:04:00.000 --> 00:04:09.000
+annot: Add the tomato puree
+ACTID: 8
+PRED: add
+[DOBJ, food] the tomato puree (-1)
+[PP, food, ] (7)
+
+
+00:04:00.000 --> 00:04:09.000
+annot: stir
+ACTID: 9
+PRED: stir
+[DOBJ, food] (8)
+
+
+00:04:24.000 --> 00:04:40.000
+annot: Cover the pan to cook for 15 minutes
+ACTID: 10
+PRED: cover
+[DOBJ, food] the pan  (9)
+[PP, other, for] 15 minutes (-1)
+
+
+00:04:52.000 --> 00:05:10.000
+annot: Add red chilli powder, onion powder and more salt
+ACTID: 11
+PRED: add
+[DOBJ, food] red chilli powder (-1), onion powder (-1), more salt (-1)
+[PP, food, ] (10)
+
+
+00:04:52.000 --> 00:05:10.000
+annot: stir
+ACTID: 12
+PRED: stir
+[DOBJ, food] (11)
+
+
+00:05:09.000 --> 00:05:52.000
+annot: Add the yogurt and coriander leaves to the pan
+ACTID: 13
+PRED: add
+[DOBJ, food] the yogurt (-1), coriander leaves (-1)
+[PP, food, to] the pan (12)
+
+
+00:05:09.000 --> 00:05:52.000
+annot: stir
+ACTID: 14
+PRED: stir
+[DOBJ, food] (13)
+
+
+00:06:04.000 --> 00:06:37.000
+annot: Cover to cook for another 40 minutes 
+ACTID: 15
+PRED: Cover
+[DOBJ, food] (14)
+[PP, other, for] another 40 minutes (-1)
+
+
+00:06:04.000 --> 00:06:37.000
+annot: garnish with more coriander leaves
+ACTID: 16
+PRED: garnish
+[DOBJ, food] (15)
+[PP, food, with] more coriander leaves (-1)
+
+

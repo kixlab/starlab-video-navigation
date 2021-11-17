@@ -1,0 +1,183 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:27.000 --> 00:01:31.000
+annot: Whisk one large egg
+ACTID: 0
+PRED: whisk
+[DOBJ, food] one large egg (-1)
+
+
+00:00:27.000 --> 00:01:31.000
+annot: add sour cream
+ACTID: 1
+PRED: add
+[DOBJ, food] sour cream (-1)
+[PP, food, ] (0)
+
+
+00:00:27.000 --> 00:01:31.000
+annot: add little water
+ACTID: 2
+PRED: add
+[DOBJ, food] little water (-1)
+[PP, food, ] (1)
+
+
+00:00:27.000 --> 00:01:31.000
+annot: continue to whisk
+ACTID: 3
+PRED: whisk
+[DOBJ, food] (2)
+
+
+00:00:27.000 --> 00:01:31.000
+annot: add 1 cup of whole milk and flour one cup at a time
+ACTID: 4
+PRED: add
+[DOBJ, food] 1 cup of whole milk (-1), flour one cup (-1)
+[PP, other, at] a time (-1)
+[PP, food, ] (3)
+
+
+00:01:32.000 --> 00:02:40.000
+annot: knead the dough
+ACTID: 5
+PRED: knead
+[DOBJ, food] the dough (4)
+
+
+00:01:32.000 --> 00:02:40.000
+annot: divide it into pieces
+ACTID: 6
+PRED: divide
+[DOBJ, food] it (5)
+[PP, other, into] pieces (-1)
+
+
+00:01:32.000 --> 00:02:40.000
+annot: roll it into an 1/8 of an inch thick
+ACTID: 7
+PRED: roll
+[DOBJ, food] it (6)
+[PP, other, into] an 1/8 of an inch thick (-1)
+
+
+00:01:32.000 --> 00:02:40.000
+annot: cut small round pieces
+ACTID: 8
+PRED: cut
+[DOBJ, food] small round pieces (7)
+
+
+00:03:03.000 --> 00:03:55.000
+annot: wrap the cabbage
+ACTID: 9
+PRED: wrap
+[DOBJ, food] the cabbage (-1)
+
+
+00:03:03.000 --> 00:03:55.000
+annot: drain the water out of it
+ACTID: 10
+PRED: drain
+[DOBJ, other] the water (-1)
+[PP, food, out] of it (9)
+
+
+00:03:03.000 --> 00:03:55.000
+annot: chop it using a meat shopper
+ACTID: 11
+PRED: chop
+[DOBJ, food] it (10)
+[PP, other, using] a meat shopper (-1)
+
+
+00:03:56.000 --> 00:04:40.000
+annot: Add half a stick of butter
+ACTID: 12
+PRED: add
+[DOBJ, food] half a stick of butter (-1)
+[PP, food, ] (11)
+
+
+00:03:56.000 --> 00:04:40.000
+annot: and mix it well
+ACTID: 13
+PRED: mix
+[DOBJ, food] it (12)
+
+
+00:03:56.000 --> 00:04:40.000
+annot: add black pepper and salt
+ACTID: 14
+PRED: add
+[DOBJ, food] black pepper (-1), salt (-1)
+[PP, food, ] (13)
+
+
+00:05:00.000 --> 00:05:44.000
+annot: stretch the dough
+ACTID: 15
+PRED: stretch
+[DOBJ, food] dough (8)
+
+
+00:05:00.000 --> 00:05:44.000
+annot: and place a small tsp of filling in the middle
+ACTID: 16
+PRED: place
+[DOBJ, food] a small tsp of filling (14)
+[PP, location, in] the middle (15)
+
+
+00:05:00.000 --> 00:05:44.000
+annot: fold it
+ACTID: 17
+PRED: fold
+[DOBJ, food] it (16)
+
+
+00:05:00.000 --> 00:05:44.000
+annot: seal it at the edges
+ACTID: 18
+PRED: seal
+[DOBJ, food] it (17)
+[PP, food, at] the edges (-1)
+
+
+00:05:53.000 --> 00:06:23.000
+annot: Cook the pierogies in salted boiling water until they float
+ACTID: 19
+PRED: cook
+[DOBJ, food] the pierogies (18)
+[PP, location, in] salted boiling water (-1)
+[PP, other, until] they float (-1)
+
+
+00:06:24.000 --> 00:06:54.000
+annot: Spread melted butter on a plate
+ACTID: 20
+PRED: spread
+[DOBJ, food] melted butter (-1)
+[PP, location, on] a plate (-1)
+
+
+00:06:24.000 --> 00:06:54.000
+annot: transfer the cooked pierogies
+ACTID: 21
+PRED: transfer
+[DOBJ, food] the cooked pierogies (19)
+[PP, food, ] (20)
+
+
+00:06:24.000 --> 00:06:54.000
+annot: serve
+ACTID: 22
+PRED: serve
+[DOBJ, food] (21)
+
+

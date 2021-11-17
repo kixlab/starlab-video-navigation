@@ -1,0 +1,99 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:59.000 --> 00:02:18.000
+annot: select some healthy mussels
+ACTID: 0
+PRED: select
+[DOBJ, food] some healthy mussels (-1)
+
+
+00:00:59.000 --> 00:02:18.000
+annot: chopped onions with a little oil in a pot
+ACTID: 1
+PRED: chop
+[DOBJ, food] onions (-1)
+[PP, food, with] a little oil (-1)
+[PP, location, in] a pot (-1)
+
+
+00:00:59.000 --> 00:02:18.000
+annot: cook some chopped garlic
+ACTID: 2
+PRED: cook
+[DOBJ, food] some chopped garlic (-1)
+[PP, food, ] (1)
+
+
+00:02:27.000 --> 00:02:58.000
+annot: Add lemon juice, white wine to the pot
+ACTID: 3
+PRED: add
+[DOBJ, food] lemon juice (-1), white wine (-1)
+[PP, food, to] the pot (2)
+
+
+00:02:27.000 --> 00:02:58.000
+annot: then add the selected mussels
+ACTID: 4
+PRED: add
+[DOBJ, food] the selected mussels (0)
+[PP, food, ] (3)
+
+
+00:03:00.000 --> 00:03:23.000
+annot: Cover the lid
+ACTID: 5
+PRED: cover
+[DOBJ, food] the lid (-1)
+[PP, food, ] (4)
+
+
+00:03:00.000 --> 00:03:23.000
+annot: Cook until all mussels are open
+ACTID: 6
+PRED: cook
+[DOBJ, food] (5)
+[PP, other, until] all mussels are open (-1)
+
+
+00:03:25.000 --> 00:03:36.000
+annot: Take the mussels out
+ACTID: 7
+PRED: take
+[DOBJ, food] the mussels (6)
+
+
+00:03:25.000 --> 00:03:36.000
+annot: pour some cream to the pot
+ACTID: 8
+PRED: pour
+[DOBJ, food] some cream (-1)
+[PP, location, to] the pot (-1)
+
+
+00:03:38.000 --> 00:03:48.000
+annot: heat the cream mixture in the pot
+ACTID: 9
+PRED: heat
+[DOBJ, food] the cream mixture (8)
+
+
+00:03:38.000 --> 00:03:48.000
+annot: chop some fresh parsley
+ACTID: 10
+PRED: chop
+[DOBJ, food] some fresh parsley (-1)
+
+
+00:03:58.000 --> 00:04:10.000
+annot: Pour the cooked milk mixture and the parsley on top of the mussels
+ACTID: 11
+PRED: pour
+[DOBJ, food] the cooked milk mixture (9), the parsley (10)
+[PP, food, on] top of the mussels (7)
+
+

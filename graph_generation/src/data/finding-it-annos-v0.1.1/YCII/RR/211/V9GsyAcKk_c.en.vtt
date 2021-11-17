@@ -1,0 +1,123 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:17.000 --> 00:00:45.000
+annot: cut through the core of the cabbage into half
+ACTID: 0
+PRED: cut
+[DOBJ, food] the core of the cabbage (-1)
+[PP, other, into] half (-1)
+
+
+00:00:17.000 --> 00:00:45.000
+annot: remove the tough core
+ACTID: 1
+PRED: remove
+[DOBJ, food] the tough core (-1)
+[PP, food, ] (0)
+
+
+00:00:17.000 --> 00:00:45.000
+annot: dice the cabbage
+ACTID: 2
+PRED: dice
+[DOBJ, food] the cabbage (1)
+
+
+00:00:46.000 --> 00:01:00.000
+annot: Put the cabbage into a pan
+ACTID: 3
+PRED: put
+[DOBJ, food] the cabbage (2)
+[PP, location, into] a pan (-1)
+
+
+00:00:46.000 --> 00:01:00.000
+annot: add diced potatoes
+ACTID: 4
+PRED: add
+[DOBJ, food] diced potatoes (-1)
+[PP, food, ] (3)
+
+
+00:00:46.000 --> 00:01:00.000
+annot: cover it with water
+ACTID: 5
+PRED: cover
+[DOBJ, food] it (4)
+[PP, food, with] water (-1)
+
+
+00:00:46.000 --> 00:01:00.000
+annot: bring it up to a boil
+ACTID: 6
+PRED: bring
+[DOBJ, food] it (5)
+[PP, other, to] a boil (-1)
+
+
+00:01:01.000 --> 00:01:15.000
+annot: after cooking drain the potatoes and cabbage
+ACTID: 7
+PRED: drain
+[DOBJ, food] the potatoes (6), cabbage (6)
+
+
+00:01:01.000 --> 00:01:15.000
+annot: in the same pot melt some butter
+ACTID: 8
+PRED: melt
+[DOBJ, food] some butter (-1)
+[PP, location, in] the same pot (7)
+
+
+00:01:01.000 --> 00:01:15.000
+annot: toss in some diced onions
+ACTID: 9
+PRED: toss
+[DOBJ, food] some diced onions (-1)
+[PP, food, in] (8)
+
+
+00:01:01.000 --> 00:01:15.000
+annot: pour some warm milk into the pot
+ACTID: 10
+PRED: pour
+[DOBJ, food] some warm milk (-1)
+[PP, food, into] the pot (9)
+
+
+00:01:16.000 --> 00:01:35.000
+annot: Add some green onions
+ACTID: 11
+PRED: add
+[DOBJ, food] some green onions (-1)
+[PP, food, ] (10)
+
+
+00:01:16.000 --> 00:01:35.000
+annot: add the cooked cabbage and potatoes
+ACTID: 12
+PRED: add
+[DOBJ, food] the cooked cabbage (7), potatoes (7)
+[PP, food, ] (11)
+
+
+00:01:16.000 --> 00:01:35.000
+annot: smash all the ingredients
+ACTID: 13
+PRED: smash
+[DOBJ, food] all the ingredients (12)
+
+
+00:01:35.000 --> 00:01:40.000
+annot: Serve along with meat
+ACTID: 14
+PRED: serve
+[DOBJ, food] (13)
+[PP, food, with] meat (-1)
+
+
