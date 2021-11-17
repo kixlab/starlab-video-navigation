@@ -1,0 +1,167 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:01:06.000 --> 00:01:26.000
+annot: Add the sauce and peanut butter into the food processor
+ACTID: 0
+PRED: add
+[DOBJ, food] the sauce (-1), peanut butter (-1)
+[PP, location, into] the food processor (-1)
+
+
+00:01:06.000 --> 00:01:26.000
+annot: add little bit of sugar water, garlic powder
+ACTID: 1
+PRED: add
+[DOBJ, food] bit of sugar water (-1), garlic powder (-1)
+[PP, food, ] (0)
+
+00:01:30.000 --> 00:01:48.000
+annot: transfer it to a mason jar
+ACTID: 2
+PRED: transfer
+[DOBJ, food] it (1)
+[PP, location, to] a mason jar (-1)
+
+
+00:01:50.000 --> 00:02:30.000
+annot: Add sugar into the measuring cup
+ACTID: 3
+PRED: add
+[DOBJ, food] sugar (-1)
+[PP, location, into] the measuring cup (-1)
+
+
+00:01:50.000 --> 00:02:30.000
+annot: add hot water
+ACTID: 4
+PRED: add
+[DOBJ, food] hot water (-1)
+[PP, food, ] (3)
+
+
+00:01:50.000 --> 00:02:30.000
+annot: stir it until all the sugar is dissolved
+ACTID: 5
+PRED: stir
+[DOBJ, food] it (4)
+[PP, other, until] all the sugar is dissoved (-1)
+
+
+00:01:50.000 --> 00:02:30.000
+annot: squeeze in some lime, chopped garlic stir
+ACTID: 6
+PRED: squeeze
+[DOBJ, food] some lime (-1), chopped garlic (-1)
+[PP, food, ] (5)
+
+
+00:01:50.000 --> 00:02:30.000
+annot: taste check
+ACTID: 7
+PRED: taste check
+[PP, food, ] (6)
+
+
+00:01:50.000 --> 00:02:30.000
+annot: add in some chili pepper
+ACTID: 8
+PRED: add
+[PP, food, in] some chili pepper (-1)
+[PP, food, ] (7)
+
+
+00:02:31.000 --> 00:02:41.000
+annot: transfer it to a mason jar
+ACTID: 9
+PRED: transfer
+[DOBJ, food] it (8)
+[PP, location, to] a mason jar (-1)
+
+
+00:02:31.000 --> 00:02:41.000
+annot: store it
+ACTID: 10
+PRED: store
+[DOBJ, food] it (9)
+
+
+00:03:09.000 --> 00:03:27.000
+annot: cut the boiled shrimp into half
+ACTID: 11
+PRED: cut
+[DOBJ, food] the boiled shrimp into half (-1)
+
+
+00:03:09.000 --> 00:03:27.000
+annot: remove the shell
+ACTID: 12
+PRED: remove
+[DOBJ, food] the shell (-1)
+[PP, food, ] (11)
+
+
+00:03:28.000 --> 00:03:40.000
+annot: cut the tofu into one inch slices
+ACTID: 13
+PRED: cut
+[DOBJ, food] the tofu (-1)
+[PP, other, into] one inch slices (-1)
+
+
+00:03:44.000 --> 00:04:05.000
+annot: dip rice paper in warm water and drain excess water
+ACTID: 14
+PRED: dip
+[DOBJ, food] rice paper in warm water (-1), drain excess water (-1)
+
+
+00:04:06.000 --> 00:04:31.000
+annot: Place some lettuce in the middle of the rice paper
+ACTID: 15
+PRED: place
+[DOBJ, food] some lettuce (-1)
+[PP, food, in] the middle of the rice paper (14)
+
+
+00:04:06.000 --> 00:04:31.000
+annot: add some coriander leaves, mint, cilantro, beans sprouts, cooked vermicelli noodles
+ACTID: 16
+PRED: add 
+[DOBJ, food] some coriander leaves (-1),  mint (-1), cilantro (-1), beans sprouts (-1), cooked vermicelli noodles (-1)
+[PP, food, ] (15)
+
+
+00:04:32.000 --> 00:04:56.000
+annot: place the shrimp and ham next to the veggies and layer the ham with tofu slices
+ACTID: 17
+PRED: place
+[DOBJ, food] the shrimp (12), ham  (-1)
+[PP, food, next] to the veggies (-1)
+[PP, food, ] (16)
+
+00:04:32.000 --> 00:04:56.000
+annot: layer the ham with tofu slices
+ACTID: 18
+PRED: layer
+[DOBJ, food] the ham (17)
+[PP, food, with] tofu slices (13)
+
+
+00:04:57.000 --> 00:05:20.000
+annot: Fold the rice paper
+ACTID: 19
+PRED: fold
+[DOBJ, food] the rice paper (18)
+
+
+00:04:57.000 --> 00:05:20.000
+annot: roll over to completely covering the stuffing
+ACTID: 20
+PRED: roll
+[PP, food, to] completely covering the stuffing (19)
+
+

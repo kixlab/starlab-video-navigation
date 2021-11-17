@@ -1,0 +1,98 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:13.000 --> 00:00:32.000
+annot: Add some olive oil, 1 clove garlic, salt and pepper to a bowl
+ACTID: 0
+PRED: add
+[DOBJ, food] some olive oil (-1), 1 clove garlic (-1), salt (-1), pepper (-1)
+[PP, location, to] a bowl (-1)
+
+
+00:00:39.000 --> 00:00:49.000
+annot: Chop 3 pieces of bread to small cubes
+ACTID: 1
+PRED: chop
+[DOBJ, food] 3 pieces of bread (-1)
+[PP, other, to] small cubes (-1)
+
+
+00:00:39.000 --> 00:00:49.000
+annot: mix the cubes with the mixture
+ACTID: 2
+PRED: mix
+[DOBJ, food] the cubes (1)
+[PP, food, with] the mixture (0)
+
+
+00:00:51.000 --> 00:01:05.000
+annot: Put the croutons on a baking pan
+ACTID: 3
+PRED: put
+[DOBJ, food] the croutons (2)
+[PP, location, on] a baking pan (-1)
+
+
+00:00:51.000 --> 00:01:05.000
+annot: bake for 15 minutes
+ACTID: 4
+PRED: bake
+[DOBJ, food] (3)
+[PP, other, for] 15 minutes (-1)
+
+
+00:01:05.000 --> 00:01:41.000
+annot: in a large bowl, add olive oil, chopped anchovy fillet, mayo, salt, pepper and lemon juice 
+ACTID: 5
+PRED: add
+[DOBJ, food] olive oil (-1), chopped anchovy fillet (-1), mayo (-1), salt (-1), pepper (-1), lemon juice (-1)
+[PP, location, in] a large bowl (-1)
+
+00:01:42.000 --> 00:01:55.000
+annot: Whisk the mixture well to get the sauce
+ACTID: 6
+PRED: whisk
+[DOBJ, food] the mixture (5)
+
+
+00:02:10.000 --> 00:02:15.000
+annot: Chop some lettuce to small pieces
+ACTID: 7
+PRED: chop
+[DOBJ, food] some lettuce (-1)
+[PP, other, to] small pieces (-1)
+
+
+00:02:10.000 --> 00:02:15.000
+annot: add to the bowl
+ACTID: 8
+PRED: add
+[DOBJ, food] (7)
+[PP, food, to] the bowl (6)
+
+
+00:02:18.000 --> 00:02:43.000
+annot: Toss the lettuce well in the sauce
+ACTID: 9
+PRED: toss
+[DOBJ, food] the lettuce (8)
+[PP, food, in] the sauce (8)
+
+
+00:02:18.000 --> 00:02:43.000
+annot: take it out
+ACTID: 10
+PRED: take
+[DOBJ, food] it (9)
+
+00:02:18.000 --> 00:02:43.000
+annot: serve with the homemade croutons
+ACTID: 11
+PRED: serve
+[DOBJ, food] (10)
+[PP, food, with] the homemade croutons (4)
+
+

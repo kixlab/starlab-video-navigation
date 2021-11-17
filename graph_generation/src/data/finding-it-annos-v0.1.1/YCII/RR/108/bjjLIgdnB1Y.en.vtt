@@ -1,0 +1,105 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:21.000 --> 00:01:05.000
+annot: In a bowl combine flour, sugar,  baking powder, and salt
+ACTID: 0
+PRED: combine
+[DOBJ, food] flour (-1), sugar (-1), baking powder (-1), and salt (-1)
+[PP, location, in] a bowl (-1)
+
+
+00:00:21.000 --> 00:01:05.000
+annot: stir togther
+ACTID: 1
+PRED: stir
+[DOBJ, food] (0)
+
+
+00:01:06.000 --> 00:01:26.000
+annot: Whisk the egg
+ACTID: 2
+PRED: whisk
+[DOBJ, food] the egg (-1)
+
+
+00:01:27.000 --> 00:02:08.000
+annot: Add melted butter and milk to the egg
+ACTID: 3
+PRED: add
+[DOBJ, food] melted butter (-1), milk (-1)
+[PP, food, to] the egg (2)
+
+
+00:01:27.000 --> 00:02:08.000
+annot: stir together
+ACTID: 4
+PRED: stir
+[DOBJ, food] (3)
+
+
+00:02:08.000 --> 00:03:17.000
+annot: poor the wet mix into the center of the dry ingredients
+ACTID: 5
+PRED: pour
+[DOBJ, food] the wet mix (4)
+[PP, food, into] the center of the dry ingredients (1)
+
+
+00:02:08.000 --> 00:03:17.000
+annot: and stir gently
+ACTID: 6
+PRED: stir
+[DOBJ, food] (5)
+
+
+00:04:06.000 --> 00:04:18.000
+annot: Spray the pan with non-stick cook spray
+ACTID: 7
+PRED: spray
+[DOBJ, location] the pan (-1)
+[PP, food, with] non-stick cook spray (-1)
+
+
+00:04:50.000 --> 00:05:15.000
+annot: Pour batter onto the pan
+ACTID: 8
+PRED: pour
+[DOBJ, food] batter (6)
+[PP, food, onto] the pan (7)
+
+
+00:05:15.000 --> 00:06:10.000
+annot: Cook until the pancake bubbles
+ACTID: 9
+PRED: cook
+[DOBJ, food] (8)
+[PP, other, until] the pancake bubbles (-1)
+
+
+00:05:15.000 --> 00:06:10.000
+annot: and flip over
+ACTID: 10
+PRED: flip
+[DOBJ, food] (9)
+[PP, other, ] over (-1)
+
+
+00:06:10.000 --> 00:07:14.000
+annot: Cook the other side until slightly browned
+ACTID: 11
+PRED: cook
+[DOBJ, food] the other side (10)
+
+
+00:06:10.000 --> 00:07:14.000
+annot: and lay out on a plate
+ACTID: 12
+PRED: lay
+[DOBJ, food] (11)
+[PP, location, on] a plate (-1)
+
+

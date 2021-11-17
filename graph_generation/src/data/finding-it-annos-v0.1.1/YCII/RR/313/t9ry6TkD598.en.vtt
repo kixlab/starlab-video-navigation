@@ -1,0 +1,37 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:08.000 --> 00:01:09.000
+annot: cut the salmon into slices
+ACTID: 0
+PRED: cut
+[DOBJ, food] the salmon (-1)
+[PP, other, into] slices (-1)
+
+
+00:01:23.000 --> 00:01:26.000
+annot: form the rice into a ball
+ACTID: 1
+PRED: form
+[DOBJ, food] the rice (-1)
+[PP, other, into] a ball (-1)
+
+
+00:01:26.000 --> 00:01:33.000
+annot: place the rice on the fish slice
+ACTID: 2
+PRED: place
+[DOBJ, food] the rice (1)
+[PP, food, on] the fish slice (0)
+
+
+00:01:33.000 --> 00:01:36.000
+annot: Flip the piece of sushi over
+ACTID: 3
+PRED: flip
+[DOBJ, food] the piece of sushi (2)
+
+

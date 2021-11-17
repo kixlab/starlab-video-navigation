@@ -1,0 +1,100 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:02:17.000 --> 00:02:33.000
+annot: Cook pancetta in a pan with oil
+ACTID: 0
+PRED: cook
+[DOBJ, food] pancetta (-1)
+[PP, food, in] a pan with oil (-1)
+
+
+00:02:33.000 --> 00:02:39.000
+annot: Melt butter in a pan
+ACTID: 1
+PRED: melt
+[DOBJ, food] butter (-1)
+[PP, food, in] a pan (-1)
+
+
+00:02:39.000 --> 00:02:58.000
+annot: mix the flour with the butter
+ACTID: 2
+PRED: mix
+[DOBJ, food] the flour (-1)
+[PP, food, with] the butter (1)
+
+
+00:03:00.000 --> 00:03:15.000
+annot: Stir milk into the rue
+ACTID: 3
+PRED: stir
+[DOBJ, food] milk (-1)
+[PP, food, into] the rue (2)
+
+
+00:03:30.000 --> 00:04:20.000
+annot: Add pepper, salt, and cheese to the sauce
+ACTID: 4
+PRED: add
+[DOBJ, food] pepper (-1), salt (-1), cheese (-1)
+[PP, food, to] the sauce (3)
+
+
+00:03:30.000 --> 00:04:20.000
+annot: mix
+ACTID: 5
+PRED: mix
+[DOBJ, food] (4)
+
+
+00:04:24.000 --> 00:04:51.000
+annot: Add the pasta, pancetta, and sauce to a pot
+ACTID: 6
+PRED: add
+[DOBJ, food] the pasta (-1), pancetta (0), sauce (5)
+[PP, location, to] a pot (-1)
+
+
+00:04:24.000 --> 00:04:51.000
+annot: stir
+ACTID: 7
+PRED: stir
+[DOBJ, food] (6)
+
+
+00:04:52.000 --> 00:05:08.000
+annot: Pour the pasta into a dish
+ACTID: 8
+PRED: pour
+[DOBJ, food] the pasta (7)
+[PP, location, into] a dish (-1)
+
+
+00:05:31.000 --> 00:05:55.000
+annot: Add breadcrumbs and parmesan on top
+ACTID: 9
+PRED: add
+[DOBJ, food] breadcrumbs (-1), parmesan (-1)
+[PP, food, on] top (8)
+
+
+00:05:56.000 --> 00:06:14.000
+annot: drizzle oil on top
+ACTID: 10
+PRED: drizzle
+[DOBJ, food] oil (-1)
+[PP, food, on] top (9)
+
+
+00:05:56.000 --> 00:06:14.000
+annot: bake in the oven
+ACTID: 11
+PRED: bake
+[DOBJ, food] (10)
+[PP, location, in] the oven (-1)
+
+

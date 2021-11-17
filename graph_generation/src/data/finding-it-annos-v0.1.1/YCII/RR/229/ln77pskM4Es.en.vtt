@@ -1,0 +1,76 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:38.000 --> 00:01:03.000
+annot: Put some drained soaked chickpeas in a food processor
+ACTID: 0
+PRED: put
+[DOBJ, food] some drained soaked chickpeas (-1)
+[PP, location, in] a food processor (-1)
+
+00:00:38.000 --> 00:01:03.000
+annot: add some garlic oil
+ACTID: 1
+PRED: add
+[DOBJ, food] some garlic oil (-1)
+[PP, food, ] (0)
+
+00:01:04.000 --> 00:01:40.000
+annot: Add chopped onion, parsley, 1/2 spoon baking powder, coriander and sea salt
+ACTID: 2
+PRED: add
+[DOBJ, food] chopped onion (-1), parsley (-1), 1/2 spoon baking powder (-1), coriander, sea salt (-1)
+[PP, food, ] (1)
+
+00:01:48.000 --> 00:01:53.000
+annot: Add some sauce of your favourite
+ACTID: 3
+PRED: add
+[DOBJ, food] some sauce of your favourite (-1)
+[PP, food, ] (2)
+
+00:02:03.000 --> 00:02:33.000
+annot: Blend everything in the food processor
+ACTID: 4
+PRED: blend
+[DOBJ, food] everything (3)
+[PP, location, in] the food processor (-1)
+
+00:02:53.000 --> 00:03:03.000
+annot: Take the falafel paste out in a bowl
+ACTID: 5
+PRED: take
+[DOBJ, food] the falafel paste (4)
+[PP, location, in] a bowl (-1)
+
+00:03:33.000 --> 00:04:33.000
+annot: Add some gluten free flour
+ACTID: 6
+PRED: add
+[DOBJ, food] some gluten free flour (-1)
+[PP, food, ] (5)
+
+00:03:33.000 --> 00:04:33.000
+annot: mix it together
+ACTID: 7
+PRED: mix
+[DOBJ, food] it (6)
+[PP, other, ] together
+
+00:04:33.000 --> 00:05:33.000
+annot: Shape it into small balls by hand
+ACTID: 8
+PRED: shape
+[DOBJ, food] it (7)
+[PP, other, into] small balls by hand (-1)
+
+00:04:33.000 --> 00:05:33.000
+annot: fry on a baking tray with oil
+ACTID: 9
+PRED: fry
+[DOBJ, food] (8)
+[PP, location, on] a baking tray with oil (-1)
+

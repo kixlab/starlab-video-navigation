@@ -1,0 +1,48 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:05.000 --> 00:00:13.000
+annot: place the leaves on the plate
+ACTID: 0
+PRED: place
+[DOBJ, food] the leaves (-1)
+[PP, location, on] the plate (-1)
+
+
+00:00:25.000 --> 00:00:32.000
+annot: cut the salmon fillet in half
+ACTID: 1
+PRED: cut
+[DOBJ, food] the salmon fillet (-1)
+[PP, other, in] half (-1)
+
+
+00:00:36.000 --> 00:01:30.000
+annot: Slice the the salmon into small strips
+ACTID: 2
+PRED: slice
+[DOBJ, food] the the salmon (1)
+[PP, other, into] small strips (-1)
+[PP, food, ] (0)
+
+
+00:01:33.000 --> 00:02:15.000
+annot: Slice the salmon diagonally into thin pieces
+ACTID: 3
+PRED: slice
+[DOBJ, food] the salmon (1)
+[PP, other, into] thin pieces (-1)
+[PP, food, ] (2)
+
+
+00:02:25.000 --> 00:02:30.000
+annot: place wasabi on the plate
+ACTID: 4
+PRED: place
+[DOBJ, food] wasabi (-1)
+[PP, food, on] the plate (3)
+
+

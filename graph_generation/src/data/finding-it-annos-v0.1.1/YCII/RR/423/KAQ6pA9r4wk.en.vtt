@@ -1,0 +1,130 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:22.000 --> 00:00:40.000
+annot: Coat the chicken with salt, pepper and hot spice
+ACTID: 0
+PRED: coat
+[DOBJ, food] the chicken (-1)
+[PP, food, with] salt (-1), pepper (-1), and hot spice (-1)
+
+
+00:00:43.000 --> 00:00:45.000
+annot: Fry the chicken without oil on a pan
+ACTID: 1
+PRED: fry
+[DOBJ, food] the chicken (0)
+[PP, location, on] a pan (-1)
+
+
+00:00:49.000 --> 00:00:52.000
+annot: cut squash without the end
+ACTID: 2
+PRED: cut
+[DOBJ, food] squash (-1)
+
+
+00:00:53.000 --> 00:00:55.000
+annot: Keep a pot of boiling water
+ACTID: 3
+PRED: keep
+[DOBJ, food] a pot of boiling water (-1)
+
+
+00:00:56.000 --> 00:01:00.000
+annot: Add a chicken stock cube in
+ACTID: 4
+PRED: add
+[DOBJ, food] a chicken stock cube (-1)
+[PP, food, in] (3)
+
+
+00:01:03.000 --> 00:01:06.000
+annot: Grate the squash in a blender
+ACTID: 5
+PRED: grate
+[DOBJ, food] the squash (2)
+[PP, location, in] a blender (-1)
+
+
+00:01:03.000 --> 00:01:06.000
+annot: add to the water
+ACTID: 6
+PRED: add
+[DOBJ, food] (5)
+[PP, food, to] the water (4)
+
+
+00:01:11.000 --> 00:01:20.000
+annot: Blend red chili, ginger, coriander and spring onion in the blender
+ACTID: 7
+PRED: blend
+[DOBJ, food] red chili (-1), ginger (-1), coriander (-1), spring onion (-1)
+[PP, location, in] the blender (-1)
+
+
+00:01:21.000 --> 00:01:40.000
+annot: Add soy sauce, peanut butter, sesame oil, garlic, fish sauce and turmeric to the blender
+ACTID: 8
+PRED: add
+[DOBJ, food] soy sauce (-1), peanut butter (-1), sesame oil (-1), garlic (-1), fish sauce (-1), turmeric (-1)
+[PP, food, to] the blender (7)
+
+
+00:01:41.000 --> 00:01:49.000
+annot: Blend everything
+ACTID: 9
+PRED: blend
+[DOBJ, food] everything (8)
+
+
+00:01:41.000 --> 00:01:49.000
+annot: add to the water
+ACTID: 10
+PRED: add
+[DOBJ, food] (9)
+[PP, food, to] the water (6)
+
+
+00:01:51.000 --> 00:01:58.000
+annot: Add rice noodles to the pot
+ACTID: 11
+PRED: add
+[DOBJ, food] rice noodles (-1)
+[PP, food, to] the pot (10)
+
+
+00:02:00.000 --> 00:02:08.000
+annot: cut two bunches of asparagus
+ACTID: 12
+PRED: cut
+[DOBJ, food] two bunches of asparagus (-1)
+
+
+00:02:00.000 --> 00:02:08.000
+annot: add to the pot
+ACTID: 13
+PRED: add
+[DOBJ, food] (12)
+[PP, food, to] the pot (11)
+
+
+00:02:13.000 --> 00:02:19.000
+annot: season the chicken with honey, sesame seeds and lime juice
+ACTID: 14
+PRED: season
+[DOBJ, food] the chicken (1)
+[PP, food, with] honey (-1), sesame seeds (-1), and lime juice (-1)
+
+
+00:02:34.000 --> 00:02:36.000
+annot: Serve the chicken with the soup
+ACTID: 15
+PRED: serve
+[DOBJ, food] the chicken (14)
+[PP, food, with] the soup (13)
+
+

@@ -1,0 +1,85 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:27.000 --> 00:00:52.000
+annot: in a bowl, add ground beef, salt, pepper, 1 egg, dijon mustard and bread crumbs
+ACTID: 0
+PRED: add
+[DOBJ, food] ground beef (-1), salt (-1), pepper (-1), 1 egg (-1), dijon mustard (-1), bread crumbs (-1)
+[PP, location, in] a bowl (-1)
+
+
+00:00:53.000 --> 00:01:18.000
+annot: mix the ingredients with hand
+ACTID: 1
+PRED: mix
+[DOBJ, food] the ingredients (0)
+[PP, other, with] hand (-1)
+
+
+00:01:26.000 --> 00:02:22.000
+annot: Add vegetable oil in a pan
+ACTID: 2
+PRED: add
+[DOBJ, food] vegetable oil (-1)
+[PP, location, in] a pan (-1)
+
+
+00:01:26.000 --> 00:02:22.000
+annot: fry the meat patty in it
+ACTID: 3
+PRED: fry
+[DOBJ, food] the meat patty (1)
+[PP, food, in] it (2)
+
+
+00:02:25.000 --> 00:02:40.000
+annot: Put 2 slices of cheese on top
+ACTID: 4
+PRED: put
+[DOBJ, food] 2 slices of cheese (-1)
+[PP, food, on] top (3)
+
+
+00:02:25.000 --> 00:02:40.000
+annot: heat until they melt
+ACTID: 5
+PRED: heat
+[DOBJ, food] (4)
+[PP, other, until] they melt (-1)
+
+
+00:02:47.000 --> 00:03:05.000
+annot: transfer the burger aside
+ACTID: 6
+PRED: transfer
+[DOBJ, food] the burger (5)
+
+
+00:02:47.000 --> 00:03:05.000
+annot: fry some onion in the same pan
+ACTID: 7
+PRED: fry
+[DOBJ, food] some onion (-1)
+[PP, location, in] the same pan (-1)
+
+
+00:03:10.000 --> 00:03:48.000
+annot: Place some tomato sauce, the burger patty, the onions on a bun
+ACTID: 8
+PRED: place
+[DOBJ, food] some tomato sauce (-1), the burger patty (6), the onions (7)
+[PP, food, on] a bun (-1)
+
+
+00:03:10.000 --> 00:03:48.000
+annot: cover with another bun on
+ACTID: 9
+PRED: cover
+[DOBJ, food] (8)
+[PP, food, with] another bun on (-1)
+
+

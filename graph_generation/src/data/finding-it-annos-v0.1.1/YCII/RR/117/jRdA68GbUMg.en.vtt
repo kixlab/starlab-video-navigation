@@ -1,0 +1,137 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:40.000 --> 00:01:10.000
+annot: Break eggs into a bowl
+ACTID: 0
+PRED: break
+[DOBJ, food] eggs (-1)
+[PP, location, into] a bowl (-1)
+
+
+00:01:12.000 --> 00:01:21.000
+annot: Squeeze lemon juice into the bowl
+ACTID: 1
+PRED: squeeze
+[DOBJ, food] lemon juice (-1)
+[PP, food, into] the bowl (-1)
+
+
+00:01:46.000 --> 00:01:55.000
+annot: Pour the egg yolks into the top of a double boiler
+ACTID: 2
+PRED: pour
+[DOBJ, food] the egg yolks (0)
+[PP, location, into] the top of a double boiler (-1)
+
+
+00:01:46.000 --> 00:01:55.000
+annot: whisk
+ACTID: 3
+PRED: whisk
+[DOBJ, food] (2)
+
+00:01:56.000 --> 00:02:38.000
+annot: Add lemon juice, white pepper, Worcester sauce, butter, and water to the eggs
+ACTID: 4
+PRED: add
+[DOBJ, food] lemon juice (1), white pepper (-1), worcester sauce (-1), butter (-1), water (-1)
+[PP, food, to] the eggs (3)
+
+
+00:01:56.000 --> 00:02:38.000
+annot: whisk
+ACTID: 5
+PRED: whisk
+[DOBJ, food] (4)
+
+
+00:02:43.000 --> 00:02:50.000
+annot: Add salt to the bowl
+ACTID: 6
+PRED: add
+[DOBJ, food] salt (-1)
+[PP, food, to] the bowl (5)
+
+
+00:02:43.000 --> 00:02:50.000
+annot: mix
+ACTID: 7
+PRED: mix
+[DOBJ, food]  (6)
+
+
+00:03:09.000 --> 00:03:30.000
+annot: place rounds of canadian bacon onto a hot skillet
+ACTID: 8
+PRED: place
+[DOBJ, food] rounds of canadian bacon (-1)
+[PP, location, onto] a hot skillet (-1)
+
+
+00:03:42.000 --> 00:04:11.000
+annot: Add distilled vinegar to a pan of hot water
+ACTID: 9
+PRED: add
+[DOBJ, food] distilled vinegar (-1)
+[PP, location, to]  a pan of hot water (-1)
+
+
+00:03:42.000 --> 00:04:11.000
+annot: add eggs
+ACTID: 10
+PRED: add
+[DOBJ, food] eggs (-1)
+[PP, food, ] (9)
+
+
+00:04:30.000 --> 00:04:44.000
+annot: split english muffins onto a tray
+ACTID: 11
+PRED: split
+[DOBJ, food] english muffins (-1)
+[PP, location, onto] a tray (-1)
+
+
+00:04:30.000 --> 00:04:44.000
+annot: broil
+ACTID: 12
+PRED: broil
+[DOBJ, food] (11)
+
+
+00:04:50.000 --> 00:05:13.000
+annot: Remove the eggs from the water
+ACTID: 13
+PRED: remove
+[DOBJ, food] the eggs (10)
+[PP, location, from] the water (-1)
+
+
+00:04:50.000 --> 00:05:13.000
+annot: place onto a paper towel
+ACTID: 14
+PRED: place
+[DOBJ, food] (13)
+[PP, location, onto] a paper towel (-1)
+
+
+00:05:29.000 --> 00:05:37.000
+annot: spread butter onto the english muffin
+ACTID: 15
+PRED: spread
+[DOBJ, food] butter (-1)
+[PP, food, onto] the english muffin (12)
+
+
+00:05:39.000 --> 00:06:02.000
+annot: place the slice of bacon, the poached egg, hollandaise sauce, and chopped chives on the muffin
+ACTID: 16
+PRED: place
+[DOBJ, food] the slice of bacon (8), the poached egg (14), hollandaise sauce (7), chopped chives (-1)
+[PP, food, on] the muffin (15)
+
+

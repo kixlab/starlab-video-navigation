@@ -1,0 +1,132 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:12.000 --> 00:00:17.000
+annot: cut carrot and cumcumber to slices
+ACTID: 0
+PRED: cut
+[DOBJ, food] carrot (-1), cumcumber (-1)
+[PP, other, to] slices (-1)
+
+
+00:00:17.000 --> 00:00:20.000
+annot: Cook the carrot on a pan with sesame oil
+ACTID: 1
+PRED: cook
+[DOBJ, food] the carrot (0)
+[PP, food, on] a pan with sesame oil (-1)
+
+
+00:00:21.000 --> 00:00:24.000
+annot: Boil some spinach and yellow sprouts
+ACTID: 2
+PRED: boil
+[DOBJ, food] some spinach (-1), yellow sprouts (-1)
+
+
+00:00:25.000 --> 00:00:29.000
+annot: Add salt, minced garlic and sesame oil to the boiled spinach
+ACTID: 3
+PRED: add
+[DOBJ, food] salt (-1), minced garlic (-1), sesame oil (-1)
+[PP, food, to] the boiled spinach (2)
+
+
+00:00:25.000 --> 00:00:29.000
+annot: mix them
+ACTID: 4
+PRED: mix
+[DOBJ, food] them (3)
+
+
+00:00:31.000 --> 00:00:35.000
+annot: cut some mushroom
+ACTID: 5
+PRED: cut
+[DOBJ, food] some mushroom (-1)
+
+
+00:00:31.000 --> 00:00:35.000
+annot: add sesame oil, soy sauce, garlic and pepper to it
+ACTID: 6
+PRED: add
+[DOBJ, food] sesame oil (-1), soy sauce (-1), garlic (-1), pepper (-1)
+[PP, food, to] it (5)
+
+
+00:00:43.000 --> 00:00:55.000
+annot: mix the beef with some soy sauce, pepper, sesame oil and minced garlic
+ACTID: 7
+PRED: mix
+[DOBJ, food] the beef (-1)
+[PP, food, with] some soy sauce (-1), pepper (-1), sesame oil (-1), minced garlic (-1)
+
+
+00:00:57.000 --> 00:01:17.000
+annot: Add sugar to the beef
+ACTID: 8
+PRED: add
+[DOBJ, food] sugar (-1)
+[PP, food, to] the beef (7)
+
+
+00:00:57.000 --> 00:01:17.000
+annot: fry it on a grill
+ACTID: 9
+PRED: fry
+[DOBJ, food] it (8)
+[PP, location, on] a grill (-1)
+
+
+00:01:21.000 --> 00:01:23.000
+annot: Pour some sesame oil at the bottom of a pot
+ACTID: 10
+PRED: pour
+[DOBJ, food] some sesame oil (-1)
+[PP, ,location at] the bottom of a pot (-1)
+
+
+00:01:25.000 --> 00:01:30.000
+annot: Add some steamed rice to the pot
+ACTID: 11
+PRED: add
+[DOBJ, food] some steamed rice (-1)
+[PP, food, to] the pot (10)
+
+
+00:01:32.000 --> 00:02:02.000
+annot: Dump in the beef, all the prepared vegetables and chili paste
+ACTID: 12
+PRED: dump
+[DOBJ, food] the beef (9), cucumber (0), carrots (1), spinach (4), mushroom (6), chili paste (-1)
+[PP, food, in] (11)
+
+
+
+00:02:04.000 --> 00:02:12.000
+annot: Crack an egg on the top
+ACTID: 13
+PRED: crack
+[DOBJ, food] an egg (-1)
+[PP, food, on] the top (12)
+
+
+00:02:04.000 --> 00:02:12.000
+annot: spread some sesame seeds
+ACTID: 14
+PRED: spread
+[DOBJ, food] some sesame seeds (-1)
+[PP, food, ] (13)
+
+
+00:02:04.000 --> 00:02:12.000
+annot: cook it on the stove
+ACTID: 15
+PRED: cook
+[DOBJ, food] it (14)
+[PP, food, on] the stove (-1)
+
+

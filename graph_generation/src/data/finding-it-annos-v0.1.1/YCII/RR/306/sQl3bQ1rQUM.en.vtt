@@ -1,0 +1,77 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:22.000 --> 00:01:10.000
+annot: Remove the shell from the shrimp
+ACTID: 0
+PRED: remove
+[DOBJ, food] the shell (-1)
+[PP, food, from] the shrimp (-1)
+
+
+00:01:15.000 --> 00:01:30.000
+annot: Make many small cuts into the shrimp
+ACTID: 1
+PRED: make
+[DOBJ, other] many small cuts (-1)
+[PP, food, into] the shrimp (0)
+
+
+00:02:23.000 --> 00:02:35.000
+annot: Add salt and black pepper to the shrimp
+ACTID: 2
+PRED: add
+[DOBJ, food] salt (-1), black pepper (-1)
+[PP, food, to] the shrimp (1)
+
+
+00:03:10.000 --> 00:03:45.000
+annot: Add an egg, salt, pepper, and cold water to a bowl of flour and baking powder
+ACTID: 3
+PRED: add
+[DOBJ, food] an egg (-1), salt (-1), pepper (-1), cold water (-1)
+[PP, location, to] a bowl of flour (-1), baking powder (-1)
+
+
+00:04:20.000 --> 00:04:31.000
+annot: Pour the batter into a pot of hot oil
+ACTID: 4
+PRED: pour
+[DOBJ, food] the batter (3)
+[PP, location, into] a pot of hot oil (-1)
+
+
+00:04:32.000 --> 00:04:48.000
+annot: Coat the shrimp in sunflower flour and the batter
+ACTID: 5
+PRED: coat
+[DOBJ, food] the shrimp (2), the batter (3)
+
+
+00:04:32.000 --> 00:04:48.000
+annot: place into the oil
+ACTID: 6
+PRED: place
+[PP, food, into] the oil (4)
+[PP, food, ] (5)
+
+
+00:07:07.000 --> 00:07:15.000
+annot: Remove the shrimp from the oil
+ACTID: 7
+PRED: remove
+[DOBJ, food] the shrimp (6)
+[PP, food, from] the oil (6)
+
+
+00:07:17.000 --> 00:08:00.000
+annot: place the shrimp onto a plate with some strawberries
+ACTID: 8
+PRED: place
+[DOBJ, food] the shrimp (7)
+[PP, food, onto] a plate with some strawberries (-1)
+
+

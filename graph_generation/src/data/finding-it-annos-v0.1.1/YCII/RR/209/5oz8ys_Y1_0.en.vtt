@@ -1,0 +1,109 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:36.000 --> 00:00:55.000
+annot: Add olive oil to a hot pan
+ACTID: 0
+PRED: add
+[DOBJ, food] olive oil (-1)
+[PP, location, to] a hot pan (-1)
+
+
+00:00:36.000 --> 00:00:55.000
+annot: add pieces of lamb
+ACTID: 1
+PRED: add
+[DOBJ, food] pieces of lamb (-1)
+[PP, food, ] (0)
+
+
+00:00:59.000 --> 00:01:18.000
+annot: finely dice an onion, garlic, carrot, and celery
+ACTID: 2
+PRED: dice
+[DOBJ, food] an onion (-1), garlic (-1), carrot (-1), and celery (-1)
+
+
+
+00:00:59.000 --> 00:01:18.000
+annot: add to the pan
+ACTID: 3
+PRED: add
+[DOBJ, food] (2)
+[PP, food, to] the pan (-1)
+
+
+00:01:19.000 --> 00:01:38.000
+annot: Add thyme and flour to the pan
+ACTID: 4
+PRED: add
+[DOBJ, food] thyme (-1), flour (-1)
+[PP, food, to] the pan (3)
+
+
+00:01:19.000 --> 00:01:38.000
+annot: stir
+ACTID: 5
+PRED: stir
+[DOBJ, food] (4)
+
+
+00:01:45.000 --> 00:01:53.000
+annot: Pour chicken stock to the pan
+ACTID: 6
+PRED: pour
+[DOBJ, food] chicken stock (-1)
+[PP, location, to] the pan (5)
+
+
+00:01:54.000 --> 00:02:11.000
+annot: Add diced tomatoes, lamb, salt, and pepper to the pan
+ACTID: 7
+PRED: add
+[DOBJ, food] diced tomatoes (-1), lamb (1), salt (-1), pepper (-1)
+[PP, food, to] the pan (6)
+
+
+00:02:34.000 --> 00:02:35.000
+annot: place the pan in the oven
+ACTID: 8
+PRED: place
+[DOBJ, food] the pan (7)
+[PP, location, in] the oven (-1)
+
+
+00:02:34.000 --> 00:02:35.000
+annot: heat for about an hour
+ACTID: 9
+PRED: heat
+[DOBJ, food] (8)
+[PP, other, for] about an hour (-1)
+
+
+00:02:57.000 --> 00:03:04.000
+annot: place small pieces of butter and milk into a pot of boiled potatoes
+ACTID: 10
+PRED: place
+[DOBJ, food] small pieces of butter (-1), milk (-1)
+[PP, food, into] a pot of boiled potatoes (-1)
+
+
+00:03:05.000 --> 00:03:11.000
+annot: mash the potatoes with the butter and milk
+ACTID: 11
+PRED: mash
+[DOBJ, food] the potatoes (10)
+[PP, food, with] the butter (-1), milk (-1)
+
+
+00:03:14.000 --> 00:03:28.000
+annot: place the lamb and potatoes in a small bowl
+ACTID: 12
+PRED: place
+[DOBJ, food] the lamb (9), potatoes (11)
+[PP, location, in] a small bowl (-1)
+
+

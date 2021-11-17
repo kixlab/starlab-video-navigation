@@ -1,0 +1,96 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:37.000 --> 00:00:48.000
+annot: mix flour and water
+ACTID: 0
+PRED: mix
+[DOBJ, food] flour (-1), water (-1)
+
+
+00:00:48.000 --> 00:01:12.000
+annot: knead the dough
+ACTID: 1
+PRED: knead
+[DOBJ, food] the dough (0)
+
+
+00:01:28.000 --> 00:01:52.000
+annot: Add water to the flour in the mixer
+ACTID: 2
+PRED: add
+[DOBJ, food] water (-1)
+[PP, food, to] the flour in the mixer (-1)
+
+
+00:01:56.000 --> 00:02:03.000
+annot: Add oil to the dough in the mixer
+ACTID: 3
+PRED: add
+[DOBJ, food] oil (-1)
+[PP, food, to] the dough in the mixer (2)
+
+
+00:02:32.000 --> 00:02:40.000
+annot: Take a piece of dough
+ACTID: 4
+PRED: take
+[DOBJ, food] a piece of dough (3) 
+
+
+00:02:32.000 --> 00:02:40.000
+annot: roll it into a ball
+ACTID: 5
+PRED: roll
+[DOBJ, food] it (4)
+[PP, other, into] a ball (-1)
+
+
+00:02:41.000 --> 00:03:07.000
+annot: Coat the ball in flour
+ACTID: 6
+PRED: coat
+[DOBJ, food] the ball (5)
+[PP, food, in] flour (-1)
+
+
+00:02:41.000 --> 00:03:07.000
+annot: roll out
+ACTID: 7
+PRED: roll
+[DOBJ, food] (6)
+
+
+00:03:07.000 --> 00:03:23.000
+annot: Cook the roti on the pan
+ACTID: 8
+PRED: cook
+[DOBJ, food] the roti (7)
+[PP, location, on] the pan (-1)
+
+
+00:03:23.000 --> 00:03:35.000
+annot: Flip the roti over
+ACTID: 9
+PRED: flip
+[DOBJ, food] the roti (8)
+
+
+00:03:35.000 --> 00:03:47.000
+annot: press on the roti so it puffs up
+ACTID: 10
+PRED: press
+[PP, food, on] the roti (9)
+
+
+00:04:10.000 --> 00:04:15.000
+annot: spread butter on the tortilla
+ACTID: 11
+PRED: spread
+[DOBJ, food] butter (-1)
+[PP, food, on] the tortilla (10)
+
+

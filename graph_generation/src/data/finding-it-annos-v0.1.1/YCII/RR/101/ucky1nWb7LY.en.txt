@@ -1,0 +1,145 @@
+annot: Preheat the oven at 425 degree
+ACTID: 0
+PRED: preheat
+[DOBJ, location] the oven (-1)
+[PP, other, at] 425 degree (-1)
+
+annot: drizzle little bit of olive oil on both the sides of 4 bread slices
+ACTID: 1
+PRED: drizzle
+[DOBJ, food] little bit of olive oil (-1)
+[PP, food, on] both the sides of 4 bread slices (-1)
+
+annot: Lay the bacon slices on a broiler pan
+ACTID: 2
+PRED: lay
+[DOBJ, food] the bacon slices (-1)
+[PP, location, on] a broiler pan (-1)
+
+annot: place both bread and bacon in the oven
+ACTID: 3
+PRED: place
+[DOBJ, food] both bread (1), bacon (2)
+[PP, location, in] the oven (0)
+
+annot: cook for 10-15 minutes
+ACTID: 4
+PRED: cook
+[DOBJ, food] (3)
+[PP, other, for] 10-15 minutes (-1)
+
+annot: cut the avocado into half
+ACTID: 5
+PRED: cut
+[DOBJ, food] the avocado (-1)
+[PP, other, into] half (-1)
+
+annot: take off the seed
+ACTID: 6
+PRED: take
+[DOBJ, food] the seed (-1)
+[PP, food, ] (5)
+
+annot: scoop the pulp of half into a bowl
+ACTID: 7
+PRED: scoop
+[DOBJ, food] the pulp of half (6)
+[PP, location, into] a bowl (-1)
+
+annot: Squeeze half of a lemon juice
+ACTID: 8
+PRED: squeeze
+[DOBJ, food] half of a lemon juice (-1)
+[PP, food, ] (7)
+
+annot: add a pinch of salt and some fresh parsley
+ACTID: 9
+PRED: add
+[DOBJ, food] a pinch of salt (-1), some fresh parsley (-1)
+[PP, food, ] (8)
+
+annot: mash them all together with a fork to get a paste
+ACTID: 10
+PRED: mash
+[DOBJ, food] them (9)
+[PP, other, with] a fork to get a paste (-1)
+
+annot: Slice the other half of the avocado
+ACTID: 11
+PRED: slice
+[DOBJ, food] the other half of the avocado (6)
+
+annot: take out the bacon and bread toast from the oven
+ACTID: 12
+PRED: take
+[DOBJ, food] the bacon (4), bread toast from the oven (4)
+
+annot: To assemble bottom layer of sandwich
+ACTID: 13
+PRED: assemble
+[DOBJ, food] bottom layer of sandwich (-1)
+
+annot: take 2 slices of bread
+ACTID: 14
+PRED: take
+[DOBJ, food] 2 slices of bread (12)
+
+annot: spread the avocado mixture over
+ACTID: 15
+PRED: spread
+[DOBJ, food] the avocado mixture (10)
+[PP, food, over] the slices (14)
+
+annot: Place some tomato slices on the avocado spread and season with little salt and pepper
+ACTID: 16
+PRED: place
+[DOBJ, food] some tomato slices (-1)
+[PP, food, on] the avocado spread (15)
+
+annot: season with little salt and pepper
+ACTID: 17
+PRED: season
+[DOBJ, food]  (16)
+[PP, food, with] little salt (-1), pepper (-1)
+
+annot: Drizzle a little bit of olive oil over it
+ACTID: 18
+PRED: drizzle
+[DOBJ, food] a little bit of olive oil (-1)
+[PP, food, over] it (17)
+
+annot: Top it with the bacon slices
+ACTID: 19
+PRED: Top
+[DOBJ, food] it (18)
+[PP, food, with] the bacon slices (12)
+
+annot: on the other slices of bread, place the sliced avocadoes
+ACTID: 20
+PRED: place
+[DOBJ, food] the sliced avocadoes (11)
+[PP, food, on] the other slices of bread (12)
+
+annot: Season avocado slices with little bit of salt
+ACTID: 21
+PRED: Season
+[DOBJ, food] avocado slices (20)
+[PP, food, with] little bit of salt (-1)
+
+annot: top the avocadoes with lettuce leaves
+ACTID: 22
+PRED: top
+[DOBJ, food] the avocadoes (21)
+[PP, food, with] lettuce leaves (-1)
+
+annot: Place the avocado and lettuce topped bread slice on the bacon and tomato topped bread slice
+ACTID: 23
+PRED: place
+[DOBJ, food] the avocado lettuce topped bread slice (22)
+[PP, food, on] the bacon and tomato topped bread slice (19)
+
+annot: serve cutting the sandwich into 2 pieces
+ACTID: 24
+PRED: serve
+[DOBJ, food] (23)
+

@@ -1,0 +1,172 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:25.000 --> 00:01:02.000
+annot: Chop the bacon, beef, and vegetables
+ACTID: 0
+PRED: chop
+[DOBJ, food] the bacon (-1), beef (-1), vegetables (-1)
+
+
+00:01:04.000 --> 00:01:21.000
+annot: Cook the bacon in a heated pan
+ACTID: 1
+PRED: cook
+[DOBJ, food] the bacon (0)
+[PP, location, in] a heated pan (-1)
+
+
+00:01:04.000 --> 00:01:21.000
+annot: then remove it from the pan
+ACTID: 2
+PRED: remove
+[DOBJ, food] it (1)
+[PP, location, from] the pan (1)
+
+
+00:01:31.000 --> 00:02:35.000
+annot: Cook the beef in the pan with oil
+ACTID: 3
+PRED: cook
+[DOBJ, food] the beef (0)
+[PP, location, in] the pan with oil (-1)
+
+
+00:02:36.000 --> 00:02:41.000
+annot: Remove the beef from the pan
+ACTID: 4
+PRED: remove
+[DOBJ, food] the beef (3)
+[PP, location, from] the pan (3)
+
+
+00:02:43.000 --> 00:02:58.000
+annot: Add oil in the pan
+ACTID: 5
+PRED: add
+[DOBJ, food] oil (-1)
+[PP, location, in] the pan (-1)
+
+
+00:02:43.000 --> 00:02:58.000
+annot: cook the vegetables in the oil
+ACTID: 6
+PRED: cook
+[DOBJ, food] the vegetables (0)
+[PP, food, in] the oil (5)
+
+
+00:03:02.000 --> 00:03:15.000
+annot: Add the beef and the bacon to the pan
+ACTID: 7
+PRED: add
+[DOBJ, food] the beef (4), the bacon (2)
+[PP, food, to] the pan (6)
+
+
+00:03:02.000 --> 00:03:15.000
+annot: stir
+ACTID: 8
+PRED: stir
+[DOBJ, food] (7)
+
+
+00:03:16.000 --> 00:03:23.000
+annot: season the ingredients with salt and pepper
+ACTID: 9
+PRED: season
+[DOBJ, food] the ingredients (8)
+[PP, food, with] salt (-1), pepper (-1)
+
+
+00:03:36.000 --> 00:04:02.000
+annot: sprinkle flour into the pan
+ACTID: 10
+PRED: sprinkle
+[DOBJ, food] flour (-1)
+[PP, food, into] the pan (9)
+
+
+00:03:36.000 --> 00:04:02.000
+annot: mix together
+ACTID: 11
+PRED: mix
+[DOBJ, food] (10)
+
+
+00:04:07.000 --> 00:04:18.000
+annot: Pour broth and wine into the pan
+ACTID: 12
+PRED: pour
+[DOBJ, food] broth (-1), wine (-1)
+[PP, food, into] the pan (11)
+
+
+00:04:22.000 --> 00:04:47.000
+annot: Add garlic, thyme, bay leaf, and tomato paste to the pan
+ACTID: 13
+PRED: add
+[DOBJ, food] garlic (-1), thyme (-1), bay leaf (-1), tomato paste (-1)
+[PP, food, to] the pan (12)
+
+
+00:04:50.000 --> 00:04:54.000
+annot: Cover the pan with the lid
+ACTID: 14
+PRED: cover
+[DOBJ, food] the pan (13)
+[PP, other, with] the lid (-1)
+
+
+00:04:50.000 --> 00:04:54.000
+annot: Place it in the oven
+ACTID: 15
+PRED: Place
+[DOBJ, food] it (14)
+[PP, location, in] the oven (-1)
+
+
+00:05:02.000 --> 00:05:15.000
+annot: Melt butter in a pan
+ACTID: 16
+PRED: melt
+[DOBJ, food] butter (-1)
+[PP, location, in] a pan (-1)
+
+
+00:05:02.000 --> 00:05:15.000
+annot: add mushrooms to cook
+ACTID: 17
+PRED: add
+[DOBJ, food] mushrooms (-1)
+[PP, food, ] (16)
+
+
+00:05:17.000 --> 00:05:23.000
+annot: season mushrooms with salt and pepper
+ACTID: 18
+PRED: season
+[DOBJ, food] mushrooms (17)
+[PP, food, with] salt (-1), pepper (-1)
+
+
+00:05:31.000 --> 00:05:32.000
+annot: Add the mushrooms to the stew
+ACTID: 19
+PRED: add
+[DOBJ, food] the mushrooms (18)
+[PP, food, to] the stew (15)
+
+
+00:05:45.000 --> 00:05:59.000
+annot: Serve the stew over a bowl of noodles and garnish with herbs
+ACTID: 20
+PRED: serve
+[DOBJ, food] the stew (19)
+[PP, food, over] a bowl of noodles (-1), garnish (-1)
+[PP, food, with] herbs (-1)
+
+

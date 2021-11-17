@@ -1,0 +1,105 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:39.000 --> 00:01:14.000
+annot: Boil some chickpea with water, dry mango pieces tea bags, and salt
+ACTID: 0
+PRED: boil
+[DOBJ, food] some chickpea (-1), water (-1), dry mango pieces (-1), tea bags (-1), salt (-1)
+
+
+00:02:46.000 --> 00:03:11.000
+annot: Blend some chopped red onion and green chili in a food processor
+ACTID: 1
+PRED: blend
+[DOBJ, food] some chopped red onion (-1), green chili (-1)
+[PP, location, in] a food processor (-1)
+
+
+00:03:31.000 --> 00:03:47.000
+annot: Add cinnamon, cardamon and garlic cloves to a pan
+ACTID: 2
+PRED: add
+[DOBJ, food] cinnamon (-1), cardamon (-1), garlic cloves (-1)
+[PP, location, to] a pan (-1)
+
+
+00:03:50.000 --> 00:03:59.000
+annot: Add the grinded mixture in it
+ACTID: 3
+PRED: add
+[DOBJ, food] the grinded mixture (1)
+[PP, food, in] it (2)
+
+
+00:04:00.000 --> 00:04:07.000
+annot: Cook the stuff in the pan by stirring
+ACTID: 4
+PRED: cook
+[DOBJ, food] the stuff in the pan (3)
+
+
+00:04:13.000 --> 00:05:21.000
+annot: Add garlic paste, ginger paste, tomato puree to the pan
+ACTID: 5
+PRED: add
+[DOBJ, food] garlic paste (-1), ginger paste (-1), tomato puree (-1)
+[PP, food, to] the pan (4)
+
+
+00:06:18.000 --> 00:06:38.000
+annot: cut some ginger into juliennes
+ACTID: 6
+PRED: cut
+[DOBJ, food] some ginger (-1)
+[PP, other, into] juliennes (-1)
+
+
+00:06:55.000 --> 00:07:05.000
+annot: Chop some green chillies
+ACTID: 7
+PRED: chop
+[DOBJ, food] some green chillies (-1)
+
+
+00:06:55.000 --> 00:07:05.000
+annot: remove the seeds
+ACTID: 8
+PRED: remove
+[DOBJ, food] the seeds (7)
+
+
+00:07:30.000 --> 00:08:10.000
+annot: Add red chili powder, chole masala, cumin powder and salt to the pan
+ACTID: 9
+PRED: add
+[DOBJ, food] red chili powder (-1), chole masala (-1), cumin powder (-1), salt (-1)
+[PP, food, to] the pan (5)
+
+
+00:09:00.000 --> 00:10:00.000
+annot: Add some chickpeas to the mixture until they are well boiled
+ACTID: 10
+PRED: add
+[DOBJ, food] some chickpeas (0)
+[PP, food, to] the mixture (9)
+
+
+00:10:20.000 --> 00:11:26.000
+annot: heat butter, carom seeds, chopped ginger, green chillies
+ACTID: 11
+PRED: heat
+[DOBJ, food] butter (-1), carom seeds (-1), chopped ginger (6), green chillies (8)
+
+
+00:10:20.000 --> 00:11:26.000
+annot: add them to the mixture to serve
+ACTID: 12
+PRED: add
+[DOBJ, food] them (11)
+[PP, food, to] the mixture (10)
+
+

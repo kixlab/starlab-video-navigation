@@ -1,0 +1,100 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:16.000 --> 00:00:26.000
+annot: Put urad dal and beans in a pot
+ACTID: 0
+PRED: put
+[DOBJ, food] urad dal (-1), beans (-1)
+[PP, location, in] a pot (-1)
+
+
+00:00:27.000 --> 00:00:42.000
+annot: Add a little salt and water to cover it
+ACTID: 1
+PRED: add
+[DOBJ, food] a little salt (-1), water (-1)
+[PP, food, ] (0)
+
+
+00:00:43.000 --> 00:01:10.000
+annot: Pressure cook it for 6 whistles
+ACTID: 2
+PRED: cook
+[DOBJ, food] it (1)
+[PP, other, for] 6 whistles (-1)
+
+
+00:00:43.000 --> 00:01:10.000
+annot: turn off the flame
+ACTID: 3
+PRED: turn
+[DOBJ, other] the flame (-1)
+[PP, food, ] (2)
+
+00:01:18.000 --> 00:01:23.000
+annot: heat some butter in a pan
+ACTID: 4
+PRED: heat
+[DOBJ, food] some butter (-1)
+[PP, location, in] a pan (-1)
+
+
+00:01:24.000 --> 00:02:07.000
+annot: Add cumin seeds, chopped onion, green chillies, ginger garlic paste
+ACTID: 5
+PRED: add
+[DOBJ, food] cumin seeds (-1), chopped onion (-1), green chillies (-1), ginger garlic paste (-1)
+[PP, food, ] (4)
+
+
+00:02:08.000 --> 00:02:10.000
+annot: Give a saute to cook everything
+ACTID: 6
+PRED: saute
+[DOBJ, food] everything (5)
+
+
+00:02:15.000 --> 00:03:10.000
+annot: Add red chilli powder, masala powder, turmeric powder, tomato puree and salt
+ACTID: 7
+PRED: add
+[DOBJ, food] red chilli powder (-1), masala powder (-1), turmeric powder (-1), tomato puree (-1), salt (-1)
+[PP, food, ] (6)
+
+
+00:03:29.000 --> 00:04:19.000
+annot: Add the dal mixture
+ACTID: 8
+PRED: add
+[DOBJ, food] the dal mixture (3)
+[PP, food, ] (7)
+
+
+00:03:29.000 --> 00:04:19.000
+annot: Add some water
+ACTID: 9
+PRED: add
+[DOBJ, food] some water
+[PP, food, ] (8)
+
+
+00:03:29.000 --> 00:04:19.000
+annot: Cook for 5 minutes
+ACTID: 10
+PRED: cook
+[DOBJ, food] (9) 
+[PP, other, for] 5 minutes (-1)
+
+
+00:04:29.000 --> 00:04:49.000
+annot: Add some cream and fresh parsley on top before serve
+ACTID: 11
+PRED: add
+[DOBJ, food] some cream (-1), fresh parsley (-1)
+[PP, food, on] top (10)
+
+

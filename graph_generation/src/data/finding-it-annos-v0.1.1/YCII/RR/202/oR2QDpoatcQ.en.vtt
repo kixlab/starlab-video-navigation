@@ -1,0 +1,77 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:02:02.000 --> 00:02:44.000
+annot: Heat hopped carrot, celery, garlic, onion in a large pot with oil
+ACTID: 0
+PRED: heat
+[DOBJ, food] hopped carrot (-1), celery (-1), garlic (-1), onion (-1)
+[PP, food, in] a large pot with oil (-1)
+
+
+00:02:45.000 --> 00:02:49.000
+annot: Add herbs, spices, salt and pepper
+ACTID: 1
+PRED: add
+[DOBJ, food] herbs (-1), spices (-1), salt (-1), pepper (-1)
+[PP, food, ] (0)
+
+
+00:02:50.000 --> 00:03:07.000
+annot: Add tomato paste to the pot
+ACTID: 2
+PRED: add
+[DOBJ, food] tomato paste (-1)
+[PP, food, to] the pot (1)
+
+
+00:03:07.000 --> 00:03:25.000
+annot: Add in the kidney beans and butter
+ACTID: 3
+PRED: add
+[DOBJ, food] (2)
+[PP, food, in] the kidney beans (-1), butter (-1)
+
+
+00:03:27.000 --> 00:03:39.000
+annot: Add the chicken broth and water to the pot
+ACTID: 4
+PRED: add
+[DOBJ, food] the chicken broth (-1), water (-1)
+[PP, food, to] the pot (3)
+
+
+00:03:50.000 --> 00:03:54.000
+annot: Stir
+ACTID: 5
+PRED: stir
+[DOBJ, food] (4)
+
+
+00:03:50.000 --> 00:03:54.000
+annot: cook it to simmer
+ACTID: 6
+PRED: cook
+[DOBJ, food] it (5)
+
+
+00:04:03.000 --> 00:04:45.000
+annot: Add kale and pasta to the soup
+ACTID: 7
+PRED: add
+[DOBJ, food] kale (-1), pasta (-1)
+[PP, food, to] the soup (6)
+
+
+00:04:03.000 --> 00:04:45.000
+annot: season with salt and parmesan
+ACTID: 8
+PRED: season
+[DOBJ, food] (7)
+[PP, food, with] salt (-1), parmesan (-1)
+
+
+

@@ -1,0 +1,72 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:24.000 --> 00:00:36.000
+annot: Chop mushums into slices
+ACTID: 0
+PRED: chop
+[DOBJ, food] mushums (-1)
+[PP, other, into] slices (-1)
+
+
+00:00:24.000 --> 00:00:36.000
+annot: cut onions, bell peppers into chunks
+ACTID: 1
+PRED: cut
+[DOBJ, food] onions (-1), bell peppers (-1)
+[PP, other, into] chunks (-1)
+[PP, food, ] (0)
+
+
+
+00:00:49.000 --> 00:00:53.000
+annot: Pour some liquid butter to the beef
+ACTID: 2
+PRED: pour
+[DOBJ, food] some liquid butter (-1), the beef (-1)
+
+
+00:00:49.000 --> 00:00:53.000
+annot: season with salt, pepper
+ACTID: 3
+PRED: season
+[DOBJ, food] salt (-1), pepper (-1)
+[PP, food, ] (2)
+
+
+00:00:54.000 --> 00:01:14.000
+annot: add some olive oil, parsley and red pepper for spice
+ACTID: 4
+PRED: add
+[DOBJ, food] some olive oil (-1), parsley (-1), red pepper for spice (-1)
+[PP, food, ] (3)
+
+00:01:28.000 --> 00:01:58.000
+annot: place the chunks on the skewers by personal favorite order
+ACTID: 5
+PRED: place
+[DOBJ, food] the chunks (4)
+[PP, other, on] the skewers (-1)
+[PP, food, ] (1)
+
+
+00:02:28.000 --> 00:02:38.000
+annot: heat the grill to medium to high heat
+ACTID: 6
+PRED: heat
+[DOBJ, location] the grill (-1)
+[PP, other, to] medium to high heat (-1)
+
+
+00:02:28.000 --> 00:02:38.000
+annot: grill the kabobs for 10 minutes
+ACTID: 7
+PRED: grill
+[DOBJ, food] the kabobs (5)
+[PP, other, to] for 10 minutes (-1)
+[PP, location, ] (6)
+
+

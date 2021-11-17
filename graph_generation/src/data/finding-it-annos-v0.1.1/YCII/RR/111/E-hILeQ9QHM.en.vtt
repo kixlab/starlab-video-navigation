@@ -1,0 +1,115 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:03:30.000 --> 00:03:50.000
+annot: mix some milk, olive oil in a cup
+ACTID: 0
+PRED: mix
+[DOBJ, food] some milk (-1), olive oil (-1)
+[PP, location, in] a cup (-1)
+
+
+00:03:30.000 --> 00:03:50.000
+annot: blend them using a blender
+ACTID: 1
+PRED: blend
+[DOBJ, food] them (0)
+[PP, location, using] a blender (-1)
+
+
+00:04:03.000 --> 00:04:19.000
+annot: Add a little salt, ground pepper, lemon juice, chopped parsley
+ACTID: 2
+PRED: add
+[DOBJ, food] a little salt (-1), ground pepper (-1), lemon juice (-1), chopped parsley (-1)
+[PP, food, ] (1)
+
+
+00:04:24.000 --> 00:04:50.000
+annot: Add sour cream
+ACTID: 3
+PRED: add
+[DOBJ, food] sour cream (-1)
+[PP, food, ] (2)
+
+
+00:04:24.000 --> 00:04:50.000
+annot: mix it using a spoon
+ACTID: 4
+PRED: mix
+[DOBJ, food] it (3)
+[PP, other, using] a spoon (-1)
+
+ 
+00:05:31.000 --> 00:05:58.000
+annot: Add some crushed walnuts to the mixture and whisk
+ACTID: 5
+PRED: add
+[DOBJ, food] some crushed walnuts (-1)
+[PP, food, to] the mixture (4)
+
+
+00:06:44.000 --> 00:07:05.000
+annot: Dice an apple into small cubes
+ACTID: 6
+PRED: dice
+[DOBJ, food] an apple (-1)
+
+
+00:06:44.000 --> 00:07:05.000
+annot: add some green grapes to it
+ACTID: 7
+PRED: add
+[DOBJ, food] some green grapes (-1)
+[PP, food, to] it (6)
+
+
+00:07:06.000 --> 00:07:13.000
+annot: Add black grapes, chopped celery
+ACTID: 8
+PRED: add
+[DOBJ, food] black grapes (-1), chopped celery (-1)
+[PP, food, ] (7)
+
+
+00:07:14.000 --> 00:07:32.000
+annot: mix the fruits well
+ACTID: 9
+PRED: mix
+[DOBJ, food] the fruits (8)
+
+
+00:07:14.000 --> 00:07:32.000
+annot: pour the sauce in it
+ACTID: 10
+PRED: pour
+[DOBJ, food] the sauce (5)
+[PP, food, in] it (9)
+
+
+00:07:33.000 --> 00:08:44.000
+annot: Toss the fruits
+ACTID: 11
+PRED: toss
+[DOBJ, food] the fruits (10)
+
+
+00:07:33.000 --> 00:08:44.000
+annot: put the salad on fresh lettuce
+ACTID: 12
+PRED: put
+[DOBJ, food] the salad (11)
+[PP, food, on] fresh lettuce (-1)
+
+
+00:07:33.000 --> 00:08:44.000
+annot: serve with fresh apple and walnuts
+ACTID: 13
+PRED: serve
+[DOBJ, food] (12)
+[PP, food, with] fresh apple (-1), walnuts (-1)
+
+

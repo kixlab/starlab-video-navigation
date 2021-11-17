@@ -1,0 +1,146 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:01:51.000 --> 00:01:59.000
+annot: cut the prosciutto into small pieces
+ACTID: 0
+PRED: cut
+[DOBJ, food] the prosciutto (-1)
+[PP, other, into] small pieces (-1)
+
+
+00:02:03.000 --> 00:02:13.000
+annot: Crack 2 egg
+ACTID: 1
+PRED: crack
+[DOBJ, food] 2 egg (-1)
+
+
+00:02:03.000 --> 00:02:13.000
+annot: take the yolk to a bowl
+ACTID: 2
+PRED: take
+[DOBJ, food] the yolk (1)
+[PP, location, to] a bowl (-1)
+
+
+00:02:14.000 --> 00:02:24.000
+annot: Add shredded parmesan cheese, pepper and heavy cream
+ACTID: 3
+PRED: add
+[DOBJ, food] shredded parmesan cheese (-1), pepper (-1), heavy cream (-1)
+[PP, food, ] (2)
+
+
+00:02:14.000 --> 00:02:24.000
+annot: whisk them
+ACTID: 4
+PRED: whisk
+[DOBJ, food] them (3)
+
+
+00:02:27.000 --> 00:02:29.000
+annot: Keep some water boiling aside
+ACTID: 5
+PRED: boil
+[DOBJ, location] some water (-1)
+
+
+00:02:43.000 --> 00:03:01.000
+annot: heat some olive oil in a pan
+ACTID: 6
+PRED: heat
+[DOBJ, food] some olive oil (-1)
+[PP, location, in] a pan (-1)
+
+
+00:02:43.000 --> 00:03:01.000
+annot: cook the prosciutto in it
+ACTID: 7
+PRED: cook
+[DOBJ, food] the prosciutto (0)
+[PP, food, in] it (6)
+
+
+00:03:03.000 --> 00:03:09.000
+annot: Turn off the heat when the prosciutto is crispy
+ACTID: 8
+PRED: turn
+[DOBJ, other] the heat (-1)
+[PP, food, ] (7)
+
+
+00:03:03.000 --> 00:03:09.000
+annot: add the pasta to the boiling water
+ACTID: 9
+PRED: add
+[DOBJ, food] the pasta (-1)
+[PP, location, to] the boiling water (5)
+
+
+00:03:19.000 --> 00:03:29.000
+annot: Add several cloves of garlic to the prosciutto
+ACTID: 10
+PRED: add
+[DOBJ, food] several cloves of garlic (-1)
+[PP, food, to] the prosciutto (8)
+
+
+00:03:42.000 --> 00:04:05.000
+annot: Drain the pasta
+ACTID: 11
+PRED: drain
+[DOBJ, food] the pasta (9)
+
+
+00:03:42.000 --> 00:04:05.000
+annot: add to the prosciutto
+ACTID: 12
+PRED: add
+[DOBJ, food]  (11)
+[PP, food, to] the prosciutto (10)
+
+
+00:03:42.000 --> 00:04:05.000
+annot: add a little water
+ACTID: 13
+PRED: add
+[DOBJ, food] a little water (-1)
+[PP, food, ] (12)
+
+
+00:04:21.000 --> 00:04:27.000
+annot: Take everything in the pan out in a bowl
+ACTID: 14
+PRED: take
+[DOBJ, food] everything in the pan (13)
+[PP, location, in] a bowl (-1)
+
+
+00:04:21.000 --> 00:04:27.000
+annot: pour in the sauce
+ACTID: 15
+PRED: pour
+[DOBJ, food] the sauce (4)
+[PP, food, in] (14)
+
+
+00:04:28.000 --> 00:04:35.000
+annot: Toss the mixture
+ACTID: 16
+PRED: toss
+[DOBJ, food] the mixture (15)
+
+
+00:04:28.000 --> 00:04:35.000
+annot: add parmesan and black pepper to taste
+ACTID: 17
+PRED: add
+[DOBJ, food] parmesan (-1), black pepper (-1)
+[PP, other, to] taste (-1)
+[PP, food, ] (16)
+
+

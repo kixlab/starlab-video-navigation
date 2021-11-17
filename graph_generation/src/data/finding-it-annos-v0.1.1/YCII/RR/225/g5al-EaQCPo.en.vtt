@@ -1,0 +1,78 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:02:17.000 --> 00:02:28.000
+annot: Pour oil into the pot
+ACTID: 0
+PRED: pour
+[DOBJ, food] oil (-1)
+[PP, location, into] the pot (-1)
+
+
+00:02:44.000 --> 00:03:20.000
+annot: Add the onions, red pepper flakes, and salt to the pot
+ACTID: 1
+PRED: add
+[DOBJ, food] the onions (-1), red pepper flakes (-1), salt (-1)
+[PP, food, to] the pot (0)
+
+
+00:03:55.000 --> 00:04:20.000
+annot: Add the garlic and tomato paste to the pot
+ACTID: 2
+PRED: add
+[DOBJ, food] the garlic (-1), tomato paste (-1)
+[PP, food, to] the pot (1)
+
+
+00:05:50.000 --> 00:06:02.000
+annot: Add tomatos to the pot
+ACTID: 3
+PRED: add
+[DOBJ, food] tomatos (-1)
+[PP, food, to] the pot (2)
+
+
+00:06:42.000 --> 00:07:07.000
+annot: Add the chickpeas, thyme, cheese, and water to the pot
+ACTID: 4
+PRED: add
+[DOBJ, food] the chickpeas (-1), thyme (-1), cheese (-1), water (-1)
+[PP, food, to] the pot (3)
+
+
+00:08:26.000 --> 00:08:33.000
+annot: Take out the thyme
+ACTID: 5
+PRED: take
+[DOBJ, food] the thyme (-1)
+[PP, food, ] (4)
+
+
+00:08:43.000 --> 00:09:16.000
+annot: Add orzo and peas to the soup
+ACTID: 6
+PRED: add
+[DOBJ, food] orzo (-1), peas (-1)
+[PP, food, to] the soup (5)
+
+
+00:09:38.000 --> 00:09:47.000
+annot: Add pepper to the soup
+ACTID: 7
+PRED: add
+[DOBJ, food] pepper (-1)
+[PP, food, to] the soup (6)
+
+
+00:10:50.000 --> 00:11:04.000
+annot: sprinkle cheese on top of the soup
+ACTID: 8
+PRED: sprinkle
+[DOBJ, food] cheese (-1)
+[PP, food, on] top of the soup (7)
+
+

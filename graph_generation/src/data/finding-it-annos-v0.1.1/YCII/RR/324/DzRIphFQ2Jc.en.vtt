@@ -1,0 +1,151 @@
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:20.000 --> 00:00:24.000
+annot: boil 3 eggs with water
+ACTID: 0
+PRED: boil
+[DOBJ, food] 3 eggs (-1)
+[PP, food, with] water (-1) 
+
+
+00:00:32.000 --> 00:00:36.000
+annot: Boil some water in a large pot with konbu
+ACTID: 1
+PRED: boil
+[DOBJ, food] some water (-1)
+[PP, food, in] a large pot with konbu (-1)
+
+
+00:00:44.000 --> 00:01:00.000
+annot: Chop aburage into cubes
+ACTID: 2
+PRED: chop
+[DOBJ, food] aburage (-1)
+[PP, other, into] cubes (-1)
+
+
+00:00:44.000 --> 00:01:00.000
+annot: boil some tofu and dry shitake in water
+ACTID: 3
+PRED: boil
+[DOBJ, food] some tofu (2), dry shitake in water (-1)
+
+
+
+00:01:02.000 --> 00:01:07.000
+annot: Drain the eggs
+ACTID: 4
+PRED: drain
+[DOBJ, food] the eggs (0)
+
+
+00:01:02.000 --> 00:01:07.000
+annot: peel
+ACTID: 5
+PRED: peel
+[PP, food, ] (4)
+
+
+00:01:02.000 --> 00:01:07.000
+annot: slice
+ACTID: 6
+PRED: slice
+[PP, food, ] (7)
+
+
+00:01:02.000 --> 00:01:07.000
+annot: set aside
+ACTID: 7
+PRED: set
+[PP, food, ] (6)
+
+
+00:01:08.000 --> 00:01:17.000
+annot: Boil the udon noodles in another pot
+ACTID: 8
+PRED: boil
+[DOBJ, food] the udon noodles (-1)
+[PP, location, in] another pot (-1)
+
+
+00:01:19.000 --> 00:01:32.000
+annot: remove konbu
+ACTID: 9
+PRED: remove
+[DOBJ, food] konbu (1)
+
+
+00:01:19.000 --> 00:01:32.000
+annot: add 1 cup bonito flakes
+ACTID: 10
+PRED: add
+[DOBJ, food] 1 cup bonito flakes (-1)
+[PP, food, ] (9)
+
+
+00:01:37.000 --> 00:01:45.000
+annot: Remove the bonito shavings
+ACTID: 11
+PRED: remove
+[DOBJ, food] the bonito shavings (10)
+
+
+00:01:37.000 --> 00:01:45.000
+annot: put the dashi to a pan
+ACTID: 12
+PRED: put
+[DOBJ, food] the dashi (11)
+[PP, location, to] a pan (-1)
+
+
+00:01:47.000 --> 00:01:56.000
+annot: cut 1 chicken breast to bite size pieces
+ACTID: 13
+PRED: cut
+[DOBJ, food] 1 chicken breast (-1)
+[PP, other, to] bite size pieces (-1)
+
+
+00:02:05.000 --> 00:02:21.000
+annot: Add 1/4 cup of soy sauce, 2 spoon of vinegar and 1 spoon of sugar to the dashi
+ACTID: 14
+PRED: add
+[DOBJ, food] 1/4 cup of soy sauce (-1), 2 spoon of vinegar (-1), 1 spoon of sugar (-1)
+[PP, food, to] the dashi (12)
+
+
+00:02:28.000 --> 00:02:40.000
+annot: Put the chicken pieces, tofu and shitake in the dashi
+ACTID: 15
+PRED: put
+[DOBJ, food] the chicken pieces (13), tofu (3), shitake (3)
+[PP, food, in] the dashi (14)
+
+
+00:02:28.000 --> 00:02:40.000
+annot: keep boiling
+ACTID: 16
+PRED: keep
+[PP, food, ] (16)
+
+
+
+00:02:40.000 --> 00:02:44.000
+annot: Put the eggs, udon noodles
+ACTID: 17
+PRED: put
+[DOBJ, food] the eggs (7), udon noodles (8)
+[PP, food, ] (16)
+
+
+00:02:40.000 --> 00:02:44.000
+annot: chopped fresh green onions to the dashi to serve
+ACTID: 18
+PRED: chop
+[DOBJ, food] fresh green onions (-1)
+[PP, food, to] the dashi (17)
+
+

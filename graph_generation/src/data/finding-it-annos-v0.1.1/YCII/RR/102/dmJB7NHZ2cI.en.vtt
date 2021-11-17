@@ -1,0 +1,114 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:01:16.000 --> 00:01:50.000
+annot: cut the onions into ¼ inch thick slices
+ACTID: 0
+PRED: cut
+[DOBJ, food] the onions (-1)
+[PP, other, into] 1/4 inch thick slices (-1)
+
+
+00:01:16.000 --> 00:01:50.000
+annot: separate the rings
+ACTID: 1
+PRED: separate
+[DOBJ, food] the rings (0)
+
+
+00:01:57.000 --> 00:02:17.000
+annot: Add all purpose flour into a mixing bowl
+ACTID: 2
+PRED: add
+[DOBJ, food] all purpose flour (-1)
+[PP, location, into] a mixing bowl (-1)
+
+
+00:01:57.000 --> 00:02:17.000
+annot: add cornflour, chili powder, baking soda, garlic powder, salt to taste and 1 tbsp of breadcrumbs
+ACTID: 3
+PRED: add
+[DOBJ, food] cornflour, chili powder, baking soda, garlic powder, salt to taste , 1 tbsp of breadcrumbs 
+[PP, food, ] (2)
+
+00:02:18.000 --> 00:02:57.000
+annot: Add little bit of yoghurt and water in batches
+ACTID: 4
+PRED: add
+[DOBJ, food] little bit of yoghurt (-1), water (-1)
+[PP, other, in] batches (-1)
+[PP, food, ] (3)
+
+
+00:02:18.000 --> 00:02:57.000
+annot: whisk it to form a smooth thick paste
+ACTID: 5
+PRED: whisk
+[DOBJ, food] it (4)
+
+
+00:02:58.000 --> 00:03:15.000
+annot: Add a tbsp of all purpose flour
+ACTID: 6
+PRED: add
+[DOBJ, food] a tbsp of all purpose flour (-1)
+
+
+00:02:58.000 --> 00:03:15.000
+annot: add the onion rings into it
+ACTID: 7
+PRED: add
+[DOBJ, food] the onion rings (1)
+[PP, food, into] it (6)
+
+
+00:02:58.000 --> 00:03:15.000
+annot: shake it well to coat
+ACTID: 8
+PRED: shake
+[DOBJ, food] it (7)
+[PP, other, to] coat (-1)
+
+
+00:03:16.000 --> 00:03:39.000
+annot: Dip the onion rings into the batter
+ACTID: 9
+PRED: dip
+[DOBJ, food] the onion rings (8)
+[PP, food, into] the batter (5)
+
+
+00:03:16.000 --> 00:03:39.000
+annot: coat it with the breadcrumbs
+ACTID: 10
+PRED: coat
+[DOBJ, food] it (9)
+[PP, food, with] the breadcrumbs (-1)
+
+
+00:03:40.000 --> 00:04:40.000
+annot: deep fry the onion rings in oil until golden brown
+ACTID: 11
+PRED: fry
+[DOBJ, food] the onion rings (10)
+[PP, food, in] oil (-1)
+
+
+00:04:41.000 --> 00:04:55.000
+annot: Sprinkle some chat masala
+ACTID: 12
+PRED: sprinkle
+[DOBJ, food] some chat masala (-1)
+[PP, food, ] (11)
+
+
+00:04:41.000 --> 00:04:55.000
+annot: serve
+ACTID: 13
+PRED: serve
+[DOBJ, food] (12)
+
+

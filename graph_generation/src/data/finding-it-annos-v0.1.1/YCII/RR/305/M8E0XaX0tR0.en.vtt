@@ -1,0 +1,126 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:50.000 --> 00:01:03.000
+annot: Chop a cabbage
+ACTID: 0
+PRED: chop
+[DOBJ, food] a cabbage (-1)
+
+
+00:00:50.000 --> 00:01:03.000
+annot: remove the bottom
+ACTID: 1
+PRED: remove
+[DOBJ, food] the bottom (0)
+
+
+00:01:32.000 --> 00:02:09.000
+annot: salty the cabbage with sea salt on each leaf
+ACTID: 2
+PRED: salty
+[DOBJ, food] the cabbage (1)
+[PP, food, with] sea salt on each leaf (-1)
+
+
+00:03:20.000 --> 00:03:48.000
+annot: mix a cup of water, 3 spoon flour in a pot, cook to a boil while whisking
+ACTID: 3
+PRED: mix
+[DOBJ, food] a cup of water (-1), 3 spoon flour in a pot (-1), cook to a boil (-1)
+
+
+00:03:53.000 --> 00:04:33.000
+annot: Chop green onions and dagonradish
+ACTID: 4
+PRED: chop
+[DOBJ, food] green onions (-1), dagonradish (-1)
+
+
+00:03:53.000 --> 00:04:33.000
+annot: put to a bowl
+ACTID: 5
+PRED: put
+[PP, location, to] a bowl (-1)
+[PP, food, ] (4)
+
+
+00:04:38.000 --> 00:04:44.000
+annot: Grind 5 cloves of garlic and ginger in a food processor
+ACTID: 6
+PRED: grind
+[DOBJ, food] 5 cloves of garlic (-1), ginger (-1)
+[PP, location, in] a food processor (-1)
+
+
+00:04:47.000 --> 00:05:14.000
+annot: Add some onion, fish sauce, sea salt
+ACTID: 7
+PRED: add
+[DOBJ, food] some onion (-1), fish sauce (-1), sea salt (-1)
+[PP, food, ] (6)
+
+
+00:04:47.000 --> 00:05:14.000
+annot: grind together
+ACTID: 8
+PRED: grind
+[PP, food, ] (7)
+
+
+00:05:15.000 --> 00:05:20.000
+annot: Add the mixture to the bowl
+ACTID: 9
+PRED: add
+[DOBJ, food] the mixture (8)
+[PP, food, to] the bowl (5)
+
+
+00:05:15.000 --> 00:05:20.000
+annot: put the mixture in it
+ACTID: 10
+PRED: put
+[DOBJ, food] the mixture (3)
+[PP, food, in] it (9)
+
+
+00:05:18.000 --> 00:05:51.000
+annot: Add half cup Korean chilli flakes
+ACTID: 11
+PRED: add
+[DOBJ, food] half cup korean chili flakes (-1)
+[PP, food, ] (10)
+
+
+00:05:18.000 --> 00:05:51.000
+annot: mix altogether
+ACTID: 12
+PRED: mix
+[PP, food, ] (11)
+
+
+00:06:21.000 --> 00:07:07.000
+annot: Rinse the cabbage
+ACTID: 13
+PRED: rinse
+[DOBJ, food] the cabbage (2)
+
+
+00:06:21.000 --> 00:07:07.000
+annot: taste kimichi
+ACTID: 14
+PRED: taste
+[DOBJ, food] kimichi (12)
+
+
+00:06:21.000 --> 00:07:07.000
+annot: put the mixture on each leaf
+ACTID: 15
+PRED: put
+[DOBJ, food] the mixture (14)
+[PP, food, on] each leaf (13)
+
+

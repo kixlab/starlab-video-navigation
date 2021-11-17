@@ -1,0 +1,123 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:47.000 --> 00:01:03.000
+annot: heat 1 cup chicken stock and soy sauce in a pot
+ACTID: 0
+PRED: heat
+[DOBJ, food] 1 cup chicken stock (-1), soy sauce (-1)
+[PP, location, in] a pot (-1)
+
+
+00:01:04.000 --> 00:01:12.000
+annot: Add a little black pepper and white vinegar
+ACTID: 1
+PRED: add
+[DOBJ, food] a little black pepper (-1), white vinegar (-1)
+[PP, food, ] (0)
+
+00:01:16.000 --> 00:01:21.000
+annot: Add a pinch of ajinomoto and sugar
+ACTID: 2
+PRED: add
+[DOBJ, ] a pinch of ajinomoto (-1), sugar (-1)
+[PP, food, ] (1)
+
+
+00:01:23.000 --> 00:01:32.000
+annot: Add red chili and chili sauce
+ACTID: 3
+PRED: add
+[DOBJ, food] red chili (-1), chili sauce (-1)
+[PP, food, ] (2)
+
+
+00:01:50.000 --> 00:02:12.000
+annot: Add soy sauce, half egg and salt to the chicken
+ACTID: 4
+PRED: add
+[DOBJ, food] soy sauce (-1), half egg (-1), salt (-1)
+[PP, food, to] the chicken (-1)
+
+
+00:02:13.000 --> 00:02:26.000
+annot: Add flour
+ACTID: 5
+PRED: add
+[DOBJ, food] flour (-1)
+[PP, food, ] (4)
+
+
+00:02:13.000 --> 00:02:26.000
+annot: mix it up
+ACTID: 6
+PRED: mix
+[DOBJ, food] it (5)
+
+
+00:03:09.000 --> 00:03:37.000
+annot: Fry the marinated chicken in a frying pan
+ACTID: 7
+PRED: fry
+[DOBJ, food] the marinated chicken (6)
+[PP, location, in] a frying pan (-1)
+
+
+00:03:50.000 --> 00:04:01.000
+annot: mix sesame oil, red chili in a pan
+ACTID: 8
+PRED: mix
+[DOBJ, food] sesame oil (-1), red chili (-1)
+[PP, location, in] a pan (-1)
+
+
+00:04:12.000 --> 00:04:29.000
+annot: Cook until the red chili turns brown
+ACTID: 9
+PRED: cook
+[PP, food, ] (8)
+
+
+00:04:33.000 --> 00:04:40.000
+annot: Add chopped garlic and ginger
+ACTID: 10
+PRED: add
+[DOBJ, food] chopped garlic (-1), ginger (-1)
+[PP, food, ] (9)
+
+
+00:05:07.000 --> 00:05:25.000
+annot: Add chestnuts, bell peppers, mushroom, carrot and celery
+ACTID: 11
+PRED: add
+[DOBJ, food] chestnuts (-1), bell peppers (-1), mushroom (-1), carrot (-1), celery (-1)
+[PP, food, ] (10)
+
+
+00:05:29.000 --> 00:05:35.000
+annot: Bring the prepared sauce from earlier steps
+ACTID: 12
+PRED: bring
+[DOBJ, food] the prepared sauce (3)
+[PP, other, from] earlier steps (-1)
+[PP, food, ] (11)
+
+
+00:05:55.000 --> 00:06:05.000
+annot: Dump the chicken to the pan and cook
+ACTID: 13
+PRED: dump
+[DOBJ, food] the chicken (7)
+[PP, other, to] the pan (12)
+
+
+00:06:23.000 --> 00:07:07.000
+annot: season with green onions, a little salt and corn flour
+ACTID: 14
+PRED: season
+[DOBJ, food] green onions (-1), a little salt (-1), corn flour (-1)
+[PP, food, ] (13)
+

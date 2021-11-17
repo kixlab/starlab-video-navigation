@@ -1,0 +1,181 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:10.000 --> 00:00:23.000
+annot: peel a onion
+ACTID: 0
+PRED: peel
+[DOBJ, food] a onion (-1)
+
+
+00:00:10.000 --> 00:00:23.000
+annot: chop it into pieces
+ACTID: 1
+PRED: chop
+[DOBJ, food] it (0)
+[PP, other, into] pieces (-1)
+
+
+00:00:25.000 --> 00:00:31.000
+annot: heat the onion in a pot with olive oil in it
+ACTID: 2
+PRED: heat
+[DOBJ, food] the onion (1)
+[PP, food, in] a pot with olive oil in it (-1)
+
+
+00:00:34.000 --> 00:00:37.000
+annot: Place some beef in the same pot
+ACTID: 3
+PRED: place
+[DOBJ, food] some beef (-1)
+[PP, food, in] the same pot (2)
+
+
+00:00:38.000 --> 00:00:47.000
+annot: Add some chili powder, some cumin, some cinnamon and some oregano
+ACTID: 4
+PRED: add
+[DOBJ, food] some chili powder (-1), some cumin (-1), some cinnamon (-1), some oregano (-1)
+[PP, food, ] (3)
+
+
+00:00:48.000 --> 00:00:52.000
+annot: Cook the ingredients when the beef is ready
+ACTID: 5
+PRED: cook
+[DOBJ, food] the ingredients (4)
+
+
+00:00:54.000 --> 00:01:04.000
+annot: Add one tin of chopped tomato, tomato paste
+ACTID: 6
+PRED: add
+[DOBJ, food] one tin of chopped tomato (-1), tomato paste (-1)
+[PP, food, ] (5)
+
+
+00:00:54.000 --> 00:01:04.000
+annot: stir while cooking
+ACTID: 7
+PRED: stir
+[DOBJ, food] (6)
+[PP, other, while] cooking (-1)
+
+
+00:01:10.000 --> 00:01:13.000
+annot: when everything is mixed together
+ACTID: 8
+PRED: mix
+[DOBJ, food] (7)
+
+
+00:01:10.000 --> 00:01:13.000
+annot: add hot water until covered
+ACTID: 9
+PRED: add
+[DOBJ, food] hot water (-1)
+[PP, food, ] (8)
+
+
+00:01:13.000 --> 00:01:23.000
+annot: stir the ingredients
+ACTID: 10
+PRED: stir
+[DOBJ, food] the ingredients (9)
+
+
+00:01:13.000 --> 00:01:23.000
+annot: add one tin of kidney beans
+ACTID: 11
+PRED: add
+[DOBJ, food] one tin of kidney beans (-1)
+[PP, food, ] (10)
+
+
+00:01:24.000 --> 00:01:27.000
+annot: Stir the beans
+ACTID: 12
+PRED: stir
+[DOBJ, food] the beans (11)
+
+
+00:01:24.000 --> 00:01:27.000
+annot: wait for 10 minutes with lid off
+ACTID: 13
+PRED: wait
+[DOBJ, food] (12)
+[PP, other, for] 10 minutes with lid off (-1)
+
+
+00:01:29.000 --> 00:01:37.000
+annot: Take one red pepper
+ACTID: 14
+PRED: take
+[DOBJ, food] one red pepper (-1)
+
+
+00:01:29.000 --> 00:01:37.000
+annot: move core and seeds
+ACTID: 15
+PRED: move
+[DOBJ, food] core (-1), seeds (-1)
+[PP, food, ] (14)
+
+
+00:01:29.000 --> 00:01:37.000
+annot: add pepper slices into the pot
+ACTID: 16
+PRED: add
+[DOBJ, food] pepper slices (15)
+[PP, food, into] the pot (13)
+
+
+00:01:48.000 --> 00:01:55.000
+annot: place the ingredients in the middle of a tortilla wrap 
+ACTID: 17
+PRED: place
+[DOBJ, food] the ingredients (16)
+[PP, food, in] the middle of a tortilla wrap (-1)
+
+
+00:01:48.000 --> 00:01:55.000
+annot: wrap it
+ACTID: 18
+PRED: wrap
+[DOBJ, food] it (17)
+
+
+00:02:00.000 --> 00:02:10.000
+annot: Take a large pan
+ACTID: 19
+PRED: take
+[DOBJ, location] a large pan (-1)
+
+
+00:02:00.000 --> 00:02:10.000
+annot: heat some oil on it
+ACTID: 20
+PRED: heat
+[DOBJ, food] some oil (-1)
+[PP, location, on] it (19)
+
+
+00:02:00.000 --> 00:02:10.000
+annot: put the burrito on the pan
+ACTID: 21
+PRED: put
+[DOBJ, food] the burrito (18)
+[PP, food, on] the pan (20)
+
+
+00:02:11.000 --> 00:02:20.000
+annot: Carefully roll the burrito on the pan till all sides are evenly brown
+ACTID: 22
+PRED: roll
+[DOBJ, food] the burrito on the pan (21)
+
+

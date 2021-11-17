@@ -1,0 +1,140 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:11.000 --> 00:00:30.000
+annot: Melt 1 spoon butter
+ACTID: 0
+PRED: melt
+[DOBJ, food] 1 spoon butter (-1)
+
+
+00:00:11.000 --> 00:00:30.000
+annot: cook some chopped onions in a pan
+ACTID: 1
+PRED: cook
+[DOBJ, food] some chopped onions (-1)
+[PP, food, in] a pan (0)
+
+
+00:00:34.000 --> 00:00:45.000
+annot: Add the cooked onion and some ground meat in a bowl
+ACTID: 2
+PRED: add
+[DOBJ, food] the cooked onion (1), some ground meat (-1)
+[PP, location, in] a bowl (-1)
+
+
+00:00:49.000 --> 00:00:55.000
+annot: Add beaten egg and some salt with chopped green onions
+ACTID: 3
+PRED: add
+[DOBJ, food] beaten egg (-1), some salt (-1)
+[PP, food, with] chopped green onions (-1)
+[PP, food, ] (2)
+
+
+00:01:07.000 --> 00:01:14.000
+annot: Add some barbecue sauce and tomato sauce to the mixture
+ACTID: 4
+PRED: add
+[DOBJ, food] some barbecue sauce (-1), tomato sauce (-1)
+[PP, food, to] the mixture (3)
+
+
+00:01:14.000 --> 00:01:19.000
+annot: Add some soy sauce and milk
+ACTID: 5
+PRED: add
+[DOBJ, food] some soy sauce (-1), milk (-1)
+[PP, food, ] (4)
+
+
+00:01:21.000 --> 00:01:24.000
+annot: Prepare some buttered bread crumbs
+ACTID: 6
+PRED: prepare
+[DOBJ, food] some buttered bread crumbs (-1)
+
+
+00:01:21.000 --> 00:01:24.000
+annot: add to the mixture
+ACTID: 7
+PRED: add
+[DOBJ, food] (6)
+[PP, food, to] the mixture (5)
+
+
+00:01:25.000 --> 00:01:46.000
+annot: mix everything together by hand
+ACTID: 8
+PRED: mix
+[DOBJ, food] everything (7)
+[PP, other, by] together hand (-1)
+
+
+00:02:03.000 --> 00:02:14.000
+annot: Fill a baking pan with the mixture
+ACTID: 9
+PRED: fill
+[DOBJ, location] a baking pan (-1)
+[PP, food, with] the mixture (8)
+
+
+00:02:19.000 --> 00:02:32.000
+annot: Prepare some sauce by mixing ketchup and bbq sauce
+ACTID: 10
+PRED: prepare
+[DOBJ, food] some sauce (-1)
+
+
+00:02:38.000 --> 00:03:00.000
+annot: Spread a little mixed sauce on top of the meat
+ACTID: 11
+PRED: spread
+[DOBJ, food] a little mixed sauce (10)
+[PP, food, on] top of the meat (9)
+
+
+00:02:38.000 --> 00:03:00.000
+annot: cook in oven for 30 minutes
+ACTID: 12
+PRED: cook
+[DOBJ, food] (11)
+[PP, location, in] oven (-1)
+[PP, other, for] 30 minutes (-1)
+
+
+00:03:01.000 --> 00:03:08.000
+annot: Take it out
+ACTID: 13
+PRED: take
+[DOBJ, food] it (12)
+
+
+00:03:01.000 --> 00:03:08.000
+annot: spread the rest of the sauce
+ACTID: 14
+PRED: spread
+[DOBJ, food] the rest of the sauce (10)
+[PP, food, ] (13)
+
+
+00:03:01.000 --> 00:03:08.000
+annot: cook for another 30 minutes
+ACTID: 15
+PRED: cook
+[DOBJ, food]  (14)
+[PP, other, for] another 30 minutes (-1)
+
+
+00:03:08.000 --> 00:03:11.000
+annot: season the meat with chopped parsley leaves
+ACTID: 16
+PRED: season
+[DOBJ, food] the meat (15)
+[PP, food, with] chopped parsley leaves (-1)
+
+

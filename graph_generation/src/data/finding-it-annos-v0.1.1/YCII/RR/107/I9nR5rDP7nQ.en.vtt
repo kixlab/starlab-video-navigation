@@ -1,0 +1,76 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:23.000 --> 00:00:46.000
+annot: Put flour, salt, paparika to a bowl
+ACTID: 0
+PRED: put
+[DOBJ, food] flour (-1), salt (-1), paparika (-1)
+[PP, location, to] a bowl (-1)
+
+
+00:00:48.000 --> 00:01:10.000
+annot: Add some water
+ACTID: 1
+PRED: add
+[DOBJ, food] some water (-1)
+[PP, food,] (0)
+
+
+00:00:48.000 --> 00:01:10.000
+annot: keep stirring
+ACTID: 2
+PRED: stir
+[DOBJ, food] (1)
+
+
+00:01:34.000 --> 00:02:02.000
+annot: Chop some squid into rings
+ACTID: 3
+PRED: chop
+[DOBJ, food] some squid (-1)
+[PP, other, into] rings (-1)
+
+
+00:02:15.000 --> 00:02:30.000
+annot: Sprinkle some flour on the squid well
+ACTID: 4
+PRED: sprinkle
+[DOBJ, food] some flour (-1)
+[PP, food, on] the squid (3)
+
+
+00:02:15.000 --> 00:02:30.000
+annot: coat them well with the mixture
+ACTID: 5
+PRED: coat
+[DOBJ, food] them (4)
+[PP, food, with] the mixture (2)
+
+
+00:02:41.000 --> 00:02:51.000
+annot: deep fry the squid rings in oil
+ACTID: 6
+PRED: fry
+[DOBJ, food] the squid rings (5)
+[PP, food, in] oil (-1)
+
+
+00:03:07.000 --> 00:03:58.000
+annot: Chop some lemon and lime
+ACTID: 7
+PRED: chop
+[DOBJ, food] some lemon (-1), lime (-1)
+
+
+00:03:07.000 --> 00:03:58.000
+annot: serve with the fried calamari
+ACTID: 8
+PRED: serve
+[DOBJ, food] (7)
+[PP, food, with] the fried calamari (6)
+
+

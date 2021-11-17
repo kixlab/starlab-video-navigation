@@ -1,0 +1,99 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:21.000 --> 00:00:46.000
+annot: mix milk, ketchup, chopped onion and garlic cloves in a seal bag
+ACTID: 0
+PRED: mix
+[DOBJ, food] milk (-1), ketchup (-1), chopped onion (-1), garlic cloves (-1)
+[PP, location, in] a seal bag (-1)
+
+
+00:00:47.000 --> 00:01:03.000
+annot: Marinate the chicken with the mixture
+ACTID: 1
+PRED: marinate
+[DOBJ, food] the chicken (-1)
+[PP, food, with] the mixture (0)
+
+
+00:01:20.000 --> 00:01:41.000
+annot: season the chicken with some mixed spice
+ACTID: 2
+PRED: season
+[DOBJ, food] the chicken (1)
+[PP, food, with] some mixed spice (-1)
+
+
+00:01:45.000 --> 00:01:59.000
+annot: mix the remaining spice with a large bowl of flour
+ACTID: 3
+PRED: mix
+[DOBJ, food] the remaining spice (-1)
+[PP, food, with] a large bowl of flour (-1)
+
+
+00:02:11.000 --> 00:02:46.000
+annot: Coat the chicken well with the flour mixture in a paper bag
+ACTID: 4
+PRED: coat
+[DOBJ, food] the chicken (2)
+[PP, food, with] the flour mixture (3)
+[PP, location, in] a paper bag (-1)
+
+
+00:03:01.000 --> 00:03:08.000
+annot: beat some eggs
+ACTID: 5
+PRED: beat
+[DOBJ, food] some eggs (-1)
+
+
+00:03:01.000 --> 00:03:08.000
+annot: whisk them well
+ACTID: 6
+PRED: whisk
+[DOBJ, food] them (5)
+
+
+00:03:09.000 --> 00:03:26.000
+annot: Add some water, ketchup and garlic powder while whisking
+ACTID: 7
+PRED: add
+[DOBJ, food] some water (-1), ketchup (-1), garlic powder (-1)
+[PP, food, ] (6)
+
+
+00:03:26.000 --> 00:03:53.000
+annot: Coat the chicken with the liquid
+ACTID: 8
+PRED: coat
+[DOBJ, food] the chicken (4)
+[PP, food, with] the liquid (7)
+
+
+00:03:26.000 --> 00:03:53.000
+annot: coat it with the flour again
+ACTID: 9
+PRED: coat
+[DOBJ, food] it (8)
+[PP, food, with] the flour (4)
+
+
+00:03:58.000 --> 00:04:37.000
+annot: Fry the chicken in deep oil
+ACTID: 10
+PRED: fry
+[DOBJ, food] the chicken (9)
+[PP, food, in] deep oil (-1)
+
+
+00:03:58.000 --> 00:04:37.000
+annot: serve
+ACTID: 11
+PRED: serve
+[DOBJ, food] (10)
+

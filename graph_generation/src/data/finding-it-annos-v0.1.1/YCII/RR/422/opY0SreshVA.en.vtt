@@ -1,0 +1,145 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:02:06.000 --> 00:02:13.000
+annot: Put the garlic, shallot and ginger in food processor
+ACTID: 0
+PRED: put
+[DOBJ, food] the garlic (-1), shallot (-1), ginger (-1)
+[PP, location, in] food processor (-1)
+
+
+00:02:23.000 --> 00:02:41.000
+annot: Add in minced pork and prawn together with corn starch and vegetable oil
+ACTID: 1
+PRED: add
+[DOBJ, food] minced pork (-1), prawn (-1), corn starch (-1), vegetable oil (-1)
+[PP, food, ] (0)
+
+
+00:02:42.000 --> 00:02:54.000
+annot: Add oyster sauce, fish sauce, cracked pepper
+ACTID: 2
+PRED: add
+[DOBJ, food] oyster sauce (-1), fish sauce (-1), cracked pepper (-1)
+[PP, food, ] (1)
+
+
+00:02:56.000 --> 00:03:14.000
+annot: Blend the ingredients to a paste
+ACTID: 3
+PRED: blend
+[DOBJ, food] the ingredients (2)
+[PP, food, to] a paste (-1)
+
+
+00:02:56.000 --> 00:03:14.000
+annot: cover to freeze the paste for 30 minutes
+ACTID: 4
+PRED: freeze
+[DOBJ, food] the paste (3)
+[PP, food, for] 30 minutes (-1)
+
+
+00:03:42.000 --> 00:04:10.000
+annot: mix the 'roast red pork seasoning mix' with water and pork
+ACTID: 5
+PRED: mix
+[DOBJ, food] the roast red pork seasoning mix (-1), water (-1), pork (-1)
+
+
+00:04:29.000 --> 00:04:33.000
+annot: Soak the mushroom in boiled water
+ACTID: 6
+PRED: soak
+[DOBJ, food] the mushroom (-1)
+[PP, food, in] boiled water (-1)
+
+
+00:04:35.000 --> 00:04:51.000
+annot: Cook some pork in boiling water with salt and vinegar
+ACTID: 7
+PRED: cook
+[DOBJ, food] some pork (-1)
+[PP, food, in] boiling water with salt (-1), vinegar (-1)
+
+
+00:04:52.000 --> 00:04:55.000
+annot: Drain
+ACTID: 8
+PRED: drain
+[DOBJ, food] (7)
+
+
+00:04:52.000 --> 00:04:55.000
+annot: rinse the pork after it is well cooked
+ACTID: 9
+PRED: rinse
+[DOBJ, food] the pork (8)
+
+
+00:05:08.000 --> 00:05:30.000
+annot: Add water, salt, peeled onion, radish chunks, dry shrimps, and mushrooms to the pork while cooking to a boil
+ACTID: 10
+PRED: add
+[DOBJ, food] water (-1), salt (-1), peeled onion (-1), radish chunks (-1), dry shrimps (-1), mushrooms (6)
+[PP, food, to] the pork (9)
+
+
+00:05:50.000 --> 00:06:13.000
+annot: wrap the filling in the wonton wrappers
+ACTID: 11
+PRED: wrap
+[DOBJ, food] the filling (4)
+[PP, food, in] the wonton wrappers (-1)
+
+
+00:06:42.000 --> 00:06:51.000
+annot: cut the cooked cha siu into slices
+ACTID: 12
+PRED: cut
+[DOBJ, food] the cooked cha siu (5)
+[PP, food, into] slices (-1)
+
+
+00:06:58.000 --> 00:07:07.000
+annot: Cook the noodles in boiling water
+ACTID: 13
+PRED: cook
+[DOBJ, food] the noodles (-1)
+[PP, location, in] boiling water (-1)
+
+
+00:07:12.000 --> 00:07:19.000
+annot: Add some sesame oil to the noodles
+ACTID: 14
+PRED: add
+[DOBJ, food] some sesame oil (-1)
+[PP, food, to] the noodles (13)
+
+
+00:07:20.000 --> 00:07:28.000
+annot: Cook some bean sprouts, baby bokchoy and the wontons
+ACTID: 15
+PRED: cook
+[DOBJ, food] some bean sprouts (-1), baby bokchoy (-1), the wontons (11)
+
+
+00:07:31.000 --> 00:07:43.000
+annot: place the ingredients and the cha siu slices on top of the noodles
+ACTID: 16
+PRED: place
+[DOBJ, food] the ingredients (15), the cha siu slices (12)
+[PP, food, on] top of the noodles (14)
+
+
+00:07:31.000 --> 00:07:43.000
+annot: add in some soup base to serve
+ACTID: 17
+PRED: add
+[DOBJ, food] some soup base (10)
+
+

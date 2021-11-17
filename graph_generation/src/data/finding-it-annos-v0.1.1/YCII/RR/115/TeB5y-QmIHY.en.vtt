@@ -1,0 +1,76 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:01:20.000 --> 00:01:25.000
+annot: mix lemon juice and milk
+ACTID: 0
+PRED: mix
+[DOBJ, food] lemon juice (-1), milk (-1)
+
+
+00:01:27.000 --> 00:01:32.000
+annot: Pour oil into a pot
+ACTID: 1
+PRED: pour
+[DOBJ, food] oil (-1)
+[PP, location, into] a pot (-1)
+
+
+00:01:32.000 --> 00:01:40.000
+annot: mix the cornmeal, flour, salt, sugar, and baking powder
+ACTID: 2
+PRED: mix
+[DOBJ, food] the cornmeal (-1), flour (-1), salt (-1), sugar (-1), baking powder (-1)
+
+
+00:01:40.000 --> 00:01:46.000
+annot: mix in an egg and buttermilk with the batter
+ACTID: 3
+PRED: mix
+[DOBJ, food] an egg (-1), buttermilk (0)
+[PP, food, with]  the batter (2)
+
+
+00:01:50.000 --> 00:01:53.000
+annot: cut the hot dogs into pieces
+ACTID: 4
+PRED: cut
+[DOBJ, food] the hot dogs (-1)
+[PP, other, into] pieces (-1)
+
+
+00:01:56.000 --> 00:02:04.000
+annot: Coat the hot dogs in flour
+ACTID: 5
+PRED: coat
+[DOBJ, food] the hot dogs (4)
+[PP, food, in] flour (-1)
+
+
+00:02:04.000 --> 00:02:10.000
+annot: Insert sticks into the hot dogs
+ACTID: 6
+PRED: insert
+[DOBJ, food] sticks (-1)
+[PP, food, into] the hot dogs (5)
+
+
+00:02:10.000 --> 00:02:21.000
+annot: Dip the hot dogs in the batter
+ACTID: 7
+PRED: dip
+[DOBJ, food] the hot dogs (6)
+[PP, food, in] the batter (3)
+
+
+00:02:38.000 --> 00:02:44.000
+annot: Dip the hot dogs in the oil
+ACTID: 8
+PRED: dip
+[DOBJ, food] the hot dogs (7)
+[PP, food, in] the oil (1)
+
+

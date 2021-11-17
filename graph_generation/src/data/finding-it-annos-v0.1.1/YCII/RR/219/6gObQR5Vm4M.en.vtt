@@ -1,0 +1,85 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:02:56.000 --> 00:03:07.000
+annot: cut the cabbage into small pieces
+ACTID: 0
+PRED: cut
+[DOBJ, food] the cabbage (-1)
+[PP, other, into] small pieces (-1)
+
+
+00:03:54.000 --> 00:04:25.000
+annot: Add carawat seeds, sea salt
+ACTID: 1
+PRED: add
+[DOBJ, food] carawat seeds (-1), sea salt (-1)
+
+
+00:03:54.000 --> 00:04:25.000
+annot: mix them evenly in the cabbage
+ACTID: 2
+PRED: mix
+[DOBJ, food] them (1)
+[PP, food, in] the cabbage (0)
+
+
+00:06:16.000 --> 00:06:37.000
+annot: Add some leftover brine in a jar
+ACTID: 3
+PRED: add
+[DOBJ, food] some leftover brine (-1)
+[PP, location, in] a jar (-1)
+
+
+00:06:16.000 --> 00:06:37.000
+annot: put the cabbage into the jar
+ACTID: 4
+PRED: put
+[DOBJ, food] the cabbage (2)
+[PP, food, into] the jar (3)
+
+
+00:06:54.000 --> 00:07:20.000
+annot: Take a large cabbage leave on the mixture
+ACTID: 5
+PRED: take
+[DOBJ, food] a large cabbage leave (-1)
+[PP, food, on] the mixture (4)
+
+
+00:06:54.000 --> 00:07:20.000
+annot: push the mixture down to the bottom of the jar
+ACTID: 6
+PRED: push
+[DOBJ, food] the mixture (5)
+[PP, location, down] to the bottom of the jar (-1)
+
+
+00:08:19.000 --> 00:08:43.000
+annot: seal the jar
+ACTID: 7
+PRED: seal
+[DOBJ, food] the jar (6)
+
+
+00:08:19.000 --> 00:08:43.000
+annot: put it in room temperature for 3 days
+ACTID: 8
+PRED: put
+[DOBJ, food] it (7)
+[PP, other, in] room temperature (-1)
+[PP, other, for] 3 days (-1)
+
+
+00:08:19.000 --> 00:08:43.000
+annot: put it in the fridge
+ACTID: 9
+PRED: put
+[DOBJ, food] it (8)
+[PP, location, in] the fridge (-1)
+
+

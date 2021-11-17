@@ -1,0 +1,108 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:30.000 --> 00:00:35.000
+annot: Add the meat to a bowl
+ACTID: 0
+PRED: add
+[DOBJ, food] the meat (-1)
+[PP, location, to] a bowl (-1)
+
+
+00:00:39.000 --> 00:01:02.000
+annot: Add garlic salt, sugar, sesame oil, and sauce to the meat
+ACTID: 1
+PRED: add
+[DOBJ, food] garlic salt (-1), sugar (-1), sesame oil (-1), sauce (-1)
+[PP, food, to] the meat (0)
+
+
+00:01:05.000 --> 00:01:18.000
+annot: Add cabbage, green onion, and carrots to the bowl
+ACTID: 2
+PRED: add
+[DOBJ, food] cabbage (-1), green onion (-1), carrots (-1)
+[PP, food, to] the bowl (1)
+
+
+00:01:18.000 --> 00:01:37.000
+annot: Add an egg
+ACTID: 3
+PRED: add
+[DOBJ, food] an egg (-1)
+[PP, food, ] (2)
+
+
+00:01:18.000 --> 00:01:37.000
+annot: mix the filling together
+ACTID: 4
+PRED: mix
+[DOBJ, food] the filling (3)
+
+
+00:01:50.000 --> 00:02:11.000
+annot: mix sugar and water together in a pan
+ACTID: 5
+PRED: mix
+[DOBJ, food] sugar (-1), water (-1)
+[PP, location, in] a pan (-1)
+
+
+00:02:15.000 --> 00:02:47.000
+annot: Add vinegar, garlic, and fish sauce to the pan
+ACTID: 6
+PRED: add
+[DOBJ, food] vinegar (-1), garlic (-1), fish sauce (-1)
+[PP, food, to] the pan (5)
+
+
+00:03:16.000 --> 00:03:20.000
+annot: Place the filling in the center of the wrapper
+ACTID: 7
+PRED: place
+[DOBJ, food] the filling (4)
+[PP, food, in] the center of the wrapper (-1)
+
+
+00:03:20.000 --> 00:03:39.000
+annot: seal the edges of the dumpling
+ACTID: 8
+PRED: seal
+[DOBJ, food] the edges of the dumpling (7)
+
+
+00:03:45.000 --> 00:04:00.000
+annot: heat oil in a pan
+ACTID: 9
+PRED: heat
+[DOBJ, food] oil (-1)
+[PP, location, in] a pan (-1)
+
+
+00:04:00.000 --> 00:04:20.000
+annot: Fry the pot stickers in the pan
+ACTID: 10
+PRED: fry
+[DOBJ, food] the pot stickers (8)
+[PP, food, in] the pan (9)
+
+
+00:04:24.000 --> 00:04:40.000
+annot: Pour water into the pan
+ACTID: 11
+PRED: pour
+[DOBJ, food] water (-1)
+[PP, food, into] the pan (10)
+
+
+00:04:24.000 --> 00:04:40.000
+annot: cover with a lid
+ACTID: 12
+PRED: cover
+[DOBJ, food] (11)
+[PP, location, with] a lid (-1)
+
+

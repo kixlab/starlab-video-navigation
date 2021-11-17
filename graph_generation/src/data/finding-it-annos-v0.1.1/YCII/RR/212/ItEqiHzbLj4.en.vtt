@@ -1,0 +1,115 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:57.000 --> 00:01:05.000
+annot: boil potatoes and sweet potatoes in a pot
+ACTID: 0
+PRED: boil
+[DOBJ, food] potatoes (-1), sweet potatoes (-1)
+[PP, location, in] a pot (-1)
+
+
+00:01:36.000 --> 00:02:13.000
+annot: Add the minced beef to pan
+ACTID: 1
+PRED: add
+[DOBJ, food] the minced beef (-1)
+[PP, location, to] pan (-1)
+
+
+00:01:36.000 --> 00:02:13.000
+annot: cook while stirring
+ACTID: 2
+PRED: cook
+[DOBJ, food] (1)
+
+
+
+00:02:14.000 --> 00:02:21.000
+annot: Add the chopped onion to the pan
+ACTID: 3
+PRED: add
+[DOBJ, food] the chopped onion (-1)
+[PP, food, to] the pan (2)
+
+
+00:02:22.000 --> 00:02:25.000
+annot: Add chopped carrot to the pan
+ACTID: 4
+PRED: add
+[DOBJ, food] chopped carrot (-1)
+[PP, food, to] the pan (3)
+
+
+00:02:26.000 --> 00:02:51.000
+annot: Add chopped courgette, sweet corn and green beans
+ACTID: 5
+PRED: add
+[DOBJ, food] chopped courgette (-1), sweet corn (-1), green beans (-1)
+[PP, food, ] (4)
+
+
+00:03:06.000 --> 00:03:11.000
+annot: Add mixed herbs as well
+ACTID: 6
+PRED: add
+[DOBJ, food] mixed herbs (-1)
+[PP, food, ] (5)
+
+
+00:03:22.000 --> 00:03:46.000
+annot: Add 300 ml water to the pan
+ACTID: 7
+PRED: add
+[DOBJ, food] 300 ml water (-1)
+[PP, food, to] the pan (6)
+
+
+00:03:22.000 --> 00:03:46.000
+annot: simmer
+ACTID: 8
+PRED: simmer
+[DOBJ, food] (7)
+
+
+00:04:13.000 --> 00:04:24.000
+annot: mash the potatoes and sweet potatoes
+ACTID: 9
+PRED: mash
+[DOBJ, food] the potatoes (0), sweet potatoes (0)
+
+
+00:05:01.000 --> 00:05:20.000
+annot: season them with salt and pepper
+ACTID: 10
+PRED: season
+[DOBJ, food] them (9)
+[PP, food, with] salt (-1), pepper (-1)
+
+
+00:06:06.000 --> 00:06:54.000
+annot: Combine the potato mix and the beef in a grill pan
+ACTID: 11
+PRED: combine
+[DOBJ, food] the potato mix (10), the beef (8)
+[PP, location,  in] a grill pan (-1)
+
+
+00:07:07.000 --> 00:07:16.000
+annot: Bake it in the grill
+ACTID: 12
+PRED: bake
+[DOBJ, food] it (11)
+[PP, location, in] the grill (-1)
+
+
+00:07:24.000 --> 00:08:03.000
+annot: Take it out to serve
+ACTID: 13
+PRED: take
+[DOBJ, food] it (12)
+
+

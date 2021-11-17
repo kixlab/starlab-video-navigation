@@ -1,0 +1,91 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:01:04.000 --> 00:01:15.000
+annot: mix the chicken broth, bean paste, soy sauce, and salt in a bowl
+ACTID: 0
+PRED: mix
+[DOBJ, food] the chicken broth (-1), bean paste (-1), soy sauce (-1), salt (-1)
+[PP, location, in] a bowl (-1)
+
+00:01:24.000 --> 00:01:29.000
+annot: Add the tofu to the pot of water
+ACTID: 1
+PRED: add
+[DOBJ, food] the tofu (-1), the pot of water (-1)
+
+
+00:01:38.000 --> 00:01:44.000
+annot: Coat the skillet with oil
+ACTID: 2
+PRED: coat
+[DOBJ, location] the skillet (-1)
+[PP, food, with] oil (-1)
+
+
+00:01:45.000 --> 00:01:48.000
+annot: cut the pork into pieces
+ACTID: 3
+PRED: cut
+[DOBJ, food] the pork (-1)
+[PP, other, into] pieces (-1)
+
+
+00:01:45.000 --> 00:01:48.000
+annot: add to the wok
+ACTID: 4
+PRED: add
+[PP, food, to] the wok (2)
+[PP, food, ] (3)
+
+
+00:01:58.000 --> 00:02:03.000
+annot: Chop up the garlic and ginger
+ACTID: 5
+PRED: chop
+[DOBJ, food] the garlic (-1), ginger (-1)
+
+
+00:01:58.000 --> 00:02:03.000
+annot: add to the wok
+ACTID: 6
+PRED: add
+[DOBJ, food] the wok (4)
+[PP, food, ] (5)
+
+
+00:02:05.000 --> 00:02:08.000
+annot: Add the sauce to the wok
+ACTID: 7
+PRED: add
+[DOBJ, food] the sauce (0)
+[PP, food, to] the wok (6)
+
+
+00:02:13.000 --> 00:02:22.000
+annot: Add the tofu to the wok
+ACTID: 8
+PRED: add
+[DOBJ, food] the tofu (1)
+[PP, food, to] the wok (7)
+
+
+00:02:24.000 --> 00:02:30.000
+annot: Add cornstarch and water to the wok
+ACTID: 9
+PRED: add
+[DOBJ, food] cornstarch (-1), water (-1)
+[PP, food, to] the wok (8)
+
+
+00:02:36.000 --> 00:02:50.000
+annot: sprinkle sesame oil, peppercorn powder, and scallions on top
+ACTID: 10
+PRED: sprinkle
+[DOBJ, food] sesame oil (-1), peppercorn powder (-1), scallions (-1)
+[PP, food, on] top (9)
+
+

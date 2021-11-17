@@ -1,0 +1,155 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:39.000 --> 00:01:01.000
+annot: Add soy sauce, sugar, sake, rice wine, brown ginger, and garlic into a large pot
+ACTID: 0
+PRED: add
+[DOBJ, food] soy sauce (-1), sugar (-1), sake (-1), rice wine (-1), brown ginger (-1), garlic (-1)
+[PP, location, into] a large pot (-1)
+
+
+00:01:03.000 --> 00:01:13.000
+annot: Add bonito flakes, seaweed, and green onion to the pot
+ACTID: 1
+PRED: add
+[DOBJ, food] bonito flakes (-1), seaweed (-1), green onion (-1)
+[PP, food, to] the pot (0)
+
+
+00:01:03.000 --> 00:01:13.000
+annot: boil
+ACTID: 2
+PRED: boil
+[DOBJ, food] (1)
+
+
+00:01:22.000 --> 00:01:35.000
+annot: roll a piece of pork
+ACTID: 3
+PRED: roll
+[DOBJ, food] a piece of pork (-1)
+
+
+00:01:22.000 --> 00:01:35.000
+annot: tie it closed
+ACTID: 4
+PRED: tie
+[DOBJ, food] it (3)
+
+
+00:01:36.000 --> 00:01:43.000
+annot: Add oil to a pan over heat
+ACTID: 5
+PRED: add
+[DOBJ, food] oil (-1)
+[PP, location, to] a pan over heat (-1)
+
+
+00:01:45.000 --> 00:02:10.000
+annot: Add the pork to the pan
+ACTID: 6
+PRED: add
+[DOBJ, food] the pork (4)
+[PP, food, to] the pan (5)
+
+
+00:01:45.000 --> 00:02:10.000
+annot: turn it
+ACTID: 7
+PRED: turn
+[DOBJ, food] it (6)
+
+
+00:02:11.000 --> 00:02:18.000
+annot: Add water to the pan
+ACTID: 8
+PRED: add
+[DOBJ, food] water (-1)
+[PP, food, to] the pan (7)
+
+
+00:02:11.000 --> 00:02:18.000
+annot: boil the pork
+ACTID: 9
+PRED: boil
+[DOBJ, food] the pork (8)
+
+
+00:02:20.000 --> 00:02:28.000
+annot: cut the pork into small slices with a knife
+ACTID: 10
+PRED: cut
+[DOBJ, food] the pork (9)
+[PP, other, into] small slices (-1)
+[PP, other, with] a knife (-1)
+
+
+00:02:29.000 --> 00:02:53.000
+annot: Add chicken, seaweed, bonito flakes, dried shrimp, dried scallops, sliced ginger, and chicken feet to a pot
+ACTID: 11
+PRED: add
+[DOBJ, food] chicken (-1), seaweed (-1), bonito flakes (-1), dried shrimp (-1), dried scallops (-1), sliced ginger (-1), and chicken feet (-1)
+[PP, location, to] a pot (-1)
+
+
+
+00:02:55.000 --> 00:03:00.000
+annot: Add water to the pot
+ACTID: 12
+PRED: add
+[DOBJ, food] water (-1)
+[PP, food, to] the pot (11)
+
+
+00:02:55.000 --> 00:03:00.000
+annot: boil for three hours
+ACTID: 13
+PRED: boil
+[DOBJ, food]  (12)
+[PP, other, for] three hours (-1)
+
+
+00:03:10.000 --> 00:03:30.000
+annot: separate the ramen noodles by hand
+ACTID: 14
+PRED: separate
+[DOBJ, food] the ramen noodles (-1)
+[PP, other, by] hand (-1)
+
+
+00:03:31.000 --> 00:03:40.000
+annot: Drop the ramen noodles into boiling water
+ACTID: 15
+PRED: drop
+[DOBJ, food] the ramen noodles (14)
+[PP, food, into] boiling water (-1)
+
+
+00:03:56.000 --> 00:04:05.000
+annot: Add chicken broth, and soy sauce into a bowl
+ACTID: 16
+PRED: add
+[DOBJ, food] chicken broth (13), soy sauce (2)
+[PP, location, into] a bowl (-1)
+
+
+00:04:10.000 --> 00:04:23.000
+annot: Add the ramen noodles into the bowl
+ACTID: 17
+PRED: add
+[DOBJ, food] the ramen noodles (15)
+[PP, food, into] the bowl (16)
+
+
+00:04:25.000 --> 00:04:44.000
+annot: Add an egg, two pieces of pork, and green onions to the bowl
+ACTID: 18
+PRED: add
+[DOBJ, food] an egg (-1), two pieces of pork (10), green onions (-1)
+[PP, food, to] the bowl (17)
+
+

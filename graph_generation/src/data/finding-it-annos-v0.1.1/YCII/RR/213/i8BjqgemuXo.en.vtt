@@ -1,0 +1,94 @@
+
+WEBVTT
+Kind: captions
+Language: en
+
+
+00:00:30.000 --> 00:00:40.000
+annot: Add an egg yolk in mayo
+ACTID: 0
+PRED: add
+[DOBJ, food] an egg yolk (-1)
+[PP, food, in] mayo (-1)
+
+
+00:00:52.000 --> 00:01:04.000
+annot: Shred some cheese in it
+ACTID: 1
+PRED: shred
+[DOBJ, food] some cheese (-1)
+[PP, food, in] it (0)
+
+
+00:00:52.000 --> 00:01:04.000
+annot: add salt and pepper to it
+ACTID: 2
+PRED: add
+[DOBJ, food] salt (-1), pepper (-1)
+[PP, food, to] it (1)
+
+
+00:01:37.000 --> 00:01:50.000
+annot: Drizzle some oil on top some bread
+ACTID: 3
+PRED: drizzle
+[DOBJ, food] some oil (-1)
+[PP, food, on] top of some bread (-1)
+
+
+00:01:37.000 --> 00:01:50.000
+annot: heat them in a pan
+ACTID: 4
+PRED: heat
+[DOBJ, food] them (3)
+[PP, location, in] a pan (-1)
+
+
+00:01:59.000 --> 00:02:28.000
+annot: Flip the bread
+ACTID: 5
+PRED: flip
+[DOBJ, food] the bread (4)
+
+
+00:01:59.000 --> 00:02:28.000
+annot: spread some sauce
+ACTID: 6
+PRED: spread
+[DOBJ, food] some sauce (2)
+[PP, food, ] (5)
+
+
+00:01:59.000 --> 00:02:28.000
+annot: add ham, shredded cheese and more sauce and ham
+ACTID: 7
+PRED: add
+[DOBJ, food] ham (-1), shredded cheese (-1), more sauce (2), ham (-1)
+[PP, food, ] (6)
+
+
+00:02:31.000 --> 00:02:48.000
+annot: Cover it with another piece of bread
+ACTID: 8
+PRED: cover
+[DOBJ, food] it (7)
+[PP, food, with] another piece of bread (6)
+
+
+00:02:31.000 --> 00:02:48.000
+annot: add more sauce on top
+ACTID: 9
+PRED: add
+[DOBJ, food] more sauce (2)
+[PP, food, on] top (8)
+
+
+00:02:54.000 --> 00:03:16.000
+annot: heat the croque monsieur on the pan with a baking sheet on bottom
+ACTID: 10
+PRED: heat
+[DOBJ, food] the croque monsieur (9)
+[PP, location, on] the pan (-1)
+[PP, location, with] a baking sheet on bottom (-1)
+
+
