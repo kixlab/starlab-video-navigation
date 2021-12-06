@@ -4,7 +4,7 @@ import youtube_dl
 
 def downloadVideo(url):
 
-    dir_url = '/Users/sangkyung/Desktop/starlab/2level_graph/starlab-video-navigation/graph_generation/src/data/YC2Video'
+    dir_url = '/Users/sangkyung/Desktop/YC2Data'
     ydl_opts = {
         'ignoreerrors': True,
         'writesubtitles':False, 
@@ -25,4 +25,4 @@ def downloadVideo(url):
 
 
 if __name__ == '__main__':
-    downloadVideo("https://youtu.be/ucky1nWb7LY")
+    downloadVideo("https://youtu.be/G21LXiasKf4")
