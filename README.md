@@ -12,8 +12,8 @@ Displays a **hierarchical graph** of the objects and actions in a recipe video.
 
 ### In Progress
 - **Model**
-  - 
+  - Increasing performance.
 - **Pipeline**
-  -
+  - Allow grouping of actions by detecting the surface.
 - **Interface**
-  -
+  - Automatically extract thumbnails to show in the graph.
