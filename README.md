@@ -5,3 +5,15 @@ Displays a **hierarchical graph** of the objects and actions in a recipe video.
 - **Edge**: Each edge represents a different ingredient used in the recipe.
 - **Groups**: Each group represents a cooking surface or utensil used and contains all actions performed with that surface/utensil.
 
+### Features
+- Action-based navigation: Select a node in the graph to watch that action in a loop.
+- Ingredient-based navigation: Select an edge in the graph to watch all the moments in which the corresponding ingredient appears in the video.
+- Surface-based navigation: Select a group in the graph to watch all the actions that take palce in that surface.
+
+### In Progress
+- **Model**
+  - 
+- **Pipeline**
+  -
+- **Interface**
+  -
