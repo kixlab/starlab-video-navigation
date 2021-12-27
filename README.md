@@ -1,4 +1,4 @@
-# Hierarchical Graph-based Video Navigation
+# Human-AI Video Frame Annotator
 
 Displays a **hierarchical graph** of the objects and actions in a recipe video.
 - **Node**: Each node represents a specific cooking action performed.
