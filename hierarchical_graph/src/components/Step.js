@@ -17,9 +17,15 @@ const Step = (props) => {
                         style={props.isCurrent ? {"font-weight": "bold", "fill": "#3786E2"} : {}}>
                             {props.name}
                 </StepLabel>
-                <rect x={props.col*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD_W} 
+                <image href={"/img/" + props.img} preserveAspectRatio="xMidYMid slice"
+                    x={props.col*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD_W} 
                     y={props.row*(NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H} 
-                    width={NODE_WIDTH} height={NODE_HEIGHT} fill="lightgray"
+                    width={NODE_WIDTH} height={NODE_HEIGHT}
+                    stroke={props.isCurrent ? "#3786E2" : "transparent"} strokeWidth="8"/>
+                <rect fill="none"
+                    x={props.col*(NODE_WIDTH+NODE_MARGIN_W) + GRAPH_PAD_W} 
+                    y={props.row*(NODE_HEIGHT+NODE_MARGIN_H) + GRAPH_PAD_H} 
+                    width={NODE_WIDTH} height={NODE_HEIGHT}
                     stroke={props.isCurrent ? "#3786E2" : "transparent"} strokeWidth="8"/>
             </ClickableG>
             <Link idx={props.idx} row={props.row} col={props.col} currentPlayback={props.currentPlayback}
